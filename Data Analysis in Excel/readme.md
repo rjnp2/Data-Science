@@ -21,6 +21,10 @@ Some stats about the dataset:
     1. Average Covered Charges : averages charges
     2. Average Total Payments: paid by governments
     3. Average Medicare Payments: paid by privates insurances agencies.
+    
+# Phase 1: Searching for Useful Data  
+##      a. slicing and dicing data
+The sort and filter operations are meant to do these type of analyses. Sorting means to arrange the data (typically a column) in increasing, decreasing or alphabetical order. Filters, as the name suggests, enable you to filter out certain data, like all the hospitals in Alabama or all the hospitals treating chest pain. 
    
 ## Analyze
 We are going to analyse this "raw" dataset and prepare a "report" having the list of providers treating a specific ailment in a particular state of USA. Subsequently, we will rank providers by the cost of treatment.
