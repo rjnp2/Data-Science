@@ -28,3 +28,13 @@ Following are important characteristics of Python Programming.
 
 For more details/ basics tutorial:
 [tutorial page](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/python-basics)
+
+For data analysis:
+
+NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. Numpy is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays. 
+For more details tutorial:
+[numpy tutorial](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/advanced_tutorial/NumPy%20Tutorial.pdf)
+
+pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with structured (tabular, multidimensional, potentially heterogeneous) and time series data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way toward this goal.
+For more details tutorial:
+[pandas tutorial](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/advanced_tutorial/pandas.pdf)
