@@ -142,3 +142,43 @@ A data scientist is a professional who works with an enormous amount of data to 
         • Statistics
         • Computer programming
         • Databases
+        
+## Applications of Data Science
+Now in this Data Science Tutorial, we will learn about Applications of Data Science:
+### 1. Internet Search:
+Google search use Data science technology to search a specific result within a fraction of a second
+
+### 2. Recommendation Systems:
+To create a recommendation system. Example, "suggested friends" on Facebook or suggested videos" on YouTube, everything is done with the help of Data Science.
+
+### 3. Image & Speech Recognition:
+Speech recognizes system like Siri, Google assistant, Alexa runs on the technique of Data science. Moreover, Facebook recognizes your friend when you upload a photo with them, with the help of Data Science.
+
+### 4. Gaming world:
+EA Sports, Sony, Nintendo, are using Data science technology. This enhances your gaming experience. Games are now developed using Machine Learning technique. It can update itself when you move to higher levels.
+
+### 5. Online Price Comparison:
+PriceRunner, Junglee, Shopzilla work on the Data science mechanism. Here, data is fetched from the relevant websites using APIs.
+
+## Challenges of Data science Technology
+
+    • High variety of information & data is required for accurate analysis
+    • Not adequate data science talent pool available
+    • Management does not provide financial support for a data science team
+    • Unavailability of/difficult access to data
+    • Data Science results not effectively used by business decision makers
+    • Explaining data science to others is difficult
+    • Privacy issues
+    • Lack of significant domain expert
+    • If an organization is very small, they can't have a Data Science team
+
+## Summary
+1. Data Science is the area of study which involves extracting insights from vast amounts of data by the use of various scientific methods, algorithms, and processes.
+2. Statistics, Visualization, Deep Learning, Machine Learning, are important Data Science concepts.
+3. Data Science Process goes through Discovery, Data Preparation, Model Planning, Model Building, Operationalize, Communicate Results.
+4. Important Data Scientist job roles are: 1) Data Scientist 2) Data Engineer 3) Data Analyst 4) Statistician 5) Data Architect 6) Data Admin 7) Business Analyst 8) Data/Analytics Manager
+5. R, SQL, Python, SaS, are essential Data science tools
+6. The predictions of Business Intelligence is looking backward while for Data Science it is looking forward.
+7. Important applications of Data science are 1) Internet Search 2) Recommendation Systems 3) Image & Speech Recognition 4) Gaming world 5) Online Price Comparison.
+8. High variety of information & data is the biggest challenge of Data Science technology.
+
