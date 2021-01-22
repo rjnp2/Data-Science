@@ -17,7 +17,8 @@ In short, we can say that data science is all about:
     • Understanding the data to make better decisions and finding the final result.
     
 ![pro](https://user-images.githubusercontent.com/58425689/105459314-26cf8380-5cb2-11eb-999b-be6ae77e062d.jpg)
-
+    
+figures: block diagrams of data science work
 
 **Example:**
 Let suppose we want to travel from station A to station B by car. Now, we need to take some decisions such as which route will be the best route to reach faster at the location, in which route there will be no traffic jam, and which will be cost-effective. All these decision factors will act as input data, and we will get an appropriate answer from these decisions, so this analysis of data is called the data analysis, which is a part of data science.
@@ -34,10 +35,13 @@ Here, are significant advantages of using Data Analytics Technology:
 
 ![1](https://user-images.githubusercontent.com/58425689/105459950-27b4e500-5cb3-11eb-8651-95a7e4012328.png)
 
+figures : Evolution of data sciences
 
 ## Data Science Components
 
 ![2](https://user-images.githubusercontent.com/58425689/105460068-592db080-5cb3-11eb-8da1-d60481163f0a.png)
+
+figures: block diagram of Data Science Components
 
 The main components of Data Science are given below:
 
@@ -59,6 +63,8 @@ The main components of Data Science are given below:
 Now in this Data Science Tutorial, we will learn the Data Science Process:
 
 ![3](https://user-images.githubusercontent.com/58425689/105460195-8712f500-5cb3-11eb-9494-279cc26c7e8a.png)
+
+figures: block diagram of Data Science Process
 
 ### 1. Discovery:
 The first phase is discovery, which involves asking the right questions. Discovery step involves acquiring data from all the identified internal & external sources which helps you to answer the business question.
@@ -126,19 +132,13 @@ A data scientist is a professional who works with an enormous amount of data to 
 
 ## Prerequisite for Data Science
 ### Non-Technical Prerequisite:
-    •  Curiosity: To learn data science, one must have curiosities. When you have curiosity and ask various questions,
-    then you can understand the business problem easily.
-    •  Critical Thinking: It is also required for a data scientist so that you can find multiple new ways to solve 
-    the problem with efficiency.
-    •  Communication skills: Communication skills are most important for a data scientist because after solving
-    a business problem, you need to communicate it with the team.
+    - Curiosity
+    - Critical Thinking
+    - Communication skills
     
 ### Technical Prerequisite:
-    •  Machine learning: To understand data science, one needs to understand the concept of machine learning. 
-    Data science uses machine learning algorithms to solve various problems.
-    •  Mathematical modeling: Mathematical modeling is required to make fast mathematical calculations and
-    predictions from the available data.
-    •  Statistics: Basic understanding of statistics is required, such as mean, median, or standard deviation.
-    It is needed to extract knowledge and obtain better results from the data.
-    •  Computer programming: For data science, knowledge of at least one programming language is required. R, Python, Spark are some required computer programming languages for data science.
-    •  Databases: The depth understanding of Databases such as SQL, is essential for data science to get the data and to work with data.
+    • Machine learning
+    • Mathematical modeling
+    • Statistics
+    • Computer programming
+    • Databases
