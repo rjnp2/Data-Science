@@ -27,4 +27,4 @@ Following are important characteristics of Python Programming.
 - It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
 
 For more details/ basics tutorial:
-[tutorial page](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/python-basics/first%20tutorial.ipynb)
+[tutorial page](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/python-basics)
