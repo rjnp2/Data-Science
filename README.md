@@ -131,14 +131,14 @@ A data scientist is a professional who works with an enormous amount of data to 
 **Skill required: To become a data scientist, one should have technical language skills such as R, SAS, SQL, Python, Hive, Pig, Apache spark, MATLAB. Data scientists must have an understanding of Statistics, Mathematics, visualization, and communication skills.**
 
 ## Prerequisite for Data Science
-### Non-Technical Prerequisite:
-    - Curiosity
-    - Critical Thinking
-    - Communication skills
+    1. Non-Technical Prerequisite
+        - Curiosity
+        - Critical Thinking
+        - Communication skills
     
-### Technical Prerequisite:
-    • Machine learning
-    • Mathematical modeling
-    • Statistics
-    • Computer programming
-    • Databases
+    2. Technical Prerequisite
+        • Machine learning
+        • Mathematical modeling
+        • Statistics
+        • Computer programming
+        • Databases
