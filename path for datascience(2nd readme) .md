@@ -1,7 +1,7 @@
 # Path for Data Science
 
 ## Programming:
-    • Python Programming
+    • Python_Programming
     • SQL programming
     • Excel 
     • Comfortable with using the Terminal, version control in Git, and using GitHub
