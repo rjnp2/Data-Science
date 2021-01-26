@@ -1,5 +1,10 @@
-## SQL Expressions
-An expression is a combination of one or more values, operators, and SQL functions that evaluate to a value.
-SQL Expressions are like formulas and they are written in query language. You can also use them to query the database for specific set of data.
-
-[sql.pdf](https://github.com/rjnp2/Data-Science/files/5872017/sql.pdf)
+![0001](https://user-images.githubusercontent.com/58425689/105819480-5b0fb080-5fe0-11eb-943d-d4141ca6c8e7.jpg)
+![0002](https://user-images.githubusercontent.com/58425689/105819484-5cd97400-5fe0-11eb-80a1-d2ff6f113a7f.jpg)
+![0003](https://user-images.githubusercontent.com/58425689/105819488-5d720a80-5fe0-11eb-8c03-0a4f3fb01b1f.jpg)
+![0004](https://user-images.githubusercontent.com/58425689/105819492-5e0aa100-5fe0-11eb-927d-e33764ebc8af.jpg)
+![0005](https://user-images.githubusercontent.com/58425689/105819498-5ea33780-5fe0-11eb-844d-059898e20d4c.jpg)
+![0006](https://user-images.githubusercontent.com/58425689/105819499-5f3bce00-5fe0-11eb-9abd-4700c308a68d.jpg)
+![0007](https://user-images.githubusercontent.com/58425689/105819502-5fd46480-5fe0-11eb-817c-94e7ff2a3c20.jpg)
+![0008](https://user-images.githubusercontent.com/58425689/105819506-606cfb00-5fe0-11eb-96bf-9774761fb53f.jpg)
+![0009](https://user-images.githubusercontent.com/58425689/105819510-61059180-5fe0-11eb-8f30-d7c77a7be791.jpg)
+![0010](https://user-images.githubusercontent.com/58425689/105819513-619e2800-5fe0-11eb-96b5-0efa06a26619.jpg)
