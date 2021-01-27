@@ -131,3 +131,55 @@ Also, the determinant of the square matrix here should not be equal to zero.
 
 ![image](https://user-images.githubusercontent.com/58425689/105946944-45f25a80-6090-11eb-911e-4ca7e0077a54.png)
 
+
+## Eigenvalues and Eigenvectors
+
+### Eigenvalues
+a scalar associated with a given linear transformation of a vector space and having the property that there is some nonzero vector which when multiplied by the scalar is equal to the vector obtained by letting the transformation operate on the vector
+
+### Eigenvectors
+In linear algebra, an eigenvector or characteristic vector of a linear transformation is a nonzero vector that changes by a scalar factor when that linear transformation is applied to it. The corresponding eigenvalue, often denoted by \lambda, is the factor by which the eigenvector is scaled. 
+
+#### Eigenvector Method
+The method of determining eigenvector of a matrix is given below:
+
+If A be an n×n matrix and λ be the eigenvalues associated with it. Then, eigenvector v can be defined by the following relation:
+		
+		Av = λv
+If I be the identity matrix of same order as A, then
+		
+		(A−λI)v=0
+Eigenvector associated with matrix A can be determined using above method.
+
+Here, v is known as eigenvector belonging to each eigenvalue and is written as:
+
+![image](https://user-images.githubusercontent.com/58425689/105994301-963cdd00-60cf-11eb-93cd-03062ad9226a.png)
+
+### Eigenvector Equation
+The equation corresponding to each eigenvalue of a matrix is given by:
+	
+	AX = λ X
+It is formally known as eigenvector equation.
+In place of λ, we one by one put each eigenvalue and get the eigenvector equation which enables us to solve for eigen vector belonging to each eigenvalue.
+
+### How to Find Eigenvector
+In order to find eigenvectors of a matrix, one needs to follow the following given steps:
+
+Step 1: Determine the eigenvalues of given matrix A using the equation det (A – λ I) = 0, where I is equivalent order identity matrix as A. Denote each eigenvalue of λ1, λ2, λ3, …
+Step 2: Substitute the value of λ1 in equation AX = λ1.X or (A – λ1.I) X = O.
+Step 3: Calculate the value of eigenvector X which is associated with eigenvalue λ1.
+Step 4: Repeat steps 3 and 4 for other eigenvalues λ2, λ3, … as well.
+
+### Eigenvector Applications:  Eigenvalues In Principal Component Analysis
+
+### Singular Value Decomposition (SVD)
+Singular value decomposition is a method of decomposing a matrix into three other matrices:
+ 
+![image](https://user-images.githubusercontent.com/58425689/105994325-99d06400-60cf-11eb-9811-0ddec63ba0c4.png)
+![image](https://user-images.githubusercontent.com/58425689/105994858-4b6f9500-60d0-11eb-99f6-9666dbb75f0d.png)
+
+Where:
+A is an m × n matrix
+U is an m × n orthogonal matrix
+S is an n × n diagonal matrix
+V is an n × n orthogonal matrix
