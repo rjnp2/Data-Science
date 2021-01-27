@@ -105,9 +105,29 @@ The adjoint of a matrix A is the transpose of the cofactor matrix of A
 
 ![image](https://user-images.githubusercontent.com/58425689/105945520-88666800-608d-11eb-914a-a8ede1894c9c.png)
 
-### cofactor
+### Cofactor
 A cofactor is the number you get when you remove the column and row of a designated element in a matrix, which is just a numerical grid in the form of a rectangle or a square. The cofactor is always preceded by a positive (+) or negative (-) sign, depending whether the element is in a + or - position.
 
 ![image](https://user-images.githubusercontent.com/58425689/105945553-99af7480-608d-11eb-9289-298d0ebceaf2.png)
 
+### Determinant matrix
+The determinant is defined as a scalar value which is associated with the square matrix. If X is a matrix, then the determinant of a matrix is represented by |X| or det (X).
+Let us assume a 2×2 square matrix
+
+![image](https://user-images.githubusercontent.com/58425689/105946919-3d018900-6090-11eb-8be9-192c533d0b22.png)
+
+Finding Determinants for 3×3 Matrix
+Now, assume the 3×3 matrix, say
+
+![image](https://user-images.githubusercontent.com/58425689/105946929-40951000-6090-11eb-9d1b-1b977f8fbd33.png)
+
+## (vii) Matrix Inverse
+Inverse of a matrix is defined usually for square matrices. For every m × n square matrix, there exists an inverse matrix. If A is the square matrix then A-1 is the inverse of matrix A and satisfies the property:
+
+	AA-1 = A-1A = I, where I is the Identity matrix.
+Also, the determinant of the square matrix here should not be equal to zero.
+
+![image](https://user-images.githubusercontent.com/58425689/105946938-43900080-6090-11eb-9925-9267a088cb3c.png)
+
+![image](https://user-images.githubusercontent.com/58425689/105946944-45f25a80-6090-11eb-911e-4ca7e0077a54.png)
 
