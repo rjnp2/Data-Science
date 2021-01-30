@@ -177,14 +177,14 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
 
 ## Measures of Position
+![image](https://user-images.githubusercontent.com/58425689/106352388-dfc53c00-630a-11eb-87ec-d7a6bbc05a39.png)
 
   - Standard Scores (z-scores) \
   The standard score is obtained by subtracting the mean and dividing the difference by the standard deviation. The symbol is z, which is why it's also called a z-score. \
-  ![image](https://user-images.githubusercontent.com/58425689/106352340-60376d00-630a-11eb-95a7-49f0317fb3a9.png)
-
-   ![image](https://user-images.githubusercontent.com/58425689/106350742-5f4d0e00-62ff-11eb-80a8-3a1023689150.png) \
+   ![image](https://user-images.githubusercontent.com/58425689/106350742-5f4d0e00-62ff-11eb-80a8-3a1023689150.png)
 The mean of the standard scores is zero and the standard deviation is 1. This is the nice feature of the standard score -- no matter what the original scale was, when the data is converted to its standard score, the mean is zero and the standard deviation is 1.
-   - Percentile \
+  
+  - Percentile \
     The percent of the population which lies below that value. The data must be ranked to find percentiles. \
     The kth percentile is the number which has k% of the values below it. The data must be ranked.
         1. Rank the data
