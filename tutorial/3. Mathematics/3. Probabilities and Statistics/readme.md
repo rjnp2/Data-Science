@@ -118,47 +118,47 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
 ## Measures of Central Tendency
 
-  ## - Mean \
-This is what people usually intend when they say "average" \
-Population Mean: ![image](https://user-images.githubusercontent.com/58425689/106349996-b7cddc80-62fa-11eb-9dc4-2f4fbebb590e.png) \
-Sample Mean: ![image](https://user-images.githubusercontent.com/58425689/106350000-bac8cd00-62fa-11eb-9f1c-5b73463087ab.png) \
-Frequency Distribution: ![image](https://user-images.githubusercontent.com/58425689/106350002-be5c5400-62fa-11eb-82a9-63276479228f.png) \
-The mean of a frequency distribution is also the weighted mean.
+  - **Mean** \
+     This is what people usually intend when they say "average" \
+     Population Mean: ![image](https://user-images.githubusercontent.com/58425689/106349996-b7cddc80-62fa-11eb-9dc4-2f4fbebb590e.png) \
+     Sample Mean: ![image](https://user-images.githubusercontent.com/58425689/106350000-bac8cd00-62fa-11eb-9f1c-5b73463087ab.png) \
+     Frequency Distribution: ![image](https://user-images.githubusercontent.com/58425689/106350002-be5c5400-62fa-11eb-82a9-63276479228f.png) \
+     The mean of a frequency distribution is also the weighted mean.
     
-  - Median \
+  - **Median** \
     The data must be ranked (sorted in ascending order) first. The median is the number in the middle.
     To find the depth of the median, there are several formulas that could be used, the one that we will use is: \
         Depth of median = 0.5 * (n + 1) \
     Grouped Frequency Distribution \
     ![image](https://user-images.githubusercontent.com/58425689/106350090-52c6b680-62fb-11eb-8933-f9f6149f0c31.png)
   
-  - Mode \
+  - **Mode** \
     The mode is the most frequent data value. There may be no mode if no one value appears more than any other. There may also be two modes (bimodal), three modes       (trimodal), or more than three modes (multi-modal).
     For grouped frequency distributions, the modal class is the class with the largest frequency.
     
-  - Midrange
+  - **Midrange** \
     The midrange is simply the midpoint between the highest and lowest values.
     
 ## Measures of Variation
-  - Range \
+  - **Range** \
     The range is the simplest measure of variation to find. It is simply the highest value minus the lowest value. \
         
         RANGE = MAXIMUM - MINIMUM
     Since the range only uses the largest and smallest values, it is greatly affected by extreme values, that is - it is not resistant to change.
     
-   - Population Variance \
+   - **Population Variance** \
      The average of the squares of the distances from the population mean. \
      It is the sum of the squares of the deviations from the mean divided by the population size. \
      The units on the variance are the units of the population squared. \
      ![image](https://user-images.githubusercontent.com/58425689/106350377-24e27180-62fd-11eb-90b6-35529a1f17e5.png)
      
-   - Sample Variance \
+   - **Sample Variance** \
      Unbiased estimator of a population variance. \
      Instead of dividing by the population size, the sum of the squares of the deviations from the sample mean is divided by one less than the sample size. \
      The units on the variance are the units of the population squared. \
      ![image](https://user-images.githubusercontent.com/58425689/106350381-29a72580-62fd-11eb-862b-60b12c13fc55.png)
 
-   - Standard Deviation \
+   - **Standard Deviation** \
      The square root of the variance. \
      The population standard deviation is the square root of the population variance and the sample standard deviation is the square root of the sample variance. \
      The sample standard deviation is not the unbiased estimator for the population standard deviation. \
@@ -166,12 +166,12 @@ The mean of a frequency distribution is also the weighted mean.
      ![image](https://user-images.githubusercontent.com/58425689/106350383-2d3aac80-62fd-11eb-8cae-6e5fa361eb5e.png)
      ![image](https://user-images.githubusercontent.com/58425689/106350386-30359d00-62fd-11eb-869b-889396d95141.png)
 
-   - Sum of Squares \
+   - **Sum of Squares** \
      The sum of the squares of the deviations from the means is given a shortcut notation and several alternative formulas.
-     ![image](https://user-images.githubusercontent.com/58425689/106350582-60317000-62fe-11eb-85aa-3a5ad12eeaa1.png)
-      ![image](https://user-images.githubusercontent.com/58425689/106350584-63c4f700-62fe-11eb-998e-09718d7746e6.png)
+     ![image](https://user-images.githubusercontent.com/58425689/106350582-60317000-62fe-11eb-85aa-3a5ad12eeaa1.png) 
+     ![image](https://user-images.githubusercontent.com/58425689/106350584-63c4f700-62fe-11eb-998e-09718d7746e6.png)
       
-   - Coefficient of Variation \
+   - **Coefficient of Variation** \
      Standard deviation divided by the mean, expressed as a percentage. We won't work with the Coefficient of Variation in this course. \
      ![image](https://user-images.githubusercontent.com/58425689/106352031-151c5a80-6308-11eb-8c08-1d44eb344a28.png)
 
