@@ -14,7 +14,7 @@
    • [Calculus](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/2.%20Multivariate%20Calculus) \
    • [Linear Algebra](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/1.%20linear_algebra)
 
-## {Probability and Statistics:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics)
+## [Probability and Statistics:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics)
    • Probability \
    • Statistics
 
