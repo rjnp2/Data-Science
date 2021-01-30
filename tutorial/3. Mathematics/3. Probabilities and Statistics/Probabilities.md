@@ -66,6 +66,13 @@ A function for discrete data which gives the probability of a given value occurr
 - **Cumulative Density Function (CDF):** \
 A function that tells us the probability that a random variable is less than a certain value; the integral of the PDF.
 
+- **Expected value**
+    The expected value of a random variable, also known as the mean value or the first moment, is often noted E[X] or μ and is the value that we would obtain by averaging
+    the results of the experiment infinitely many times. It is computed as follows:
+
+    ![image](https://user-images.githubusercontent.com/58425689/106355936-89182c00-6323-11eb-8fba-46fbb35fc69c.png)
+
+
 ## Discrete Data Distributions
 
 - **Binomial Distribution** \
