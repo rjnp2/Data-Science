@@ -47,3 +47,5 @@ A distribution used when the population variance is unknown.
 - **Unbiased Estimator** \
 An estimator whose expected value is the mean of the parameter being estimated.
 
+![Statistical Inference Reference Sheet_page-0001](https://user-images.githubusercontent.com/58425689/106356077-d47f0a00-6324-11eb-83ce-f2b338204ea1.jpg)
+![Statistical Inference Reference Sheet_page-0002](https://user-images.githubusercontent.com/58425689/106356080-d648cd80-6324-11eb-8a99-9a3a5487e84b.jpg)
