@@ -61,5 +61,5 @@
 ## Natural Language Processing
    - Time Series Analysis
    - Lexical processing
-    - Syntactic Processing
-    - Semantic Processing
+   - Syntactic Processing
+   - Semantic Processing
