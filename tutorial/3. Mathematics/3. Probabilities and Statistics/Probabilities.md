@@ -12,7 +12,7 @@
   
        P(E) = n(E) / n(S)
        
-- **Probability Rules** \
+- **Probability Rules** 
   - All probabilities are between 0 and 1 inclusive
 
         0 <= P(E) <= 1    
