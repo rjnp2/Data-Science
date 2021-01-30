@@ -180,40 +180,42 @@ Variables which assume an infinite number of possible values. Usually obtained b
 ## Measures of Position
 ![image](https://user-images.githubusercontent.com/58425689/106352388-dfc53c00-630a-11eb-87ec-d7a6bbc05a39.png)
 
-  - Standard Scores (z-scores) \
+  - **Standard Scores (z-scores)** \
   The standard score is obtained by subtracting the mean and dividing the difference by the standard deviation. The symbol is z, which is why it's also called a z-score. \
    ![image](https://user-images.githubusercontent.com/58425689/106350742-5f4d0e00-62ff-11eb-80a8-3a1023689150.png) \
    The mean of the standard scores is zero and the standard deviation is 1. This is the nice feature of the standard score -- no matter what the original scale      was, when the data is converted to its standard score, the mean is zero and the standard deviation is 1.
   
-  - Percentile \
+  - **Percentile** \
     The percent of the population which lies below that value. The data must be ranked to find percentiles. \
     The kth percentile is the number which has k% of the values below it. The data must be ranked.
+    
         1. Rank the data
         2. Find k% (k /100) of the sample size, n.
         3. If this is an integer, add 0.5. If it isn't an integer round up.
-        4. Find the number in this position. If your depth ends in 0.5, then take the midpoint between the two numbers. \
-   It is sometimes easier to count from the high end rather than counting from the low end. For example, the 80th percentile is the number which has 80% below it       and 20% above it. Rather than counting 80% from the bottom, count 20% from the top.
+        4. Find the number in this position.
+     If your depth ends in 0.5, then take the midpoint between the two numbers. \
+     It is sometimes easier to count from the high end rather than counting from the low end. For example, the 80th percentile is the number which has 80% below        it and 20% above it. Rather than counting 80% from the bottom, count 20% from the top.
 
-   - Quartile \
+   - **Quartile** \
      Either the 25th, 50th, or 75th percentiles. The 50th percentile is also called the median.
      
-   - Outlier \
+   - **Outlier** \
       An extremely high or low value when compared to the rest of the values.
       ![boxplot-example1-l](https://user-images.githubusercontent.com/58425689/106352464-72fe7180-630b-11eb-9827-839a3c1fee1f.jpg)
 
-   - Mild Outliers \
+   - **Mild Outliers** \
       Values which lie between 1.5 and 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of         Quartiles. \
-      x is a mild outlier if ...
-   Q1 - 3 * IQR <= x < Q1 - 1.5 * IQR
-or
-   Q1 + 1.5 * IQR < x <= Q3 + 3 * IQR
+      x is a mild outlier if ... \
+          ### Q1 - 3 * IQR <= x < Q1 - 1.5 * IQR
+      or
+          ### Q1 + 1.5 * IQR < x <= Q3 + 3 * IQR
       
-   - Extreme Outliers \
-      Values which lie more than 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of               Quartiles. \
-       x is an extreme outlier if ...
-   x < Q1 - 3 * IQR       
-or
-   x > Q3 + 3 * IQR
+   - **Extreme Outliers** \
+      Values which lie more than 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of             Quartiles. \
+       x is an extreme outlier if ... \
+         ### x < Q1 - 3 * IQR       
+       or
+         ### x > Q3 + 3 * IQR
       
 # Measurements of Relationships between Variables
 
