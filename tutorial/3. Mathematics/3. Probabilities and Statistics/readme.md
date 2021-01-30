@@ -198,6 +198,14 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
    - **Quartile** \
      Either the 25th, 50th, or 75th percentiles. The 50th percentile is also called the median.
+     ungroup_data \
+     ![image](https://user-images.githubusercontent.com/58425689/106352905-c0301280-630e-11eb-96b0-496c6d29033e.png)
+     group data \
+     ![image](https://user-images.githubusercontent.com/58425689/106352907-c32b0300-630e-11eb-8991-8803d2ef8c6c.png)
+     
+     ![image](https://user-images.githubusercontent.com/58425689/106352943-05544480-630f-11eb-9794-5176167c223b.png)
+     Box and Whiskers Plot
+     A graphical representation of the five number summary. A box is drawn between the lower and upper hinges with a line at the median. Whiskers (a single line,      not a box) extend from the hinges to lines at the minimum and maximum values.
      
    - **Outlier** \
       An extremely high or low value when compared to the rest of the values.
