@@ -169,6 +169,7 @@ Variables which assume an infinite number of possible values. Usually obtained b
    - **Sum of Squares** \
      The sum of the squares of the deviations from the means is given a shortcut notation and several alternative formulas.
      ![image](https://user-images.githubusercontent.com/58425689/106350582-60317000-62fe-11eb-85aa-3a5ad12eeaa1.png) 
+     
      ![image](https://user-images.githubusercontent.com/58425689/106350584-63c4f700-62fe-11eb-998e-09718d7746e6.png)
       
    - **Coefficient of Variation** \
