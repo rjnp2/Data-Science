@@ -205,17 +205,17 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
    - **Mild Outliers** \
       Values which lie between 1.5 and 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of         Quartiles. \
-      x is a mild outlier if ... \
-          ### Q1 - 3 * IQR <= x < Q1 - 1.5 * IQR
-      or
-          ### Q1 + 1.5 * IQR < x <= Q3 + 3 * IQR
+      x is a mild outlier if ... \ 
+      **Q1 - 3 * IQR <= x < Q1 - 1.5 * IQR** \
+      or \
+      **Q1 + 1.5 * IQR < x <= Q3 + 3 * IQR \**
       
    - **Extreme Outliers** \
       Values which lie more than 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of             Quartiles. \
        x is an extreme outlier if ... \
-         ### x < Q1 - 3 * IQR       
-       or
-         ### x > Q3 + 3 * IQR
+       **x < Q1 - 3 * IQR** \  
+       or \
+       **x > Q3 + 3 * IQR**
       
 # Measurements of Relationships between Variables
 
