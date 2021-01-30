@@ -76,15 +76,15 @@ We compute statistics, and use them to estimate parameters. The computation is t
 ## Types of Sampling
 There are five types of sampling: **Random, Systematic, Convenience, Cluster, and Stratified.** 
        
-      **• Random sampling** is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. 
+   **• Random sampling** is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. 
 
-      **• Systematic sampling** is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. 
+   **• Systematic sampling** is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. 
 
-      **• Convenience sampling** is very easy to do, but it's probably the worst technique to use. In convenience sampling, readily available data is used. That is, the first people the surveyor runs into. 
+   **• Convenience sampling** is very easy to do, but it's probably the worst technique to use. In convenience sampling, readily available data is used. That is, the first people the surveyor runs into. 
 
-      **• Cluster sampling** is accomplished by dividing the population into groups -- usually geographically. These groups are called clusters or blocks. The clusters are randomly selected, and each element in the selected clusters are used.
+   **• Cluster sampling** is accomplished by dividing the population into groups -- usually geographically. These groups are called clusters or blocks. The clusters are randomly selected, and each element in the selected clusters are used.
 
-      **• Stratified sampling** also divides the population into groups called strata. However, this time it is by some characteristic, not geographically. For instance, the population might be separated into males and females. A sample is taken from each of these strata using either random, systematic, or convenience sampling.
+   **• Stratified sampling** also divides the population into groups called strata. However, this time it is by some characteristic, not geographically. For instance, the population might be separated into males and females. A sample is taken from each of these strata using either random, systematic, or convenience sampling.
     
 ## Parameter
 Characteristic or measure obtained from a population.
