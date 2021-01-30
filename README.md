@@ -3,7 +3,7 @@
 # Path for Data Science
 
 ## Programming:
-    • Python_Programming
+    • [Python_Programming](https://github.com/rjnp2/Data-Science/tree/main/tutorial/python)
     • SQL programming
     • Excel 
     • Comfortable with using the Terminal, version control in Git, and using GitHub
