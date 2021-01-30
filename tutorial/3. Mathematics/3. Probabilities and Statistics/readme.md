@@ -75,7 +75,7 @@ There are several reasons why we don't work with populations. They are usually l
 We compute statistics, and use them to estimate parameters. The computation is the first part of the statistics course (Descriptive Statistics) and the estimation is the second part (Inferential Statistics)
 
 ## Types of Sampling
-There are five types of sampling: **Random, Systematic, Convenience, Cluster, and Stratified.** \
+There are five types of sampling: **Random, Systematic, Convenience, Cluster, and Stratified.** 
        
    **• Random sampling** is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. 
    
@@ -180,7 +180,9 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
   - Standard Scores (z-scores) \
   The standard score is obtained by subtracting the mean and dividing the difference by the standard deviation. The symbol is z, which is why it's also called a z-score. \
-          ![image](https://user-images.githubusercontent.com/58425689/106350742-5f4d0e00-62ff-11eb-80a8-3a1023689150.png) \
+  ![image](https://user-images.githubusercontent.com/58425689/106352340-60376d00-630a-11eb-95a7-49f0317fb3a9.png)
+
+   ![image](https://user-images.githubusercontent.com/58425689/106350742-5f4d0e00-62ff-11eb-80a8-3a1023689150.png) \
 The mean of the standard scores is zero and the standard deviation is 1. This is the nice feature of the standard score -- no matter what the original scale was, when the data is converted to its standard score, the mean is zero and the standard deviation is 1.
    - Percentile \
     The percent of the population which lies below that value. The data must be ranked to find percentiles. \
