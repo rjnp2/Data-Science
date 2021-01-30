@@ -5,7 +5,7 @@
 ## Programming:
 
    • [Python_Programming](https://github.com/rjnp2/Data-Science/tree/main/tutorial/python) \
-   • SQL programming \
+   • [SQL programming](https://github.com/rjnp2/Data-Science/tree/main/tutorial/2.%20Sql%20language) \
    • Excel \
    • Comfortable with using the Terminal, version control in Git, and using GitHub
 
