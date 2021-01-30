@@ -29,7 +29,7 @@ A permutation of n objects, arranged in groups of size r, without repetition, an
 ## 3.Combinations
 A combination is an arrangement of objects without repetition where order is not important.
 
-Note: The difference between a permutation and a combination is not whether there is repetition or not -- there must not be repetition with either, and if there is repetition, you can not use the formulas for permutations or combinations. The only difference in the definition of a permutation and a combination is whether order is important.
+**Note:** The difference between a permutation and a combination is not whether there is repetition or not -- there must not be repetition with either, and if there is repetition, you can not use the formulas for permutations or combinations. The only difference in the definition of a permutation and a combination is whether order is important.
 A combination of n objects, arranged in groups of size r, without repetition, and order being important is:
    
     nCr = C(n,r) = n! / ( (n-r)! * r! )
@@ -76,11 +76,16 @@ We compute statistics, and use them to estimate parameters. The computation is t
 
 ## Types of Sampling
 There are five types of sampling: **Random, Systematic, Convenience, Cluster, and Stratified.** \
-       • Random sampling is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. \
-       • Systematic sampling is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. This is similar to lining everyone up and numbering off "1,2,3,4; 1,2,3,4; etc". When done numbering, all people numbered 4 would be used. \
-       • Convenience sampling is very easy to do, but it's probably the worst technique to use. In convenience sampling, readily available data is used. That is, the first people the surveyor runs into. \
-       • Cluster sampling is accomplished by dividing the population into groups -- usually geographically. These groups are called clusters or blocks. The clusters are randomly selected, and each element in the selected clusters are used. \
-       • Stratified sampling also divides the population into groups called strata. However, this time it is by some characteristic, not geographically. For instance, the population might be separated into males and females. A sample is taken from each of these strata using either random, systematic, or convenience sampling.
+       
+   **• Random sampling** is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. 
+   
+   **• Systematic sampling** is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. 
+   
+   **• Convenience sampling** is very easy to do, but it's probably the worst technique to use. In convenience sampling, readily available data is used. That is, the first people the surveyor runs into. 
+   
+   **• Cluster sampling** is accomplished by dividing the population into groups -- usually geographically. These groups are called clusters or blocks. The clusters are randomly selected, and each element in the selected clusters are used.
+   
+   **• Stratified sampling** also divides the population into groups called strata. However, this time it is by some characteristic, not geographically. For instance, the population might be separated into males and females. A sample is taken from each of these strata using either random, systematic, or convenience sampling.
     
 ## Parameter
 Characteristic or measure obtained from a population.
