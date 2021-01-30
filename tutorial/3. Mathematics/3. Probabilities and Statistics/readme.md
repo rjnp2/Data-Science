@@ -79,7 +79,7 @@ There are five types of sampling: **Random, Systematic, Convenience, Cluster, an
        
    **• Random sampling** is analogous to putting everyone's name into a hat and drawing out several names. Each element in the population has an equal chance of occuring. While this is the preferred way of sampling, it is often difficult to do. It requires that a complete list of every element in the population be obtained. Computer generated lists are often used with random sampling. 
    
-   **• Systematic sampling** is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. 
+   **• Systematic sampling** is easier to do than random sampling. In systematic sampling, the list of elements is "counted off". That is, every kth element is taken. 
    
    **• Convenience sampling** is very easy to do, but it's probably the worst technique to use. In convenience sampling, readily available data is used. That is, the first people the surveyor runs into. 
    
@@ -213,15 +213,17 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
    - **Mild Outliers** \
       Values which lie between 1.5 and 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of         Quartiles. \
-      x is a mild outlier if ... \ 
+      x is a mild outlier if ...
+      
       **Q1 - 3 * IQR <= x < Q1 - 1.5 * IQR** \
       or \
-      **Q1 + 1.5 * IQR < x <= Q3 + 3 * IQR \**
+      **Q1 + 1.5 * IQR < x <= Q3 + 3 * IQR**
       
    - **Extreme Outliers** \
       Values which lie more than 3.0 times the InterQuartile Range below the 1st Quartile or above the 3rd Quartile. Note, some texts use hinges instead of             Quartiles. \
-       x is an extreme outlier if ... \
-       **x < Q1 - 3 * IQR** \  
+       x is an extreme outlier if ... 
+       
+       **x < Q1 - 3 * IQR** \
        or \
        **x > Q3 + 3 * IQR**
       
