@@ -169,8 +169,8 @@ Variables which assume an infinite number of possible values. Usually obtained b
      ![image](https://user-images.githubusercontent.com/58425689/106350582-60317000-62fe-11eb-85aa-3a5ad12eeaa1.png)
       ![image](https://user-images.githubusercontent.com/58425689/106350584-63c4f700-62fe-11eb-998e-09718d7746e6.png)
       
-   - Coefficient of Variation
-     Standard deviation divided by the mean, expressed as a percentage. We won't work with the Coefficient of Variation in this course.
+   - Coefficient of Variation \
+     Standard deviation divided by the mean, expressed as a percentage. We won't work with the Coefficient of Variation in this course. \
      ![image](https://user-images.githubusercontent.com/58425689/106352031-151c5a80-6308-11eb-8c08-1d44eb344a28.png)
 
 
