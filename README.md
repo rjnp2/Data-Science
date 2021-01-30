@@ -10,13 +10,13 @@
    • Comfortable with using the Terminal, version control in Git, and using GitHub
 
 ## Mathematics:
-    • Calculus: Maximizing and minimizing algebraic equations
-    • Linear Algebra: Matrix manipulation and multiplication
 
-## Probability and Statistics:
-    • Probability: Probability theory, conditional probability
-    • Descriptive Statistics: Calculating measures of center and spread, estimation distributions
-    • Inferential Statistics: Sampling distributions, hypothesis testing
+   • [Calculus](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/2.%20Multivariate%20Calculus) \
+   • [Linear Algebra](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/1.%20linear_algebra)
+
+## {Probability and Statistics:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics)
+   • Probability \
+   • Statistics
 
 ## Data wrangling:
     • Accessing database, CSV, and JSON data
