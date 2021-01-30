@@ -219,6 +219,8 @@ Variables which assume an infinite number of possible values. Usually obtained b
       
 # Measurements of Relationships between Variables
 
+![image](https://user-images.githubusercontent.com/58425689/106352739-a510d300-630d-11eb-863b-cab2d2def20a.png)
+
 ## Covariance: 
 Measures the variance between two (or more) variables. \
 If it’s positive then they tend to move in the same direction, if it’s negative then they tend to move in opposite directions, and if they’re zero, they have no relation to each other. \
