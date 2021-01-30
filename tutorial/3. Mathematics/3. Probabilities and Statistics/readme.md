@@ -101,7 +101,8 @@ Variables which assume an infinite number of possible values. Usually obtained b
 
  ## Skewed Distribution 
  The majority of the values lie together on one side with a very few values (the tail) to the other side. In a positively skewed distribution, the tail is to the     right and the mean is larger than the median. In a negatively skewed distribution, the tail is to the left and the mean is smaller than the median.
-    
+    ![image](https://user-images.githubusercontent.com/58425689/106351687-a0e0b780-6305-11eb-8226-28cc3ceb64f3.png)
+
  ## Symmetric Distribution
  The data values are evenly distributed on both sides of the mean. In a symmetric distribution, the mean is the median.
   
@@ -201,3 +202,12 @@ or
 or
    x > Q3 + 3 * IQR
       
+# Measurements of Relationships between Variables
+
+## Covariance: 
+Measures the variance between two (or more) variables. If it’s positive then they tend to move in the same direction, if it’s negative then they tend to move in opposite directions, and if they’re zero, they have no relation to each other. \
+![image](https://user-images.githubusercontent.com/58425689/106351732-f5843280-6305-11eb-9ec1-33c41f67b55b.png)
+
+## Correlation: 
+Measures the strength of a relationship between two variables and ranges from -1 to 1; the normalized version of covariance. Generally, a correlation of +/- 0.7 represents a strong relationship between two variables. On the flip side, correlations between -0.3 and 0.3 indicate that there is little to no relationship between variables. \
+![image](https://user-images.githubusercontent.com/58425689/106351734-f917b980-6305-11eb-8faf-36c93e82b02b.png)
