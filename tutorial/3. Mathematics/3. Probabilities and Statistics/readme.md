@@ -1,53 +1,53 @@
 # Statistics
 ## Counting Techniques
 
-## 1.Factorial
-A positive integer factorial is the product of each natural number up to and including the integer.
-If n is a positive integer, then
+   - **Factorial** \
+     A positive integer factorial is the product of each natural number up to and including the integer.
+     If n is a positive integer, then
 
-     n! = n (n-1) (n-2) ... (3)(2)(1)
-     n! = n (n-1)!
-   
-A special case is 0!
+          n! = n (n-1) (n-2) ... (3)(2)(1)
+          n! = n (n-1)!
 
-    0! = 1
-   
-## 2.Permutation
-A permutation is an arrangement of objects without repetition where order is important.
-Permutations using all the objects
-A permutation of n objects, arranged into one group of size n, without repetition, and order being important is:
-    
-    nPn = P(n,n) = n!
-Example: Find all permutations of the letters "ABC"
-  
-    ABC  ACB  BAC  BCA  CAB  CBA
-Permutations of some of the objects
-A permutation of n objects, arranged in groups of size r, without repetition, and order being important is:
-  
-    nPr = P(n,r) = n! / (n-r)!
-   
-## 3.Combinations
-A combination is an arrangement of objects without repetition where order is not important.
+     A special case is 0!
 
-**Note:** The difference between a permutation and a combination is not whether there is repetition or not -- there must not be repetition with either, and if there is repetition, you can not use the formulas for permutations or combinations. The only difference in the definition of a permutation and a combination is whether order is important.
-A combination of n objects, arranged in groups of size r, without repetition, and order being important is:
+         0! = 1
    
-    nCr = C(n,r) = n! / ( (n-r)! * r! )
-   
-## 4. Tree Diagram
-A graphical device used to list all possibilities of a sequence of events in a systematic way.
-Pascal's Triangle
-Combinations are used in the binomial expansion theorem from algebra to give the coefficients of the expansion (a+b)^n. They also form a pattern known as Pascal's Triangle.
+   - **Permutation** \
+     A permutation is an arrangement of objects without repetition where order is important.
+     Permutations using all the objects
+     A permutation of n objects, arranged into one group of size n, without repetition, and order being important is:
 
-                           1
-                         1   1
-                       1   2   1
-                     1   3   3   1
-                   1   4   6   4   1
-                 1   5  10   10  5   1
-               1   6  15  20  15   6   1
-             1   7  21  35  35  21   7   1
-Each element in the table is the sum of the two elements directly above it. Each element is also a combination. The n value is the number of the row (start counting at zero) and the r value is the element in the row (start counting at zero). That would make the 20 in the next to last row C(6,3) -- it's in the row #6 (7th row) and position #3 (4th element).
+         nPn = P(n,n) = n!
+     Example: Find all permutations of the letters "ABC"
+
+         ABC  ACB  BAC  BCA  CAB  CBA
+     Permutations of some of the objects
+     A permutation of n objects, arranged in groups of size r, without repetition, and order being important is:
+
+         nPr = P(n,r) = n! / (n-r)!
+   
+- **Combinations**
+     A combination is an arrangement of objects without repetition where order is not important.
+
+     **Note:** The difference between a permutation and a combination is not whether there is repetition or not -- there must not be repetition with either, and if there is repetition, you can not use the formulas for permutations or combinations. The only difference in the definition of a permutation and a combination is whether order is important.
+     A combination of n objects, arranged in groups of size r, without repetition, and order being important is:
+
+         nCr = C(n,r) = n! / ( (n-r)! * r! )
+
+- **Tree Diagram**
+     A graphical device used to list all possibilities of a sequence of events in a systematic way.
+     Pascal's Triangle
+     Combinations are used in the binomial expansion theorem from algebra to give the coefficients of the expansion (a+b)^n. They also form a pattern known as P        **Pascal's Triangle.**
+
+                                1
+                              1   1
+                            1   2   1
+                          1   3   3   1
+                        1   4   6   4   1
+                      1   5  10   10  5   1
+                    1   6  15  20  15   6   1
+                  1   7  21  35  35  21   7   1
+     Each element in the table is the sum of the two elements directly above it. Each element is also a combination. The n value is the number of the row (start        counting at zero) and the r value is the element in the row (start counting at zero).
 
 ## Introduction
 **Definitions**
