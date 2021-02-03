@@ -20,9 +20,8 @@ There are many reasons why the mathematics of Machine Learning is important and 
   - Topics such as
   
        - **Vectors Spaces and Norms are needed for understanding the optimization methods used for machine learning.** 
-       - **Linear Transformation And Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization.**
+       - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
        - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix.**
-       - **Orthogonalization & Orthonormalization.**
        - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
        - **Projections.**
   
