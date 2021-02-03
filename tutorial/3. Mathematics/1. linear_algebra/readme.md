@@ -131,7 +131,6 @@ Also, the determinant of the square matrix here should not be equal to zero.
 
 ![image](https://user-images.githubusercontent.com/58425689/105946944-45f25a80-6090-11eb-911e-4ca7e0077a54.png)
 
-
 ## Eigenvalues and Eigenvectors
 
 ### Eigenvalues
