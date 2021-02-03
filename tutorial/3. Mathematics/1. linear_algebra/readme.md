@@ -232,7 +232,6 @@ These are the general classes of p-norms:
 Singular value decomposition is a method of decomposing a matrix into three other matrices:
  
 ![image](https://user-images.githubusercontent.com/58425689/105994325-99d06400-60cf-11eb-9811-0ddec63ba0c4.png)
-![image](https://user-images.githubusercontent.com/58425689/105994858-4b6f9500-60d0-11eb-99f6-9666dbb75f0d.png)
 
 Where:
 A is an m × n matrix
