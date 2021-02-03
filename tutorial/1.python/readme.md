@@ -27,7 +27,7 @@ Following are important characteristics of Python Programming.
 - It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
 
 For more details/ basics tutorial:
-[tutorial page](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/python-basics)
+[tutorial files](https://github.com/rjnp2/Data-Science/blob/main/tutorial/1.python/2.advanced_tutorial/NumPy%20Tutorial.pdf)
 
 For data analysis:
 
@@ -37,4 +37,4 @@ For more details tutorial:
 
 pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with structured (tabular, multidimensional, potentially heterogeneous) and time series data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way toward this goal.
 For more details tutorial:
-[pandas tutorial](https://github.com/rjnp2/Data-Science/blob/main/tutorial/python/advanced_tutorial/pandas.pdf)
+[pandas tutorial](https://github.com/rjnp2/Data-Science/blob/main/tutorial/1.python/2.advanced_tutorial/pandas.pdf)
