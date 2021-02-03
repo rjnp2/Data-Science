@@ -10,7 +10,7 @@
    • Excel \
    • Comfortable with using the Terminal, version control in Git, and using GitHub
 
-## Mathematics:
+## [Mathematics:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics)
 
    • [Calculus](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/2.%20Multivariate%20Calculus) \
    • [Linear Algebra](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/1.%20linear_algebra) \
