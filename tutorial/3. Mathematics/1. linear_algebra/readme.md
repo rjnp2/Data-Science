@@ -170,6 +170,12 @@ These are the general classes of p-norms:
 
 	 such that A = L U. \
 	 ![image](https://user-images.githubusercontent.com/58425689/106712246-c846c580-6620-11eb-872c-26857512ca0a.png)
+	 
+- **QR Decomposition/Factorization**
+	QR decomposition, also known as QR factorization, is a method used when converting a matrix into the form A = QR. In the formula, A represents the starting matrix, Q represents an orthogonal matrix, and R represents an upper triangle matrix. An upper triangle matrix is a special kind of square matrix in which all of the entries below the main diagonal are zero. Often, QR decomposition is used in solving the linear least squares problem.
+	
+	- **QR Decomposition and Machine Learning**
+	QR decomposition can be useful in machine learning applications. An example of using QR decomposition in machine learning is the automatic removal of an object from an image.
 
 ## Eigenvalues and Eigenvectors
 
