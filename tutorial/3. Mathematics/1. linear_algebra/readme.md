@@ -234,7 +234,7 @@ Singular value decomposition is a method of decomposing a matrix into three othe
 ![image](https://user-images.githubusercontent.com/58425689/105994325-99d06400-60cf-11eb-9811-0ddec63ba0c4.png)
 
 Where:
-A is an m × n matrix
-U is an m × n orthogonal matrix
-S is an n × n diagonal matrix
+A is an m × n matrix \
+U is an m × n orthogonal matrix \
+S is an n × n diagonal matrix \
 V is an n × n orthogonal matrix
