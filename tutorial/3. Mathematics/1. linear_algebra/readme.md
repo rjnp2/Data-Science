@@ -157,19 +157,19 @@ These are the general classes of p-norms:
 ## Matrix Decomposition
    A matrix decomposition is a way of reducing a matrix into its constituent parts. \
    It is an approach that can simplify more complex matrix operations that can be performed on the decomposed matrix rather than on the original matrix itself. \
-   A common analogy for matrix decomposition is the factoring of numbers, such as the factoring of 10 into 2 x 5. For this reason, matrix decomposition is also called matrix factorization. Like factoring real values, there are many ways to decompose a matrix, hence there are a range of different matrix decomposition techniques.
-
-Two simple and widely used matrix decomposition methods are the LU matrix decomposition and the QR matrix decomposition.
+   A common analogy for matrix decomposition is the factoring of numbers, such as the factoring of 10 into 2 x 5. For this reason, matrix decomposition is also called matrix factorization. Like factoring real values, there are many ways to decompose a matrix, hence there are a range of different matrix decomposition techniques. \
+   Two simple and widely used matrix decomposition methods are the LU matrix decomposition and the QR matrix decomposition.
+   
 - **LU Decomposition**
-L U decomposition of a matrix is the factorization of a given square matrix into two triangular matrices, one upper triangular matrix and one lower triangular matrix, such that the product of these two matrices gives the original matrix. \
-A square matrix A can be decomposed into two square matrices L and U such that A = L U where U is an upper triangular matrix formed as a result of applying Gauss Elimination Method on A; and L is a lower triangular matrix with diagonal elements being equal to 1. \
-For A = ![image](https://user-images.githubusercontent.com/58425689/106712190-b533f580-6620-11eb-8cf9-76057fc671da.png), 
+	L U decomposition of a matrix is the factorization of a given square matrix into two triangular matrices, one upper triangular matrix and one lower triangular matrix, such that the product of these two matrices gives the original matrix. \
+	A square matrix A can be decomposed into two square matrices L and U such that A = L U where U is an upper triangular matrix formed as a result of applying Gauss Elimination Method on A; and L is a lower triangular matrix with diagonal elements being equal to 1. \
+	For A = ![image](https://user-images.githubusercontent.com/58425689/106712190-b533f580-6620-11eb-8cf9-76057fc671da.png), 
 
-we have L = ![image](https://user-images.githubusercontent.com/58425689/106712226-c1b84e00-6620-11eb-8f6f-68fcbec70c03.png)
- and U = ![image](https://user-images.githubusercontent.com/58425689/106712239-c54bd500-6620-11eb-9d5a-76fb20d3bc81.png);
- 
- such that A = L U. \
- ![image](https://user-images.githubusercontent.com/58425689/106712246-c846c580-6620-11eb-872c-26857512ca0a.png)
+	we have L = ![image](https://user-images.githubusercontent.com/58425689/106712226-c1b84e00-6620-11eb-8f6f-68fcbec70c03.png)
+	 and U = ![image](https://user-images.githubusercontent.com/58425689/106712239-c54bd500-6620-11eb-9d5a-76fb20d3bc81.png);
+
+	 such that A = L U. \
+	 ![image](https://user-images.githubusercontent.com/58425689/106712246-c846c580-6620-11eb-872c-26857512ca0a.png)
 
 ## Eigenvalues and Eigenvectors
 
