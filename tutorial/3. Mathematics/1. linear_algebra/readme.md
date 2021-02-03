@@ -222,11 +222,26 @@ These are the general classes of p-norms:
 	Figure: Derivation’s fifth step. \
 	![image](https://user-images.githubusercontent.com/58425689/106711068-0cd16180-661f-11eb-80d1-7aa0856bbdee.png) \
 	Figure: Derivation’s sixth step. \
-	
 	Here, the Eigenvalues of m are 2 and -1. \
 	There are multiple eigenvectors available to each eigenvalue
 
 ### Eigenvector Applications:  Eigenvalues In Principal Component Analysis
+   PCA endeavors a projection that processes as much knowledge in the data as reasonable. It is a dimensionality reduction technique. It finds the directions of the highest variance and projects the data with them to decrease the dimensions. \
+   Calculation steps of PCA: \
+   Let there is an N*1 vector with values x1, x2, ….., xm. \
+   Calculate the sample mean: \
+	![image](https://user-images.githubusercontent.com/58425689/106730252-77da6280-6636-11eb-84bc-ad9fc2f26414.png) \
+	Figure: Equation of sample mean. \
+	Subtract sample mean with vector value: \
+	![image](https://user-images.githubusercontent.com/58425689/106730285-7a3cbc80-6636-11eb-9d14-975e64065f0d.png) \
+	Figure: Subtracting the sample mean. \
+	Calculate the sample covariance matrix: \
+	![image](https://user-images.githubusercontent.com/58425689/106730331-7c9f1680-6636-11eb-812e-7983035672f3.png) \
+	Figure: Equation of the covariance matrix. \ 
+	Calculate the eigenvalues and eigenvectors of the covariance matrix \
+	![image](https://user-images.githubusercontent.com/58425689/106730382-7f9a0700-6636-11eb-8c11-4e142051a6a1.png) \
+	Figure 63: Eigenvalues and eigenvetors. \
+	Dimensionality reduction: approximate x using only the first k eigenvectors (k< N).
 
 ### Singular Value Decomposition (SVD)
 Singular value decomposition is a method of decomposing a matrix into three other matrices:
