@@ -30,7 +30,7 @@ There are many reasons why the mathematics of Machine Learning is important and 
   - Some of the fundamental Statistical and Probability Theory needed for ML are 
       
       - **Counting Techniques**
-      - **Probability Rules & Axioms, Bayes’ Theorem, Random Variables,,Variance and Expectation* Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian)**
+      - **Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian) **
       - **Statistics - Descriptive & Inferential**
       - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
 
@@ -44,7 +44,7 @@ There are many reasons why the mathematics of Machine Learning is important and 
   - This is important for understanding the computational efficiency and scalability of our Machine Learning Algorithm and for exploiting sparsity in our            datasets.
   - Knowledge of
   
-      - **data structures (Binary Trees, Hashing, Heap, Stack etc),Randomized & Sublinear Algorithm, Graphs, Gradient/Stochastic Descents and Primal-Dual methods **
+      - **data structures (Binary Trees, Hashing, Heap, Stack etc),Randomized & Sublinear Algorithm, Graphs, Gradient/Stochastic Descents and Primal-Dual methods**
 
 ## 5. Others: 
   - This comprises of other Math topics not covered in the four major areas described above. 
