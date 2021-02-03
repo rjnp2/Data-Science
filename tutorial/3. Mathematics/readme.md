@@ -13,11 +13,18 @@ There are many reasons why the mathematics of Machine Learning is important and 
 ![image](https://user-images.githubusercontent.com/58425689/105940599-c9f21580-6083-11eb-8754-1322d5eaa4ad.png)
 
 ## 1. Linear Algebra: 
-  -  We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
+  - We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
   - Linear algebra is a sub-field of mathematics concerned with vectors, matrices, and linear transforms.
   - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.
   - Although linear algebra is integral to the field of machine learning, the tight relationship is often left unexplained or explained using abstract concepts such as vector spaces or specific matrix operations.
-  - Topics such as **Vectors and Vector Spaces, Linear Transformation And Matrices,Principal Component Analysis (PCA), Singular Value Decomposition (SVD), Eigendecomposition of a matrix, LU Decomposition, QR Decomposition/Factorization, Symmetric Matrices, Orthogonalization & Orthonormalization, Matrix Operations, Projections, Eigenvalues & Eigenvectors, Vector Spaces and Norms are needed for understanding the optimization methods used for machine learning.**
+  - Topics such as
+  
+       - **Vectors Spaces and Norms are needed for understanding the optimization methods used for machine learning,** 
+       - **Linear Transformation And Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization**
+       - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix**
+       - **Orthogonalization & Orthonormalization**
+       - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD)** 
+       - **Projections**
   
 ## 2. Probability Theory and Statistics: 
   - Machine Learning and Statistics aren’t very different fields.
