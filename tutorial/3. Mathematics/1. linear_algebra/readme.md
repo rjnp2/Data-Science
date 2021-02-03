@@ -226,8 +226,9 @@ These are the general classes of p-norms:
 	There are multiple eigenvectors available to each eigenvalue
 
 ### Eigenvector Applications:  Eigenvalues In Principal Component Analysis
-   PCA endeavors a projection that processes as much knowledge in the data as reasonable. It is a dimensionality reduction technique. It finds the directions of the highest variance and projects the data with them to decrease the dimensions. \
-   Calculation steps of PCA: \
+   PCA endeavors a projection that processes as much knowledge in the data as reasonable. It is a dimensionality reduction technique. It finds the directions of the highest variance and projects the data with them to decrease the dimensions. 
+   
+   **Calculation steps of PCA:** \
    Let there is an N*1 vector with values x1, x2, ….., xm. \
    Calculate the sample mean: \
 	![image](https://user-images.githubusercontent.com/58425689/106730252-77da6280-6636-11eb-84bc-ad9fc2f26414.png) \
@@ -240,7 +241,7 @@ These are the general classes of p-norms:
 	Figure: Equation of the covariance matrix. \ 
 	Calculate the eigenvalues and eigenvectors of the covariance matrix \
 	![image](https://user-images.githubusercontent.com/58425689/106730382-7f9a0700-6636-11eb-8c11-4e142051a6a1.png) \
-	Figure 63: Eigenvalues and eigenvetors. \
+	Figure : Eigenvalues and eigenvetors. \
 	Dimensionality reduction: approximate x using only the first k eigenvectors (k< N).
 
 ### Singular Value Decomposition (SVD)
