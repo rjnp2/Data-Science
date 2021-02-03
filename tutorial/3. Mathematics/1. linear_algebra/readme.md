@@ -154,7 +154,13 @@ These are the general classes of p-norms:
 
 # L1 and L2 norms are used in Regularization.
 
-## LU Decomposition
+## Matrix Decomposition
+   A matrix decomposition is a way of reducing a matrix into its constituent parts. \
+   It is an approach that can simplify more complex matrix operations that can be performed on the decomposed matrix rather than on the original matrix itself. \
+   A common analogy for matrix decomposition is the factoring of numbers, such as the factoring of 10 into 2 x 5. For this reason, matrix decomposition is also called matrix factorization. Like factoring real values, there are many ways to decompose a matrix, hence there are a range of different matrix decomposition techniques.
+
+Two simple and widely used matrix decomposition methods are the LU matrix decomposition and the QR matrix decomposition.
+- **LU Decomposition**
 L U decomposition of a matrix is the factorization of a given square matrix into two triangular matrices, one upper triangular matrix and one lower triangular matrix, such that the product of these two matrices gives the original matrix. \
 A square matrix A can be decomposed into two square matrices L and U such that A = L U where U is an upper triangular matrix formed as a result of applying Gauss Elimination Method on A; and L is a lower triangular matrix with diagonal elements being equal to 1. \
 For A = ![image](https://user-images.githubusercontent.com/58425689/106712190-b533f580-6620-11eb-8cf9-76057fc671da.png), 
