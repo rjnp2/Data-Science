@@ -1,4 +1,5 @@
 # Pandas
+[for more details](https://github.com/rjnp2/Data-Science/blob/main/tutorial/1.python/2.advanced_tutorial/pandas/pandas.pdf)
 
 ## Importing Data
 Use these commands to import data from a variety of different sources and formats.
