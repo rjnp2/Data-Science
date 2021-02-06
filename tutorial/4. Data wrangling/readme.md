@@ -55,14 +55,14 @@ In Overall,
   pd.HDFStore('hdf.h5') | read any “HDF5 Format” object stored in a file
 
 ## **Section 2: Tidy Data**
-- **Initial data screening** \
+- **Initial data screening**
   - **data.info()** \
   Print a concise summary of a DataFrame.
   This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage.
   ``` python 
       data.info()
   ```
-  - **data.shape** \ 
+  - **data.shape** 
   we can also get them with the shape attribute; so good to have that in the cheatsheet as well.
   ``` python 
       # number of rows and columns
@@ -83,12 +83,46 @@ In Overall,
       # name of the unique values
       data["categorical"].unique()
   ```
-  - **data[].value_counts()**
+  - **data[].value_counts()** \
    the count of rows in each category.
   ``` python 
       # count of categorical data
       data["categorical"].value_counts()
   ```
+- **Handling Missing Data** \
+  Missing data occurs commonly in many data analysis applications. One of the goals of pandas is to make working with missing data as painless as possible. For example, all of the descriptive statistics on pandas objects exclude missing data by default. \
+  The way that missing data is represented in pandas objects is somewhat imperfect, but it is functional for a lot of users. For numeric data, pandas uses the floating-point value NaN (Not a Number) to represent missing data. We call this a sentinel value that can be easily detected:
+  
+  Checks for null Values, Returns Boolean Arrray
+  ```python
+    # show NaN values per feature
+    data.isnull().sum()
+   ```
+  - **Filtering Out Missing Data** \
+  There are a few ways to filter out missing data. While you always have the option to do it by hand using pandas.isnull and boolean indexing, the dropna can be helpful.
+  ```python
+    ## Drop row/column ##
+
+    # drop all rows containing null
+    data.dropna()
+    
+    # drop all columns containing null
+    data.dropna(axis=1)
+    
+    # drop columns with less than 5 NaN values
+    data.dropna(axis=1, thresh=5)
+   ```
+  - **Filling In Missing Data** \
+  Rather than filtering out missing data (and potentially discarding other data along with it), you may want to fill in the “holes” in any number of ways. For most purposes, the fillna method is the workhorse function to use. Calling fillna with a constant replaces missing values with that value:
+  ```python
+    ## Filling values ##
+
+    # Filling all na values with -9999
+    df.fillna(-9999)
+
+    # fill na values with NaN
+    df.fillna(np.NaN) 
+   ``` 
 | function | Description |
 | --- | --- |
 | pd.isnull() | Checks for null Values, Returns Boolean Arrray
