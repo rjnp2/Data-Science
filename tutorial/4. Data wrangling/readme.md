@@ -154,13 +154,13 @@ We’ve been concerned with rearranging data. Filtering, cleaning, and other tra
       ![image](https://user-images.githubusercontent.com/58425689/107121672-db28f680-68bb-11eb-9055-4769db8cf995.png)
       ![image](https://user-images.githubusercontent.com/58425689/107121719-14616680-68bc-11eb-8e48-d5be4837f104.png)
 
-   - **Replacing Values** \
+   - **2.3.3 Replacing Values** \
      Filling in missing data with the fillna method is a special case of more general value replacement. As you’ve already seen, map can be used to modify a subset of values in an object but replace provides a simpler and more flexible way to do so.
      ```python
      data.replace(-999, np.nan)
      ```
 
-   - **2.3.3 Discretization and Binning** \
+   - **2.3.4 Discretization and Binning** \
      Continuous data is often discretized or otherwise separated into “bins” for analysis. \
      ```python
      # Bin values into discrete intervals.
