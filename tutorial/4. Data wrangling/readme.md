@@ -1,22 +1,30 @@
-# What Is Data Wrangling?
-Data wrangling is the process of gathering, selecting, and transforming data to answer an analytical question. Also known as data cleaning or “munging”, legend has it that this wrangling costs analytics professionals as much as 80% of their time, leaving only 20% for exploration and modeling. \
-![image](https://user-images.githubusercontent.com/58425689/106841812-e79a2d00-66ca-11eb-95c2-3bebe6ffc3f0.png)
 
-## Course overview 
-- **Section 1: Data Import** \
-  learn how to import data from different sources.
 
-- **Section 2: Tidy Data** \
-  learn the first pieces of converting data into a tidy format.
+## **1:Data Loading, Storage, and File Formats** 
 
-- **Section 3: String Processing** \
-  learn how to process strings using regular expressions (regex).
+- **Data Imports** \
+  Accessing data is a necessary first step for using most of the tools. Input and output typically falls into a few main categories: reading text files and other
+  more efficient on-disk formats, loading data from databases, and interacting with network sources like web APIs.
 
-- **Section 4: Dates, Times, and Text Mining** \
-  learn how to work with dates and times as file formats and how to mine text.
+  Use these commands to import data from a variety of different sources and formats.
 
-## **Section 1: Data Import** 
-Use these commands to import data from a variety of different sources and formats.
+      ```python
+
+      import pandas as pd
+
+      # this is comma-delimited, we can use read_csv to read it into a DataFrame:
+      data = pd.read_csv('examples.csv')
+
+      # To read this file, have a couple of options.
+      # we can allow pandas to assign default column names, or you can specify names yourself:
+
+      data = pd.read_csv('examples.csv', header=None)
+
+      data = pd.read_csv('examples.csv', names=['a', 'b', 'c', 'd'])
+      ```
+  Writing Data to Text Format
+Data can also be exported to a delimited format. Let’s consider one of the CSV files
+read before:
 
 | function | Description |
 | --- | --- |
