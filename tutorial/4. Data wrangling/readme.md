@@ -13,7 +13,10 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 - **Section 3: String Processing** \
   learn how to process strings using regular expressions (regex).
 
-- **Section 4: Dates, Times, and Text Mining** \
+- **Section 4: Join, Combine,and Reshape** \
+  learn how to combine, join, and rearrange data.
+
+- **Section 5: Dates, Times, and Text Mining** \
   learn how to work with dates and times as file formats and how to mine text.
 ---
 ---
