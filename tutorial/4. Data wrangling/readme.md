@@ -1,3 +1,4 @@
+---
 # What Is Data Wrangling?
 Data wrangling is the process of gathering, selecting, and transforming data to answer an analytical question. Also known as data cleaning or “munging”, legend has it that this wrangling costs analytics professionals as much as 80% of their time, leaving only 20% for exploration and modeling. \
 ![image](https://user-images.githubusercontent.com/58425689/106841812-e79a2d00-66ca-11eb-95c2-3bebe6ffc3f0.png)
@@ -14,8 +15,8 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 
 - **Section 4: Dates, Times, and Text Mining** \
   learn how to work with dates and times as file formats and how to mine text.
-
-
+---
+---
 ## **1. Data Loading, Storage, and File Formats** 
 - **1.1 Data Imports** \
   Accessing data is a necessary first step for using most of the tools. Input and output typically falls into a few main categories: reading text files and other
@@ -53,10 +54,12 @@ In Overall,
   pd.read_html(url) | Parses an html URL, string or file and extracts tables to a list of dataframes
   pd.read_pickle('pickle')  | read any “pickled” object stored in a file
   pd.HDFStore('hdf.h5') | read any “HDF5 Format” object stored in a file
-
+---
+---
 
 ## **2: Tidy Data**
 - **2.1 Initial data screening**
+  ---
   - **2.1.1 data.info()** \
   Print a concise summary of a DataFrame.
   This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage.
@@ -90,6 +93,8 @@ In Overall,
       # count of categorical data
       data["categorical"].value_counts()
   ```
+  --- 
+  
 - **2.2 Handling Missing Data** \
   Missing data occurs commonly in many data analysis applications. One of the goals of pandas is to make working with missing data as painless as possible. For example, all of the descriptive statistics on pandas objects exclude missing data by default. \
   The way that missing data is represented in pandas objects is somewhat imperfect, but it is functional for a lot of users. For numeric data, pandas uses the floating-point value NaN (Not a Number) to represent missing data. We call this a sentinel value that can be easily detected:
