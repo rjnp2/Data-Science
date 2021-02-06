@@ -4,10 +4,10 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 ![image](https://user-images.githubusercontent.com/58425689/106841812-e79a2d00-66ca-11eb-95c2-3bebe6ffc3f0.png)
 
 ## Course overview 
-- [**Section 1: Data Import**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/Data%20Loading,%20Storage,%20and%20File%20Formats.md) \
+- [**Section 1: Data Import**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/1.Data%20Loading,%20Storage,%20and%20File%20Formats.md) \
   learn how to import data from different sources.
 
-- [**Section 2: Tidy Data**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/Tidy%20Data.md) \
+- [**Section 2: Tidy Data**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/2.%20Tidy%20Data.md) \
   learn the first pieces of converting data into a tidy format.
 
 - **Section 3: String Processing** \
