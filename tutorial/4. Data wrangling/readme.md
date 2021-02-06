@@ -17,7 +17,7 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 
 
 ## **1. Data Loading, Storage, and File Formats** 
-- **Data Imports** \
+- **1.1 Data Imports** \
   Accessing data is a necessary first step for using most of the tools. Input and output typically falls into a few main categories: reading text files and other
   more efficient on-disk formats, loading data from databases, and interacting with network sources like web APIs. \
   Use these commands to import data from a variety of different sources and formats. \  
@@ -34,7 +34,7 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
       data = pd.read_csv('examples.csv', names=['a', 'b', 'c', 'd'])
       ``` 
       
- - **Writing Data to Text Format** \
+ - **1.2 Writing Data to Text Format** \
    Data can also be exported to a delimited format. Let’s consider one of the CSV files. Using DataFrame’s to_csv method, we can write the data out to a comma-separated file:
   
     ``` python
@@ -54,27 +54,28 @@ In Overall,
   pd.read_pickle('pickle')  | read any “pickled” object stored in a file
   pd.HDFStore('hdf.h5') | read any “HDF5 Format” object stored in a file
 
-## **Section 2: Tidy Data**
-- **Initial data screening**
-  - **data.info()** \
+
+## **2: Tidy Data**
+- **2.1 Initial data screening**
+  - **2.1.1 data.info()** \
   Print a concise summary of a DataFrame.
   This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage.
   ``` python 
       data.info()
   ```
-  - **data.shape** 
+  - **2.1.2 data.shape** 
   we can also get them with the shape attribute; so good to have that in the cheatsheet as well.
   ``` python 
       # number of rows and columns
       data.shape
   ```
-  - **data.columns** \
+  - **2.1.3 data.columns** \
   Some datasets may have too many columns and will not fit on the computer screen. You can check column names with columns attribute instead.
   ``` python 
       # column names
       data.columns
   ```
-  - **data[].nunique() and .unique()** \
+  - **2.1.4 data[].nunique() and .unique()** \
   For categorical variables you’ll want to know how many categories are there and also the names of those categories;
   ``` python 
       # number of unique values
@@ -83,13 +84,13 @@ In Overall,
       # name of the unique values
       data["categorical"].unique()
   ```
-  - **data[].value_counts()** \
+  - **2.1.5 data[].value_counts()** \
    the count of rows in each category.
   ``` python 
       # count of categorical data
       data["categorical"].value_counts()
   ```
-- **Handling Missing Data** \
+- **2.2 Handling Missing Data** \
   Missing data occurs commonly in many data analysis applications. One of the goals of pandas is to make working with missing data as painless as possible. For example, all of the descriptive statistics on pandas objects exclude missing data by default. \
   The way that missing data is represented in pandas objects is somewhat imperfect, but it is functional for a lot of users. For numeric data, pandas uses the floating-point value NaN (Not a Number) to represent missing data. We call this a sentinel value that can be easily detected:
   
@@ -98,7 +99,7 @@ In Overall,
     # show NaN values per feature
     data.isnull().sum()
    ```
-  - **Filtering Out Missing Data** \
+  - **2.2.1 Filtering Out Missing Data** \
   There are a few ways to filter out missing data. While you always have the option to do it by hand using pandas.isnull and boolean indexing, the dropna can be helpful.
   ```python
     ## Drop row/column ##
@@ -112,7 +113,7 @@ In Overall,
     # drop columns with less than 5 NaN values
     data.dropna(axis=1, thresh=5)
    ```
-  - **Filling In Missing Data** \
+  - **2.2.2 Filling In Missing Data** \
   Rather than filtering out missing data (and potentially discarding other data along with it), you may want to fill in the “holes” in any number of ways. For most purposes, the fillna method is the workhorse function to use. Calling fillna with a constant replaces missing values with that value:
   ```python
     ## Filling values ##
@@ -123,6 +124,54 @@ In Overall,
     # fill na values with NaN
     df.fillna(np.NaN) 
    ``` 
+- **2.3 Data Transformation** \
+We’ve been concerned with rearranging data. Filtering, cleaning, and other transformations are another class of important operations.
+
+  - **2.3.1 Removing Duplicates** \
+    Duplicate rows may be found in a DataFrame for any number of reasons. \
+    The DataFrame method duplicated returns a boolean Series indicating whether each row is a duplicate (has been observed in a previous row) or not:row is a duplicate (has been observed in a previous row) or not:
+     ```python
+    data.duplicated()
+    ```
+
+     Relatedly, drop_duplicates returns a DataFrame where the duplicated array is False 
+     ```python
+      data.drop_duplicates()
+     ```
+     Both of these methods by default consider all of the columns; alternatively, you can specify any subset of them to detect duplicates. Suppose we had an additional column of values and wanted to filter duplicates only based on the 'k1' column:
+     ```python
+     data.drop_duplicates(['k1'])
+     ```
+     duplicated and drop_duplicates by default keep the first observed value combination. Passing keep='last' will return the last one:
+       ```python
+       data.drop_duplicates(['k1', 'k2'], keep='last')
+       ```
+   - **2.3.2 Transforming Data Using a Function or Mapping** \
+     For many datasets, you may wish to perform some transformation based on the values in an array, Series, or column in a DataFrame.
+     ```python
+     data.map(next_data)
+     ```
+      ![image](https://user-images.githubusercontent.com/58425689/107121672-db28f680-68bb-11eb-9055-4769db8cf995.png)
+      ![image](https://user-images.githubusercontent.com/58425689/107121719-14616680-68bc-11eb-8e48-d5be4837f104.png)
+
+   - **Replacing Values** \
+     Filling in missing data with the fillna method is a special case of more general value replacement. As you’ve already seen, map can be used to modify a subset of values in an object but replace provides a simpler and more flexible way to do so.
+     ```python
+     data.replace(-999, np.nan)
+     ```
+
+   - **2.3.3 Discretization and Binning** \
+     Continuous data is often discretized or otherwise separated into “bins” for analysis. \
+     ```python
+     # Bin values into discrete intervals.
+     bins_data = pd.cut(data, bins)
+
+     # bin counts for the result of pandas.cut 
+     pd.value_counts(bins_data)
+     ```
+      ![image](https://user-images.githubusercontent.com/58425689/107122187-3f4cba00-68be-11eb-8588-9832c4d42079.png)       
+
+
 | function | Description |
 | --- | --- |
 | pd.isnull() | Checks for null Values, Returns Boolean Arrray
