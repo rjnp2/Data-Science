@@ -33,6 +33,8 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 
       data = pd.read_csv('examples.csv', names=['a', 'b', 'c', 'd'])
       ``` 
+ ![1](https://user-images.githubusercontent.com/58425689/107119240-774c0100-68ae-11eb-9f5b-e64a10ef65ea.png)
+   
  - **Writing Data to Text Format** \
    Data can also be exported to a delimited format. Let’s consider one of the CSV files. Using DataFrame’s to_csv method, we can write the data out to a comma-separated file:
   
@@ -61,6 +63,8 @@ In Overall,
   ``` python 
       data.info()
   ```
+ ![image](https://user-images.githubusercontent.com/58425689/107119305-d27df380-68ae-11eb-8f41-e2fd5ac71e22.png)
+
   - **data.shape** \ 
   we can also get them with the shape attribute; so good to have that in the cheatsheet as well.
   ``` python 
@@ -77,17 +81,19 @@ In Overall,
   For categorical variables you’ll want to know how many categories are there and also the names of those categories;
   ``` python 
       # number of unique values
-      data.["categorical"].nunique()
+      data["categorical"].nunique()
       
       # name of the unique values
-      df["categorical"].unique()
+      data["categorical"].unique()
   ```
   - **data[].value_counts()**
    the count of rows in each category.
   ``` python 
       # count of categorical data
-      df["species"].value_counts()
+      data["categorical"].value_counts()
   ```
+  ![image](https://user-images.githubusercontent.com/58425689/107119431-98612180-68af-11eb-9080-143e6f7ce985.png)
+
 | function | Description |
 | --- | --- |
 | pd.isnull() | Checks for null Values, Returns Boolean Arrray
