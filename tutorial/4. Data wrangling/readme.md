@@ -1,15 +1,10 @@
-
-
 ## **1. Data Loading, Storage, and File Formats** 
-
 - **Data Imports** \
   Accessing data is a necessary first step for using most of the tools. Input and output typically falls into a few main categories: reading text files and other
-  more efficient on-disk formats, loading data from databases, and interacting with network sources like web APIs.
-
-  Use these commands to import data from a variety of different sources and formats.
-
-      ```python
-
+  more efficient on-disk formats, loading data from databases, and interacting with network sources like web APIs. \
+  Use these commands to import data from a variety of different sources and formats. 
+  
+      ```Python
       import pandas as pd
 
       # this is comma-delimited, we can use read_csv to read it into a DataFrame:
@@ -22,12 +17,12 @@
 
       data = pd.read_csv('examples.csv', names=['a', 'b', 'c', 'd'])
       ```
+      
  - **Writing Data to Text Format** \
    Data can also be exported to a delimited format. Let’s consider one of the CSV files. Using DataFrame’s to_csv method, we can write the data out to a comma-separated file:
   
     ``` python
     data.to_csv('examples/out.csv')
-    
     ```
 
 In Overall, 
