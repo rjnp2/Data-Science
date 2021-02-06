@@ -171,17 +171,18 @@ We’ve been concerned with rearranging data. Filtering, cleaning, and other tra
      ```
       ![image](https://user-images.githubusercontent.com/58425689/107122187-3f4cba00-68be-11eb-8588-9832c4d42079.png)       
 
+    - **2.3.5 Detecting and Filtering Outliers** \
+      Filtering or transforming outliers is largely a matter of applying array operations.
+      - By removing values which exceed criteria values
+      - Set Values to criteria. usig np.sign(data) produces 1 and –1 values based on whether the values in data are positive or negative:
 
-| function | Description |
-| --- | --- |
-| pd.isnull() | Checks for null Values, Returns Boolean Arrray
-| df.dropna() | Drop all rows that contain null values
-| df.dropna(axis=1) | Drop all columns that contain null values
-| df.dropna(axis=1,thresh=n) | Drop all rows have have less than n non null values
-| df.fillna(x) | Replace all null values with x
-| s.fillna(s.mean()) | Replace all null values with the mean (mean can be replaced with almost any function from the statistics module)
-| s.replace(1,'one') | Replace all values equal to 1 with 'one'
-| s.replace([1,3],['one','three']) | Replace all 1 with 'one' and 3 with 'three'
+    - **2.3.6 Permutation and Random Sampling**
+      Permuting (randomly reordering) a Series or the rows in a DataFrame is easy to do using the numpy.random.permutation function. \
+      ![image](https://user-images.githubusercontent.com/58425689/107122755-a9b32980-68c1-11eb-9402-5b71e2b2f49b.png)
+      ![image](https://user-images.githubusercontent.com/58425689/107122764-b59eeb80-68c1-11eb-9232-587bddc56e83.png)
+
+    - **2.3.7 Computing Indicator/Dummy Variables**
+      Another type of transformation is converting a categorical variable into a “dummy” or “indicator” matrix. If a column in a DataFrame has k distinct values,derive a matrix with k columns containing all 1s and 0s. pandas has a get_dummies function for doing this.
 
 | function | Description |
 | --- | --- |
