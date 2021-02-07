@@ -20,6 +20,6 @@ ___
 - [**Section 5: Data Aggregation and Group Operations**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/5.%20Data%20Aggregation%20and%20Group%20Operations.md) \
   learn how to work with GroupBy and pivot tables for reporting or visualization purposes.
   
-- [**Section 6: Dates, Times**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/6.%20Dates,%20Times,%20and%20Text%20Mining.md) \
+- [**Section 6: Dates, Times**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/6.%20Dates,%20Times.md) \
   learn how to work with dates and times as file formats and how to mine text.
 ---
