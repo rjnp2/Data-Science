@@ -16,7 +16,7 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 - [**Section 4: Join, Combine,and Reshape**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/4.%20Join,%20Combine,and%20Reshape.md) \
   learn how to combine, join, and rearrange data.
 
-- [**Section 5: Data Aggregation and Group Operations**](http://github.com/rjnp2/DataScience/blob/main/tutorial/4.%20Data%20wrangling/5.%20Data%20Aggregation%20and%20Group%20Operations.md) \
+- [**Section 5: Data Aggregation and Group Operations**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/5.%20Data%20Aggregation%20and%20Group%20Operations.md)
   learn how to work with GroupBy and pivot tables for reporting or visualization purposes.
   
 - **Section 6: Dates, Times, and Text Mining** \
