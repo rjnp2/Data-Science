@@ -22,9 +22,3 @@ Data wrangling is the process of gathering, selecting, and transforming data to 
 - **Section 6: Dates, Times, and Text Mining** \
   learn how to work with dates and times as file formats and how to mine text.
 ---
----
-
-| function | Description |
-| --- | --- |
-| df.groupby(col) | Returns a groupby object for values from one column
-| df.pivot_table(index=col1,values=[col2,col3],aggfunc=mean) | Create a pivot table that groups by col1 and calculates the mean of col2 and col3
