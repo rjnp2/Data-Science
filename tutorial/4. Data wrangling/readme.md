@@ -2,7 +2,7 @@
 # What Is Data Wrangling?
 Data wrangling is the process of gathering, selecting, and transforming data to answer an analytical question. Also known as data cleaning or “munging”, legend has it that this wrangling costs analytics professionals as much as 80% of their time, leaving only 20% for exploration and modeling. \
 ![image](https://user-images.githubusercontent.com/58425689/106841812-e79a2d00-66ca-11eb-95c2-3bebe6ffc3f0.png)
----
+___
 ## Course overview 
 - [**Section 1: Data Import**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/1.Data%20Loading,%20Storage,%20and%20File%20Formats.md) \
   learn how to import data from different sources.
