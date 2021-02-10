@@ -18,25 +18,6 @@ When you are executing an SQL command for any RDBMS, the system determines the b
 #### Following is a simple diagram showing SQL Architecture: 
   ![pro 8](https://user-images.githubusercontent.com/58425689/105805616-78398480-5fca-11eb-8c27-ae998b935d28.png)
 
-## SQL Commands:
-The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. These commands can be classified into groups based on their nature:
-
-1. DDL - Data Definition Language:
-
-  ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
-  
-2.DML - Data Manipulation Language:
-
-  ![2](https://user-images.githubusercontent.com/58425689/105805925-17f71280-5fcb-11eb-8c0c-089800c538b3.png)
-
-3. DCL - Data Control Language:
-
-  ![3](https://user-images.githubusercontent.com/58425689/105805928-188fa900-5fcb-11eb-9188-db6339b022a7.png)
-
-4. DQL - Data Query Language:
-
-  ![4](https://user-images.githubusercontent.com/58425689/105805930-19283f80-5fcb-11eb-832e-3f43a23beb76.png)
-
 ## SQL RDBMS Concepts
 
 RDBMS stands for Relational Database Management System. RDBMS is the basis for SQL and for all modern database systems like MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
@@ -77,7 +58,26 @@ SQL Server offers six categories of data types for your use:
     • varchar(max) Maximum length of 231characters, Variable-length non-Unicode data(SQL Server 2005 only).
     • text Variable-length non-Unicode data with a maximum length of
     • 2,147,483,647 characters.
-    
+
+## SQL Commands:
+The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. These commands can be classified into groups based on their nature:
+
+1. DDL - Data Definition Language:
+
+  ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
+  
+2.DML - Data Manipulation Language:
+
+  ![2](https://user-images.githubusercontent.com/58425689/105805925-17f71280-5fcb-11eb-8c0c-089800c538b3.png)
+
+3. DCL - Data Control Language:
+
+  ![3](https://user-images.githubusercontent.com/58425689/105805928-188fa900-5fcb-11eb-9188-db6339b022a7.png)
+
+4. DQL - Data Query Language:
+
+  ![4](https://user-images.githubusercontent.com/58425689/105805930-19283f80-5fcb-11eb-832e-3f43a23beb76.png)
+
 ## SQL Constraints:
 Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database.
 Constraints could be column level or table level. Column level constraints are applied only to one column, whereas table level constraints are applied to the whole table.
