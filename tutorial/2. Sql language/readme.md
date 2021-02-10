@@ -64,19 +64,16 @@ ___
 ## [SQL Commands/Syntax:](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/1.%20sql_basics/readme.md)
 The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. These commands can be classified into groups based on their nature:
 
-1. DDL - Data Definition Language: \
-  ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
-  
-2.DML - Data Manipulation Language:
+ 1. DDL - Data Definition Language: \
+    ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
 
+ 2. DML - Data Manipulation Language: \
   ![2](https://user-images.githubusercontent.com/58425689/105805925-17f71280-5fcb-11eb-8c0c-089800c538b3.png)
 
-3. DCL - Data Control Language:
-
+ 3. DCL - Data Control Language: \
   ![3](https://user-images.githubusercontent.com/58425689/105805928-188fa900-5fcb-11eb-9188-db6339b022a7.png)
 
-4. DQL - Data Query Language:
-
+ 4. DQL - Data Query Language: \
   ![4](https://user-images.githubusercontent.com/58425689/105805930-19283f80-5fcb-11eb-832e-3f43a23beb76.png)
 ___
 ## SQL Constraints:
