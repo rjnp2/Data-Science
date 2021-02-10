@@ -76,7 +76,7 @@ The standard SQL commands to interact with relational databases are CREATE, SELE
  4. DQL - Data Query Language: \
   ![4](https://user-images.githubusercontent.com/58425689/105805930-19283f80-5fcb-11eb-832e-3f43a23beb76.png)
 ___
-## [SQL Constraints:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/2.%20Sql%20language/2.%20SQL_Constraints)
+## [SQL Constraints:](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/2.%20SQL_Constraints%20./readme.md)
 Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database.
 Constraints could be column level or table level. Column level constraints are applied only to one column, whereas table level constraints are applied to the whole table.
 ___
