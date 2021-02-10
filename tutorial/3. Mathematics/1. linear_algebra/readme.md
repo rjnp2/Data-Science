@@ -8,17 +8,8 @@
        - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
        - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix.**
        - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
-       - **Projections.**
-   - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and **Norms** 
+       - **Projections.**   
        
-
-# 1. Linear Equations 
-A linear equation is just a series of terms and mathematical operations where some terms are unknown.
-
-    For example: y = 4 * x + 1
-        
-Equations like this are linear in that they describe a line on a two-dimensional graph. The line comes from plugging in different values into the unknown x to find out what the equation or model does to the value of y.
-  
 # 2. Matrices and Vectors
 A matrix is an array of numbers, symbols or expressions, made up of rows and columns. A matrix is characterized by the amount of rows, m, and the amount of columns, n, it has. 
 
