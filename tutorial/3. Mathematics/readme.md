@@ -5,18 +5,12 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
 ![105940599-c9f21580-6083-11eb-8754-1322d5eaa4ad](https://user-images.githubusercontent.com/58425689/107522138-7b905b00-6bdb-11eb-9e3b-3dfcad4ca486.png)
 ![105940669-eee68880-6083-11eb-9f18-caa1d33f07dd](https://user-images.githubusercontent.com/58425689/107522146-7d5a1e80-6bdb-11eb-8a1c-8c3ba64d9091.png)
 
-## 1. Linear Algebra: 
+## [1. Linear Algebra:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/1.%20linear_algebra)
   - We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
   - Linear algebra is a sub-field of mathematics concerned with vectors, matrices, and linear transforms.
   - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.
   - Although linear algebra is integral to the field of machine learning, the tight relationship is often left unexplained or explained using abstract concepts such as vector spaces or specific matrix operations.
-  - Topics such as
-       - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and **Norms** 
-       
-       - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
-       - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix.**
-       - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
-       - **Projections.**
+  - Topics such as **Vectors_Spaces and Norms,Matrices and it's Decomposition,Orthogonalization & Orthonormalization, Eigenvalues & Eigenvectors, Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
   
 ## 2. Probability Theory and Statistics: 
   - Machine Learning and Statistics aren’t very different fields.
