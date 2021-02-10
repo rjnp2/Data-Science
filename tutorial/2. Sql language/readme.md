@@ -76,19 +76,9 @@ The standard SQL commands to interact with relational databases are CREATE, SELE
  4. DQL - Data Query Language: \
   ![4](https://user-images.githubusercontent.com/58425689/105805930-19283f80-5fcb-11eb-832e-3f43a23beb76.png)
 ___
-## SQL Constraints:
+## [SQL Constraints:](https://github.com/rjnp2/Data-Science/edit/main/tutorial/2.%20Sql%20language/SQL_Constraints/readme.md)
 Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database.
 Constraints could be column level or table level. Column level constraints are applied only to one column, whereas table level constraints are applied to the whole table.
-
-Following are commonly used constraints available in SQL:
-
-    • NOT NULL Constraint: Ensures that a column cannot have NULL value.
-    • DEFAULT Constraint: Provides a default value for a column when none is specified.
-    • UNIQUE Constraint: Ensures that all values in a column are different.
-    • PRIMARY Key: Uniquely identified each rows/records in a database table.
-    • FOREIGN Key: Uniquely identified a rows/records in any another database table.
-    • CHECK Constraint: The CHECK constraint ensures that all values in a column satisfy certain conditions.
-    • INDEX: Use to create and retrieve data from the database very quickly.
 ___
 ## Data Integrity:
 The following categories of the data integrity exist with each RDBMS:
