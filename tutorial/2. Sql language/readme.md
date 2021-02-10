@@ -61,11 +61,11 @@ SQL Server offers six categories of data types for your use:
     • text Variable-length non-Unicode data with a maximum length of
     • 2,147,483,647 characters
 ___
-## SQL Commands/Syntax:
+## [SQL Commands/Syntax:](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/1.%20sql_basics/readme.md)
 The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. These commands can be classified into groups based on their nature:
 
 1. DDL - Data Definition Language: \
-      ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
+  ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
   
 2.DML - Data Manipulation Language:
 
@@ -123,147 +123,4 @@ Operators are used to specify conditions in an SQL statement and to serve as con
     • Logical operators: all and any between in is
     • Operators used to negate conditions:
 ___
-## SQL Syntax
-SQL is followed by unique set of rules and guidelines called Syntax. This tutorial gives you a quick start with SQL by listing all the basic SQL Syntax:
-All the SQL statements start with any of the keywords like **SELECT, INSERT, UPDATE, DELETE, ALTER, DROP, CREATE, USE, SHOW and all the statements end with a semicolon (;).**
 
-Important point to be noted is that SQL is case insensitive, which means SELECT and select have same meaning in SQL statements, but MySQL makes difference in table names. So if you are working with MySQL, then you need to give table names as they exist in the database.
-
-**1.SQL SELECT Statement:**
-
-    SELECT column1, column2....columnN FROM table_name;
-    SQL DISTINCT Clause:
-    SELECT DISTINCT column1, column2....columnN FROM table_name;
-
-**2. SQL WHERE Clause:**
-
-    SELECT column1, column2....columnN FROM table_name
-    WHERE CONDITION;
-
- **3. SQL AND/OR Clause:**
- 
-    SELECT column1, column2....columnN FROM table_name
-    WHERE CONDITION-1 {AND|OR} CONDITION-2;
-
- **4. SQL IN Clause:**
- 
-    SELECT column1, column2....columnN
-    FROM
-    table_name
-    WHERE column_name IN (val-1, val-2,...val-N);
-
-**5. SQL BETWEEN Clause:**
-
-    SELECT column1, column2....columnN
-    FROM
-    table_name
-    WHERE column_name BETWEEN val-1 AND val-2;
-
-**6.SQL LIKE Clause:**
-
-    SELECT column1, column2....columnN FROM table_name
-    WHERE column_name LIKE { PATTERN };
-
-**7.SQL ORDER BY Clause:**
-
-    SELECT column1, column2....columnN
-    FROM
-    table_name
-    WHERE CONDITION
-    ORDER BY column_name {ASC|DESC};
-
-**8.SQL GROUP BY Clause:**
-
-    SELECT SUM(column_name)
-    FROM
-    table_name
-    WHERE CONDITION
-    GROUP BY column_name;
-
-#### 9.SQL COUNT Clause:
-
-    SELECT COUNT(column_name)
-    FROM
-    table_name
-    WHERE CONDITION;
-
-#### 10.SQL HAVING Clause:
-
-    SELECT SUM(column_name)
-    FROM
-    table_name
-    WHERE CONDITION
-    GROUP BY column_name
-    HAVING (arithematic function condition);
-
-#### 11. SQL CREATE TABLE Statement:
-
-    CREATE TABLE table_name(
-    column2
-    .....
-    columnN
-    PRIMARY KEY( one or more columns ));
-
-#### 11.SQL DROP TABLE Statement:
-
-    DROP TABLE table_name;
-
-#### 12. SQL CREATE INDEX Statement:
-
-    CREATE UNIQUE INDEX index_name
-    ON table_name ( column1, column2,...columnN);
-
-#### 13. SQL DROP INDEX Statement:
-
-    ALTER TABLE table_name
-    DROP INDEX index_name;
-
-#### 14. SQL DESC Statement:
-
-    DESC table_name;
-
-#### 15. SQL TRUNCATE TABLE Statement:
-   
-    TRUNCATE TABLE table_name;
-
-#### 16.SQL ALTER TABLE Statement:
-
-    ALTER TABLE table_name {ADD|DROP|MODIFY} column_name {data_ype};
-
-#### 17.SQL ALTER TABLE Statement (Rename):
-
-    ALTER TABLE table_name RENAME TO new_table_name;
-
-#### 18.SQL INSERT INTO Statement:
-
-    INSERT INTO table_name( column1, column2....columnN)
-    VALUES ( value1, value2....valueN);
-
-#### 19.SQL UPDATE Statement:
-
-    UPDATE table_name
-    SET column1 = value1, column2 = value2....columnN=valueN
-    [ WHERE CONDITION ];
-
-#### 20.SQL DELETE Statement:
-   
-    DELETE FROM table_name
-    WHERE {CONDITION};
-
-#### 21.SQL CREATE DATABASE Statement:
-
-    CREATE DATABASE database_name;
-    SQL DROP DATABASE Statement:
-    DROP DATABASE database_name;
-
-#### 22.SQL USE Statement:
-    
-    USE DATABASE database_name;
-
-#### 22.SQL COMMIT Statement:
-    COMMIT;
-  
-#### 23.SQL ROLLBACK Statement:
-
-    ROLLBACK;
- 
