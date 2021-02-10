@@ -11,7 +11,7 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
   - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.
   - Although linear algebra is integral to the field of machine learning, the tight relationship is often left unexplained or explained using abstract concepts such as vector spaces or specific matrix operations.
   - Topics such as
-  
+       - [**simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md)
        - **Vectors Spaces and Norms are needed for understanding the optimization methods used for machine learning.** 
        
        - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
