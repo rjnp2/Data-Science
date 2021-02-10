@@ -6,7 +6,15 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
 ![105940669-eee68880-6083-11eb-9f18-caa1d33f07dd](https://user-images.githubusercontent.com/58425689/107522146-7d5a1e80-6bdb-11eb-8a1c-8c3ba64d9091.png)
 
 ## 1. Linear Algebra:
-  - Topics such as **Vectors_Spaces and Norms,Matrices and it's Decomposition,Orthogonalization & Orthonormalization, Eigenvalues & Eigenvectors, Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
+  - Linear algebra is a sub-field of mathematics concerned with vectors, matrices, and linear transforms.
+  - We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
+  - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.  
+  - Topics such as
+       - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and [**Norms**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/3.%20vector_norm.md) 
+       - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
+       - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix.**
+       - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
+       - **Projections.**
   
 ## 2. Probability Theory and Statistics: 
   - Machine Learning and Statistics aren’t very different fields.
