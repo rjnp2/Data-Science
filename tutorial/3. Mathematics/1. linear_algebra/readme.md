@@ -5,16 +5,7 @@ Linear algebra is about linear combinations. That is, using arithmetic on column
   - We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
   - Linear algebra is a sub-field of mathematics concerned with vectors, matrices, and linear transforms.
   - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.
-  - Although linear algebra is integral to the field of machine learning, the tight relationship is often left unexplained or explained using abstract concepts such as vector spaces or specific matrix operations.
-## Applications of Linear Algebra
-
-  1. Matrices in Engineering, such as a line of springs.
-  2. Graphs and Networks, such as analyzing networks.
-  3. Markov Matrices, Population, and Economics, such as population growth.
-  4. Linear Programming, the simplex optimization method.
-  5. Fourier Series: Linear Algebra for functions, used widely in signal processing.
-  6. Linear Algebra for statistics and probability, such as least squares for regression.
-  7. Computer Graphics, such as the various translation, rescaling and rotation of images.
+  - Although linear algebra is integral to the field of machine learning, the tight relationship is often left unexplained or explained using abstract concepts such as vector spaces or specific matrix operations
   
   - Topics such as
        - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and **Norms** 
