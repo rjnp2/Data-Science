@@ -13,6 +13,13 @@ Linear algebra is about linear combinations. That is, using arithmetic on column
   6. Linear Algebra for statistics and probability, such as least squares for regression.
   7. Computer Graphics, such as the various translation, rescaling and rotation of images.
   
+  - Topics such as
+       - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and **Norms** 
+       
+       - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
+       - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix.**
+       - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
+       - **Projections.**
    - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and **Norms** 
        
 
