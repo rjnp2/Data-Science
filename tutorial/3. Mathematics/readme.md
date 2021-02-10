@@ -2,13 +2,6 @@
 
 Machine Learning theory is a field that intersects statistical, probabilistic, computer science and algorithmic aspects arising from learning iteratively from data and finding hidden insights which can be used to build intelligent applications.
 
-## Why Worry About The Maths?
-There are many reasons why the mathematics of Machine Learning is important and I will highlight some of them below:
-1. Selecting the right algorithm which includes giving considerations to accuracy, training time, model complexity, number of parameters and number of features.
-2. Choosing parameter settings and validation strategies.
-3. Identifying underfitting and overfitting by understanding the Bias-Variance tradeoff.
-4. Estimating the right confidence interval and uncertainty.
-
 ![image](https://user-images.githubusercontent.com/58425689/105940669-eee68880-6083-11eb-9f18-caa1d33f07dd.png)
 ![image](https://user-images.githubusercontent.com/58425689/105940599-c9f21580-6083-11eb-8754-1322d5eaa4ad.png)
 
