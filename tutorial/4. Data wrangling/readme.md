@@ -23,3 +23,4 @@ ___
 - [**Section 6: Dates, Times**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/6.%20Dates,%20Times.md) \
   learn how to work with dates and times as file formats and how to mine text.
 ---
+Data Wrangling Pdf[](https://github.com/rjnp2/Data-Science/blob/main/tutorial/4.%20Data%20wrangling/files/Data-Wrangling.pdf)
