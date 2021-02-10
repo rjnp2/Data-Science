@@ -3,26 +3,26 @@
 
 # Path for Data Science
 
-## Programming:
+## Programming
 
    • [Python_Programming](https://github.com/rjnp2/Data-Science/tree/main/tutorial/1.python) \
    • [SQL programming](https://github.com/rjnp2/Data-Science/tree/main/tutorial/2.%20Sql%20language) \
    • Excel \
    • Comfortable with using the Terminal, version control in Git, and using GitHub
 
-## [Mathematics:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics)
+## [Mathematics](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics)
 
    • [Calculus](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/2.%20Multivariate%20Calculus) \
    • [Linear Algebra](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/1.%20linear_algebra) \
    • [Probability and Statistics:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics)
 
-## Data wrangling:
+## [Data wrangling](https://github.com/rjnp2/Data-Science/tree/main/tutorial/4.%20Data%20wrangling):
    - Accessing database, CSV, and JSON data
-   - Data cleaning and transformations using pandas and Sklearn
+   - Data cleaning and transformations using pandas
 
-## Data visualization with matplotlib:
-   - Plot.ly, a Python library along with Dash, a Python framework
-   - others: Tableau , Spotfire , Microsoft Power BI , IBM Cognos Analytics , D3.js
+## [Data visualization with matplotlib](https://github.com/rjnp2/Data-Science/tree/main/tutorial/5.%20Data%20visualization)
+   - visualization
+   - dashboards
 
 ## Machine Learning:
    - Feature Engineering
