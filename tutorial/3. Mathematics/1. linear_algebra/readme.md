@@ -18,22 +18,6 @@ A linear equation is just a series of terms and mathematical operations where so
     For example: y = 4 * x + 1
         
 Equations like this are linear in that they describe a line on a two-dimensional graph. The line comes from plugging in different values into the unknown x to find out what the equation or model does to the value of y.
-
-## 1.1 systems of Linear Equations
-A system of linear equations is usually a set of two linear equations with two variables.
-
-  - x+y=5 and 2x-y=1 are both linear equations with two variables.
-  - When considered together, they form a system of linear equations.
-
-A linear equation with two variables has an infinite number of solutions (for example, consider how (0,5), (1,4), (2,3) etc. are all solutions to the equation x+y=5. However, systems of two linear equations with two variables can have a single solution that satisfies both solutions.
-
-		(2,3) is the only solution to both x+y=5and 2x-y=1.
-    
-This is solved by :
-
-  1. Look at two ways to solve systems of linear equations algebraically: substitution and elimination.
-  2. Look at systems of linear equations graphically to help us understand when systems of linear equations have one solution, no solutions, or infinitely many solutions.
-  3. Explore algebraic methods of identifying the number of solutions that exist for systems with two linear equations.
   
 # 2. Matrices and Vectors
 A matrix is an array of numbers, symbols or expressions, made up of rows and columns. A matrix is characterized by the amount of rows, m, and the amount of columns, n, it has. 
