@@ -1,15 +1,3 @@
-# Linear Algebra
-  - Linear algebra is a sub-field of mathematics concerned with vectors, matrices, and linear transforms.
-  - We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
-  - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.  
-  - Topics such as
-       - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and [**Norms**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/3.%20vector_norm.md) 
-       - **Matrices, Matrix Operations , Symmetric Matrices,LU Decomposition, QR Decomposition/Factorization ,Orthogonalization & Orthonormalization**
-       - **Eigenvalues & Eigenvectors, Eigendecomposition of a matrix.**
-       - **Principal Component Analysis (PCA), Singular Value Decomposition (SVD).** 
-       - **Projections.**   
-       
-
 ## Eigenvalues and Eigenvectors
 
 - **Eigenvalues** \
