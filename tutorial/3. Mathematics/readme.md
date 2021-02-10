@@ -1,8 +1,9 @@
 # The Mathematics of Machine Learning
 
 Machine Learning theory is a field that intersects statistical, probabilistic, computer science and algorithmic aspects arising from learning iteratively from data and finding hidden insights which can be used to build intelligent applications.
-![105940599-c9f21580-6083-11eb-8754-1322d5eaa4ad](https://user-images.githubusercontent.com/58425689/107521567-d07fa180-6bda-11eb-8a55-f6d0534768c4.png)
-![105940669-eee68880-6083-11eb-9f18-caa1d33f07dd](https://user-images.githubusercontent.com/58425689/107521578-d2496500-6bda-11eb-9968-49712c34db71.png)
+
+![105940599-c9f21580-6083-11eb-8754-1322d5eaa4ad](https://user-images.githubusercontent.com/58425689/107522138-7b905b00-6bdb-11eb-9e3b-3dfcad4ca486.png)
+![105940669-eee68880-6083-11eb-9f18-caa1d33f07dd](https://user-images.githubusercontent.com/58425689/107522146-7d5a1e80-6bdb-11eb-8a1c-8c3ba64d9091.png)
 
 ## 1. Linear Algebra: 
   - We represent numerical data as vectors and represent a table of such data as a matrix. The study of vectors and matrices is called linear algebra.
