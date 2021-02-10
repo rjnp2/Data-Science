@@ -10,7 +10,8 @@ Data visualization is actually a set of data points and information that are rep
       It can be narrowed or categorized (Example: Height measurements). 
     - **Discrete Data** \
       This type of data is not “continuous” (Example: Number of cars or children’s a household has). \
-  The type of visualization techniques that are used to represent numerical data visualization is Charts and Numerical Values. Examples are Pie Charts, Bar Charts, Averages, Scorecards, etc.
+
+The type of visualization techniques that are used to represent numerical data visualization is Charts and Numerical Values. Examples are Pie Charts, Bar Charts, Averages, Scorecards, etc.
 
 2. **Categorical Data** \
 Categorical data is also known as Qualitative data. Categorical data is any data where data generally represents groups. It simply consists of categorical variables that are used to represent characteristics such as a person’s ranking, a person’s gender, etc. Categorical data visualization is all about depicting key themes, establishing connections, and lending context. Categorical data is classified into three categories :
