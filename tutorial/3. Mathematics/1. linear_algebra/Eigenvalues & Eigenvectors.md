@@ -64,14 +64,3 @@
 	![image](https://user-images.githubusercontent.com/58425689/106730382-7f9a0700-6636-11eb-8c11-4e142051a6a1.png) \
 	Figure : Eigenvalues and eigenvetors. \
 	Dimensionality reduction: approximate x using only the first k eigenvectors (k< N).
-
-### Singular Value Decomposition (SVD)
-Singular value decomposition is a method of decomposing a matrix into three other matrices:
- 
-![image](https://user-images.githubusercontent.com/58425689/105994325-99d06400-60cf-11eb-9811-0ddec63ba0c4.png)
-
-Where:
-A is an m × n matrix \
-U is an m × n orthogonal matrix \
-S is an n × n diagonal matrix \
-V is an n × n orthogonal matrix
