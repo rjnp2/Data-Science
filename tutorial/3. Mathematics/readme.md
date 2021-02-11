@@ -21,12 +21,13 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
       
 ## 3. Probability Theory and Statistics: 
   - Topics such as      
-    - [**Counting Techniques**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/1.%20Counting_Techniques.md)
-    - **Probabilities** \
+    - [**1. Counting Techniques**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/1.%20Counting_Techniques.md)
+    - **2. Statistics - Descriptive** \
+      Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied. For more details: [Statistics](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/Statistics.md)
+    - **3. Probabilities** \
       Probability is the branch of mathematics concerning numerical descriptions of how likely an event is to occur, or how likely it is that a proposition is true. The probability of an event is a number between 0 and 1, where, roughly speaking, 0 indicates impossibility of the event and 1 indicates certainty. In it, [**Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation, Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/Probabilities.md)
 
-    - **Statistics - Descriptive & Inferential** \
-      Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied. For more details: [Statistics](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/Statistics.md)
+    - **Statistics - Inferential** \
     - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
         
 ## 4. Algorithms and Complex Optimizations: 
