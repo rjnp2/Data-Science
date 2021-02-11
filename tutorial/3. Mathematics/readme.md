@@ -11,7 +11,7 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
   - It is a key foundation to the field of machine learning, from notations used to describe the operation of algorithms to the implementation of algorithms in code.  
   - Topics such as
        - [**Simple_Algebra**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/1.%20algebra.md), [**Vectors_Spaces**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/2.%20vector.md) and [**Norms**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/3.%20vector_norm.md) 
-       - [**Matrices and it's Operations, Matrix Decomposition/Factorization, Singular Value Decomposition (SVD),Orthogonalization & Orthonormalization**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/4.%20Matrices%20and%20Vectors.md)
+       - [**Matrices and it's Operations, Matrix Decomposition/Factorization, Singular Value Decomposition (SVD),Orthogonalization & Orthonormalization**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/4.%20Matrices.md)
        - [**Eigenvalues & Eigenvectors, Eigendecomposition of a matrix , Principal Component Analysis (PCA)**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/5.%20Eigenvalues%20%26%20Eigenvectors.md)
   
 ## 2. Probability Theory and Statistics: 
