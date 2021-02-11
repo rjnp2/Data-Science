@@ -36,4 +36,3 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
   
       - **Real and Complex Analysis (Sets and Sequences, Topology, Metric Spaces, Cauchy Kernel, Fourier Transforms)** 
       - **Information Theory (Entropy, Information Gain)** 
-      - **Function Spaces and Manifolds.**
