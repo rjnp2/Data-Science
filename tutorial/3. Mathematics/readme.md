@@ -20,13 +20,11 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
       - **Differential and Integral Calculus, Partial Derivatives, Vector-Values Functions, Directional Gradient** 
       
 ## 3. Probability Theory and Statistics: 
-  - Machine Learning and Statistics aren’t very different fields.
-  - Some of the fundamental Statistical and Probability Theory needed for ML are 
-      
-      - [**Counting Techniques**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/1.%20Counting_Techniques.md)
-      - **Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian**
-      - **Statistics - Descriptive & Inferential**
-      - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
+  - Topics such as      
+    - [**Counting Techniques**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/1.%20Counting_Techniques.md)
+    - **Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation, Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian**
+    - **Statistics - Descriptive & Inferential**
+    - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
         
 ## 4. Algorithms and Complex Optimizations: 
   - This is important for understanding the computational efficiency and scalability of our Machine Learning Algorithm and for exploiting sparsity in our            datasets.
