@@ -22,9 +22,8 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
 ## 3. Probability Theory and Statistics: 
   - Topics such as      
     - [**Counting Techniques**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/1.%20Counting_Techniques.md)
-    - **Probabilities**
-      Probability is the branch of mathematics concerning numerical descriptions of how likely an event is to occur, or how likely it is that a proposition is true. The probability of an event is a number between 0 and 1, where, roughly speaking, 0 indicates impossibility of the event and 1 indicates certainty.
-    - [**Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation, Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/Probabilities.md)
+    - **Probabilities** \
+      Probability is the branch of mathematics concerning numerical descriptions of how likely an event is to occur, or how likely it is that a proposition is true. The probability of an event is a number between 0 and 1, where, roughly speaking, 0 indicates impossibility of the event and 1 indicates certainty. In it, [**Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation, Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/3.%20Probabilities%20and%20Statistics/Probabilities.md)
 
     - **Statistics - Descriptive & Inferential**
     - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
