@@ -14,7 +14,12 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
        - [**Matrices and it's Operations, Matrix Decomposition/Factorization, Singular Value Decomposition (SVD),Orthogonalization & Orthonormalization**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/4.%20Matrices.md)
        - [**Eigenvalues & Eigenvectors, Eigendecomposition of a matrix , Principal Component Analysis (PCA)**](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/1.%20linear_algebra/5.%20Eigenvalues%20%26%20Eigenvectors.md)
   
-## 2. Probability Theory and Statistics: 
+## 2. Multivariate Calculus: 
+  [cheat sheet](https://github.com/rjnp2/Data-Science/tree/main/tutorial/3.%20Mathematics/2.%20Multivariate%20Calculus)
+  - Some of the necessary topics include 
+      - **Differential and Integral Calculus, Partial Derivatives, Vector-Values Functions, Directional Gradient** 
+      
+## 3. Probability Theory and Statistics: 
   - Machine Learning and Statistics aren’t very different fields.
   - Some of the fundamental Statistical and Probability Theory needed for ML are 
       
@@ -23,14 +28,7 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
       - **Probability Rules & Axioms, Bayes’ Theorem, Random Variables,Variance and Expectation Conditional and Joint Distributions, Standard Distributions (Bernoulli, Binomial, Multinomial, Uniform and Gaussian**
       - **Statistics - Descriptive & Inferential**
       - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
-
-## 3. Multivariate Calculus: 
-  - Some of the necessary topics include 
-    
-      - **Differential and Integral Calculus, Partial Derivatives, Vector-Values Functions, Directional Gradient** 
-      
-      - **Hessian, Jacobian, Laplacian and Lagragian Distribution.**
-  
+        
 ## 4. Algorithms and Complex Optimizations: 
   - This is important for understanding the computational efficiency and scalability of our Machine Learning Algorithm and for exploiting sparsity in our            datasets.
   - Knowledge of
