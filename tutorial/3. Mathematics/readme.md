@@ -30,17 +30,10 @@ Machine Learning theory is a field that intersects statistical, probabilistic, c
     - **Statistics - Inferential** \
     - **Moment Generating Functions, Maximum Likelihood Estimation (MLE), Prior and Posterior, Maximum a Posteriori Estimation (MAP).**
         
-## 4. Algorithms and Complex Optimizations: 
-  - This is important for understanding the computational efficiency and scalability of our Machine Learning Algorithm and for exploiting sparsity in our            datasets.
-  - Knowledge of
-  
-      - **data structures (Binary Trees, Hashing, Heap, Stack etc),Randomized & Sublinear Algorithm, Graphs, Gradient/Stochastic Descents and Primal-Dual methods**
-
-## 5. Others: 
+## 4. Others: 
   - This comprises of other Math topics not covered in the four major areas described above. 
   - They include 
   
       - **Real and Complex Analysis (Sets and Sequences, Topology, Metric Spaces, Cauchy Kernel, Fourier Transforms)** 
-      
       - **Information Theory (Entropy, Information Gain)** 
       - **Function Spaces and Manifolds.**
