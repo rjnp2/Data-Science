@@ -52,7 +52,7 @@ For Linear Regression, we use the **Mean Squared Error (MSE)** cost function, wh
 
 For the above linear equation, MSE can be calculated as:
 
-   ![image](https://user-images.githubusercontent.com/58425689/107784444-91388880-6d73-11eb-93c4-8deb19646c76.png)
+   ![image](https://user-images.githubusercontent.com/58425689/107784444-91388880-6d73-11eb-93c4-8deb19646c76.png) \
     Where,
 
     N=Total number of observation
@@ -75,7 +75,7 @@ The Goodness of fit determines how the line of regression fits the set of observ
 - It measures the strength of the relationship between the dependent and independent variables on a scale of 0-100%.
 - The high value of R-square determines the less difference between the predicted values and actual values and hence represents a good model.
 - It is also called a coefficient of determination, or coefficient of multiple determination for multiple regression.
-- It can be calculated from the below formula:
+- It can be calculated from the below formula: \
 ![image](https://user-images.githubusercontent.com/58425689/107784733-e5dc0380-6d73-11eb-8559-b0ae9b2ee28a.png)
 
 ## Assumptions of Linear Regression
