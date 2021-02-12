@@ -24,7 +24,7 @@
    - visualization
    - dashboards
 
-## Machine Learning:
+## [Machine Learning](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/readme.md)
   - Supervised Learning
   - Unsupervised Learning
   - Reinforcement Learning
