@@ -25,12 +25,10 @@
    - dashboards
 
 ## Machine Learning:
-   - Regression Algorithms
-   - Classification Algorithms
-   - Decision Tree Learning
-   - SVM
-   - Unsupervised Learning
-   - Dimensionality reduction
+  - Supervised Learning
+  - Unsupervised Learning
+  - Reinforcement Learning
+  - Dimensionality reduction
 
 ## Recommender Systems
  - Text Analytics
