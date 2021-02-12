@@ -6,3 +6,4 @@ This is one such question that everyone is keen on knowing the answer. Well, the
 
 # EDA
 Let's get started !!!
+[EDA_template](https://github.com/rjnp2/Data-Science/blob/main/tutorial/5.%20EDA/EDA_template.ipynb)
