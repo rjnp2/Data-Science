@@ -9,6 +9,17 @@ Regression analysis is a statistical method to model the relationship between a 
 - Multicollinearity: If the independent variables are highly correlated with each other than other variables, then such condition is called Multicollinearity. It should not be present in the dataset, because it creates problem while ranking the most affecting variable.
 - Underfitting and Overfitting: If our algorithm works well with the training dataset but not well with test dataset, then such problem is called Overfitting. And if our algorithm does not perform well even with training dataset, then such problem is called underfitting.
 
+## Types of Regression
+- Linear Regression     |
+- Ridge Regression      | learn in this section
+- Lasso Regression      |
+- Polynomial Regression |
+
+- Logistic Regression           |
+- Support Vector Regression     |
+- Decision Tree Regression      |learn in next section
+- Random Forest Regression      |
+
 # Linear Regression in Machine Learning
 Linear regression is one of the easiest and most popular Machine Learning algorithms. It is a statistical method that is used for predictive analysis. Linear regression makes predictions for continuous/real or numeric variables such as sales, salary, age, product price, etc.
 
