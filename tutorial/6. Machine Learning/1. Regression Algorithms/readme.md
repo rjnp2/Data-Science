@@ -10,15 +10,15 @@ Regression analysis is a statistical method to model the relationship between a 
 - Underfitting and Overfitting: If our algorithm works well with the training dataset but not well with test dataset, then such problem is called Overfitting. And if our algorithm does not perform well even with training dataset, then such problem is called underfitting.
 
 ## Types of Regression
-- Linear Regression     |
-- Ridge Regression      | learn in this section
-- Lasso Regression      |
-- Polynomial Regression |
+- Linear Regression     }
+- Ridge Regression      } learn in this section
+- Lasso Regression      }
+- Polynomial Regression }
 
-- Logistic Regression           |
-- Support Vector Regression     |
-- Decision Tree Regression      |learn in next section
-- Random Forest Regression      |
+- Logistic Regression           }
+- Support Vector Regression     }
+- Decision Tree Regression      }learn in next section
+- Random Forest Regression      }
 
 # Linear Regression in Machine Learning
 Linear regression is one of the easiest and most popular Machine Learning algorithms. It is a statistical method that is used for predictive analysis. Linear regression makes predictions for continuous/real or numeric variables such as sales, salary, age, product price, etc.
@@ -118,3 +118,9 @@ It can be checked using the q-q plot. If the plot shows a straight line without 
 
 #### 5. No autocorrelations:
 The linear regression model assumes no autocorrelation in error terms. If there will be any correlation in the error term, then it will drastically reduce the accuracy of the model. Autocorrelation usually occurs if there is a dependency between residual errors.
+
+## Some popular applications of linear regression are:
+- Analyzing trends and sales estimates
+- Salary forecasting
+- Real estate prediction
+- Arriving at ETAs in traffic.
