@@ -13,7 +13,7 @@ Regression analysis is a statistical method to model the relationship between a 
 - Linear Regression     }
 - Ridge Regression      } learn in this section
 - Lasso Regression      }
-- Polynomial Regression }
+- Polynomial Regression } 
 
 - Logistic Regression           }
 - Support Vector Regression     }
