@@ -25,7 +25,6 @@
    - dashboards
 
 ## Machine Learning:
-   - Feature Engineering
    - Regression Algorithms
    - Classification Algorithms
    - Decision Tree Learning
