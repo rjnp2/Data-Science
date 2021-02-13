@@ -10,7 +10,7 @@ Regression analysis is a statistical method to model the relationship between a 
 - Underfitting and Overfitting: If our algorithm works well with the training dataset but not well with test dataset, then such problem is called Overfitting. And if our algorithm does not perform well even with training dataset, then such problem is called underfitting.      
 
 ## Types of Regression
-- Linear Regression     
+- [Linear Regression](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms/1.%20Linear%20Regression)     
     ```python
     #Fitting the Linear Regression to the dataset  
     from sklearn.linear_model import LinearRegression  
