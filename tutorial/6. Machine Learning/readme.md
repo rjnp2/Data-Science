@@ -10,7 +10,6 @@ Examples: – [Regression Algorithms](https://github.com/rjnp2/Data-Science/blob
          - [Classification Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/readme.md) \
          - Decision Tree Learning \
          - SVM \
-         - Naïve Bayes Classification
 
 ## 2.Unsupervised Learning:
 This is typically used a data mining technique to discern various patterns or structure in the data. It is not directed by any label. Example: Clustering.
