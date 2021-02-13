@@ -103,7 +103,8 @@ The linear regression model assumes no autocorrelation in error terms. If there 
 - Real estate prediction
 - Arriving at ETAs in traffic.
 
-[scratch code](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms/1.%20Linear%20Regression/linear_regression_from_scratch.py)
-[weight_height_analyze](https://github.com/rjnp2/machine_learning/tree/master/linear_regression/weight_height_analyze)
-[old car prediction](https://github.com/rjnp2/machine_learning/tree/master/linear_regression/old%20car%20prediction)
-[California Housing Price Prediction](https://github.com/rjnp2/California-Housing-Price-Prediction)
+## Project
+1. [scratch code](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms/1.%20Linear%20Regression/linear_regression_from_scratch.py) 
+2. [weight_height_analyze](https://github.com/rjnp2/machine_learning/tree/master/linear_regression/weight_height_analyze) 
+3. [old car prediction](https://github.com/rjnp2/machine_learning/tree/master/linear_regression/old%20car%20prediction) 
+4. [California Housing Price Prediction](https://github.com/rjnp2/California-Housing-Price-Prediction)
