@@ -73,3 +73,6 @@ To find the optimal value of clusters, the elbow method follows the below steps:
 Since the graph shows the sharp bend, which looks like an elbow, hence it is known as the elbow method. The graph for the elbow method looks like the below image:
 
 ![image](https://user-images.githubusercontent.com/58425689/107849372-f8f9dc80-6e22-11eb-8caf-e1d759460b28.png)
+
+#Project
+[Mall_Customers_cluster](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means/Mall_Customers_cluster.ipynb)
