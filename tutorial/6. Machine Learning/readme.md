@@ -19,7 +19,12 @@ Supervised Algorithm:
 ## 2.Unsupervised Learning:
 This is typically used a data mining technique to discern various patterns or structure in the data. It is not directed by any label. \
 UnSupervised Algorithm: 
-   - [Clustering]()
+   - [Clustering](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering)
+      - [K-Means](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means)
+      - [DBSCAN]()
+      - [Agglomerative ]()
+      - [Affinity]()
+      
    - [Association]()
 
 ## 3. Reinforcement Learning:
