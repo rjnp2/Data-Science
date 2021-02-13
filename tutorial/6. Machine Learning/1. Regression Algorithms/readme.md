@@ -11,7 +11,13 @@ Regression analysis is a statistical method to model the relationship between a 
 
 ## Types of Regression
 - Linear Regression     
-
+    ```python
+    #Fitting the Linear Regression to the dataset  
+    from sklearn.linear_model import LinearRegression  
+    lin_regs= LinearRegression()  
+    lin_regs.fit(x,y)
+    ```
+    
 - Ridge Regression     
     - Ridge regression is one of the most robust versions of linear regression in which a small amount of bias is introduced so that we can get better long term predictions.
     - The amount of bias added to the model is known as Ridge Regression penalty. We can compute this penalty term by multiplying with the lambda to the squared weight of each individual features.
@@ -21,6 +27,11 @@ Regression analysis is a statistical method to model the relationship between a 
     - A general linear or polynomial regression will fail if there is high collinearity between the independent variables, so to solve such problems, Ridge regression can be used.
     - Ridge regression is a regularization technique, which is used to reduce the complexity of the model. It is also called as L2 regularization.
     - It helps to solve the problems if we have more parameters than samples.
+    ```python
+       from sklearn.linear_model import Ridge
+       ridge=Ridge()
+       ridge.fit(X, y)
+    ```
 
 - Lasso Regression 
    - Lasso regression is another regularization technique to reduce the complexity of the model.
@@ -28,7 +39,12 @@ Regression analysis is a statistical method to model the relationship between a 
    - Since it takes absolute values, hence, it can shrink the slope to 0, whereas Ridge Regression can only shrink it near to 0.
    - It is also called as L1 regularization. The equation for Lasso regression will be: \
    ![image](https://user-images.githubusercontent.com/58425689/107841419-b6181480-6de2-11eb-9d8d-88181321e18b.png)
-
+    ```python
+       from sklearn.linear_model import Lasso
+       ridge=Lasso()
+       ridge.fit(X, y)
+    ```
+    
 - Polynomial Regression
    - Polynomial Regression is a type of regression which models the non-linear dataset using a linear model.
    - It is similar to multiple linear regression, but it fits a non-linear curve between the value of x and corresponding conditional values of y.
@@ -38,7 +54,15 @@ Regression analysis is a statistical method to model the relationship between a 
 
    - The equation for polynomial regression also derived from linear regression equation that means Linear regression equation Y= b0+ b1x, is transformed into Polynomial regression equation Y= b0+b1x+ b2x2+ b3x3+.....+ bnxn.
    - Here Y is the predicted/target output, b0, b1,... bn are the regression coefficients. x is our independent/input variable.
-   - The model is still linear as the coefficients are still linear with quadratic
+   - The model is still linear as the coefficients are still linear with quadratic.
+   ```python
+    #Fitting the Polynomial regression to the dataset  
+    from sklearn.preprocessing import PolynomialFeatures  
+    poly_regs= PolynomialFeatures(degree= 2)  
+    x_poly= poly_regs.fit_transform(x)  
+    lin_reg_2 =LinearRegression()  
+    lin_reg_2.fit(x_poly, y)  
+    ```
 
 - Logistic Regression           
   - Logistic regression is another supervised learning algorithm which is used to solve the classification problems. In classification problems, we have dependent variables in a binary or discrete format such as 0 or 1.
@@ -57,4 +81,10 @@ Regression analysis is a statistical method to model the relationship between a 
   - There are three types of logistic regression: \
    Binary(0/1, pass/fail) \
    Multi(cats, dogs, lions) \
-   Ordinal(low, medium, high) \
+   Ordinal(low, medium, high) 
+   ```python
+    #Fitting Logistic Regression to the training set  
+    from sklearn.linear_model import LogisticRegression  
+    classifier= LogisticRegression(random_state=0)  
+    classifier.fit(x_train, y_train)  
+    ```
