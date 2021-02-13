@@ -13,7 +13,11 @@ Supervised Algorithm:
    - [SVM](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/3.%20SVM)
 
 ## 2.Unsupervised Learning:
-This is typically used a data mining technique to discern various patterns or structure in the data. It is not directed by any label. Example: Clustering.
+This is typically used a data mining technique to discern various patterns or structure in the data. It is not directed by any label. \
+UnSupervised Algorithm: 
+   - [Clustering]()
+   - [Association]()
+
 ## 3. Reinforcement Learning:
 This is a branch of Artificial Intelligence allowing systems to automatically determine (using trial and error) the ideal behavior within a specific context, to maximize its performance and make as accurate decisions as possible. Simple reward feedback also known as the reinforcement signal helps in the learning behavior and hence controlling a system. Example: Markov Decision Process
 
