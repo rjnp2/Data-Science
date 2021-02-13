@@ -1,4 +1,4 @@
-Logistic Regression           
+# Logistic Regression           
   - Logistic regression is another supervised learning algorithm which is used to solve the classification problems. In classification problems, we have dependent variables in a binary or discrete format such as 0 or 1.
   - Logistic regression algorithm works with the categorical variable such as 0 or 1, Yes or No, True or False, Spam or not spam, etc.
   - It is a predictive analysis algorithm which works on the concept of probability.
