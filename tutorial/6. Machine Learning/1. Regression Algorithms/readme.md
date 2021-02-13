@@ -36,5 +36,15 @@ For the above linear equation, MSE can be calculated as:
 - Linear Regression     
 - Ridge Regression      
 - Lasso Regression      
-- Polynomial Regression 
+- Polynomial Regression
+   - Polynomial Regression is a type of regression which models the non-linear dataset using a linear model.
+   - It is similar to multiple linear regression, but it fits a non-linear curve between the value of x and corresponding conditional values of y.
+   - Suppose there is a dataset which consists of datapoints which are present in a non-linear fashion, so for such case, linear regression will not best fit to those datapoints. To cover such datapoints, we need Polynomial regression.
+   - In Polynomial regression, the original features are transformed into polynomial features of given degree and then modeled using a linear model. Which means the datapoints are best fitted using a polynomial line. \
+   ![image](https://user-images.githubusercontent.com/58425689/107841255-8c122280-6de1-11eb-9619-b59d34f38766.png)
+
+   - The equation for polynomial regression also derived from linear regression equation that means Linear regression equation Y= b0+ b1x, is transformed into Polynomial regression equation Y= b0+b1x+ b2x2+ b3x3+.....+ bnxn.
+   - Here Y is the predicted/target output, b0, b1,... bn are the regression coefficients. x is our independent/input variable.
+   - The model is still linear as the coefficients are still linear with quadratic
+
 - Logistic Regression           
