@@ -9,7 +9,7 @@ In traditional analytics, what we call as a target variable is referred to as la
 Examples: – [Regression Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms) \
          - [Classification Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/readme.md) \
          - Decision Tree Learning \
-         - SVM \
+         - [SVM](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/3.%20SVM)
 
 ## 2.Unsupervised Learning:
 This is typically used a data mining technique to discern various patterns or structure in the data. It is not directed by any label. Example: Clustering.
