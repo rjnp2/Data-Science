@@ -25,3 +25,20 @@ Regression analysis is a statistical method to model the relationship between a 
    - The model is still linear as the coefficients are still linear with quadratic
 
 - Logistic Regression           
+  - Logistic regression is another supervised learning algorithm which is used to solve the classification problems. In classification problems, we have dependent variables in a binary or discrete format such as 0 or 1.
+  - Logistic regression algorithm works with the categorical variable such as 0 or 1, Yes or No, True or False, Spam or not spam, etc.
+  - It is a predictive analysis algorithm which works on the concept of probability.
+  - Logistic regression is a type of regression, but it is different from the linear regression algorithm in the term how they are used.
+  - Logistic regression uses sigmoid function or logistic function which is a complex cost function. This sigmoid function is used to model the data in logistic regression. The function can be represented as: \
+   ![image](https://user-images.githubusercontent.com/58425689/107841337-1eb2c180-6de2-11eb-8cfb-3ba3650e057d.png)
+      f(x)= Output between the 0 and 1 value.
+      x= input to the function
+      e= base of natural logarithm.
+  - When we provide the input values (data) to the function, it gives the S-curve as follows: \
+  ![image](https://user-images.githubusercontent.com/58425689/107841338-207c8500-6de2-11eb-825f-079b70534687.png)
+
+  - It uses the concept of threshold levels, values above the threshold level are rounded up to 1, and values below the threshold level are rounded up to 0.
+  - There are three types of logistic regression: \
+   Binary(0/1, pass/fail) \
+   Multi(cats, dogs, lions) \
+   Ordinal(low, medium, high) \
