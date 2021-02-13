@@ -79,6 +79,3 @@ Classification algorithms can be used in different places. Below are some popula
 - Drugs Classification
 - Biometric Identification, etc.
 
-## Project
-[iris_predict](https://github.com/rjnp2/iris_predict/blob/master/iris%20flower.ipynb)
-[loan_prediction](https://github.com/rjnp2/loan_prediction)
