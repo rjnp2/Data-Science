@@ -43,8 +43,7 @@ Example: Suppose there is a candidate who has a job offer and wants to decide wh
 ## Attribute Selection Measures
 While implementing a Decision tree, the main issue arises that how to select the best attribute for the root node and for sub-nodes. So, to solve such problems there is a technique which is called as Attribute selection measure or ASM. By this measurement, we can easily select the best attribute for the nodes of the tree. There are two popular techniques for ASM, which are:
 
-- Information Gain
-- Gini Index
+- [Information Gain, Gini Index](https://github.com/rjnp2/Data-Science/blob/main/tutorial/3.%20Mathematics/5.%20Others/6.%20Information_Theory.md)
 
 ## Pruning: Getting an Optimal Decision tree
 Pruning is a process of deleting the unnecessary nodes from a tree in order to get the optimal decision tree.
@@ -65,8 +64,9 @@ A too-large tree increases the risk of overfitting, and a small tree may not cap
 - It may have an overfitting issue, which can be resolved using the Random Forest algorithm.
 - For more class labels, the computational complexity of the decision tree may increase.
 
-
-#Fitting Decision Tree classifier to the training set  
-From sklearn.tree import DecisionTreeClassifier  
-classifier= DecisionTreeClassifier(criterion='entropy', random_state=0)  
-classifier.fit(x_train, y_train)  
+  ```python
+  #Fitting Decision Tree classifier to the training set  
+  From sklearn.tree import DecisionTreeClassifier  
+  classifier= DecisionTreeClassifier(criterion='entropy', random_state=0)  
+  classifier.fit(x_train, y_train)  
+  ```
