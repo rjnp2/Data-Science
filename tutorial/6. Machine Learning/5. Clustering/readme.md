@@ -25,7 +25,7 @@ The clustering methods are broadly divided into Hard clustering (datapoint belon
 
 1. Partitioning Clustering \
   It is a type of clustering that divides the data into non-hierarchical groups. It is also known as the centroid-based method. The most common example of partitioning clustering is the K-Means Clustering algorithm. \
-  K-Means algorithm: The k-means algorithm is one of the most popular clustering algorithms. It classifies the dataset by dividing the samples into different clusters of equal variances. The number of clusters must be specified in this algorithm. It is fast with fewer computations required, with the linear complexity of O(n). \
+  [K-Means algorithm:](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means) The k-means algorithm is one of the most popular clustering algorithms. It classifies the dataset by dividing the samples into different clusters of equal variances. The number of clusters must be specified in this algorithm. It is fast with fewer computations required, with the linear complexity of O(n). \
   In this type, the dataset is divided into a set of k groups, where K is used to define the number of pre-defined groups. The cluster center is created in such a way that the distance between the data points of one cluster is minimum as compared to another cluster centroid.
 
   ![image](https://user-images.githubusercontent.com/58425689/107848952-e6ca6f00-6e1f-11eb-8356-209c6988ffe0.png)
