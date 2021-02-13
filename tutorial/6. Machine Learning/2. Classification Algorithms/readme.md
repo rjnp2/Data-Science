@@ -33,7 +33,7 @@ Example: K-NN algorithm, Case-based reasoning
 Classification Algorithms can be further divided into the Mainly two category:
 
 - Linear Models
-    - Logistic Regression
+    - [Logistic Regression](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/1.Logistic%20Regression/readme.md)
     - Support Vector Machines
     
 - Non-linear Models
