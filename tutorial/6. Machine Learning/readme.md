@@ -10,6 +10,17 @@ Supervised Algorithm:
    - [Regression Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms) 
       - [Linear Regression](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms/1.%20Linear%20Regression)
    - [Classification Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms)
+      - Linear Models
+    - [Logistic Regression](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/1.Logistic%20Regression/readme.md)
+    - Support Vector Machines
+    
+- Non-linear Models
+    - [K-Nearest Neighbours](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/2.%20K-Nearest%20Neighbor/readme.md)
+    - Kernel SVM
+    - [Naïve Bayes](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/3.%20Na%C3%AFve%20Bayes/readme.md)
+    - Decision Tree Classification
+    - Random Forest Classification
+   
    - [Decision Tree or Random Forest Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/4.%20%20Decision%20Tree%20or%20Random%20Forest%20Learning) 
    - [SVM](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/3.%20SVM)
 
