@@ -11,8 +11,24 @@ Regression analysis is a statistical method to model the relationship between a 
 
 ## Types of Regression
 - Linear Regression     
-- Ridge Regression      
-- Lasso Regression      
+
+- Ridge Regression     
+    - Ridge regression is one of the most robust versions of linear regression in which a small amount of bias is introduced so that we can get better long term predictions.
+    - The amount of bias added to the model is known as Ridge Regression penalty. We can compute this penalty term by multiplying with the lambda to the squared weight of each individual features.
+    - The equation for ridge regression will be: \
+      ![image](https://user-images.githubusercontent.com/58425689/107841369-781af080-6de2-11eb-884b-daa995e19b86.png)
+
+    - A general linear or polynomial regression will fail if there is high collinearity between the independent variables, so to solve such problems, Ridge regression can be used.
+    - Ridge regression is a regularization technique, which is used to reduce the complexity of the model. It is also called as L2 regularization.
+    - It helps to solve the problems if we have more parameters than samples.
+
+- Lasso Regression 
+   - Lasso regression is another regularization technique to reduce the complexity of the model.
+   - It is similar to the Ridge Regression except that penalty term contains only the absolute weights instead of a square of weights.
+   - Since it takes absolute values, hence, it can shrink the slope to 0, whereas Ridge Regression can only shrink it near to 0.
+   - It is also called as L1 regularization. The equation for Lasso regression will be: \
+   ![image](https://user-images.githubusercontent.com/58425689/107841419-b6181480-6de2-11eb-9d8d-88181321e18b.png)
+
 - Polynomial Regression
    - Polynomial Regression is a type of regression which models the non-linear dataset using a linear model.
    - It is similar to multiple linear regression, but it fits a non-linear curve between the value of x and corresponding conditional values of y.
