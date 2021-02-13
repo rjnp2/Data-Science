@@ -34,15 +34,14 @@ Classification Algorithms can be further divided into the Mainly two category:
 
 - Linear Models
     - [Logistic Regression](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/1.Logistic%20Regression/readme.md)
-    - Support Vector Machines
+    - [Support Vector Machines](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/3.%20SVM)
     
 - Non-linear Models
     - [K-Nearest Neighbours](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/2.%20K-Nearest%20Neighbor/readme.md)
     - Kernel SVM
     - [Naïve Bayes](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/3.%20Na%C3%AFve%20Bayes/readme.md)
-    - Decision Tree Classification
-    - Random Forest Classification
-
+    - [Decision Tree or Random Forest Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/4.%20%20Decision%20Tree%20or%20Random%20Forest%20Learning) 
+    
 ## Evaluating a Classification model:
 Once our model is completed, it is necessary to evaluate its performance; either it is a Classification or Regression model. So for evaluating a Classification model, we have the following ways:
 
