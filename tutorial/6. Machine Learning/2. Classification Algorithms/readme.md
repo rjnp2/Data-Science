@@ -39,7 +39,7 @@ Classification Algorithms can be further divided into the Mainly two category:
 - Non-linear Models
     - [K-Nearest Neighbours](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/2.%20K-Nearest%20Neighbor/readme.md)
     - Kernel SVM
-    - Naïve Bayes
+    - [Naïve Bayes](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/3.%20Na%C3%AFve%20Bayes/readme.md)
     - Decision Tree Classification
     - Random Forest Classification
 
