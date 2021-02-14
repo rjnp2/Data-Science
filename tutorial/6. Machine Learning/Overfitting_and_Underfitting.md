@@ -5,8 +5,12 @@ The main goal of each machine learning model is to generalize well. Here general
 
 Before understanding the overfitting and underfitting, let's understand some basic term that will help to understand this topic well:
 
-Signal: It refers to the true underlying pattern of the data that helps the machine learning model to learn from the data.
-Noise: Noise is unnecessary and irrelevant data that reduces the performance of the model.
-Bias: Bias is a prediction error that is introduced in the model due to oversimplifying the machine learning algorithms. Or it is the difference between the predicted values and the actual values.
-Variance: If the machine learning model performs well with the training dataset, but does not perform well with the test dataset, then variance occurs.
+- **Signal:** /
+It refers to the true underlying pattern of the data that helps the machine learning model to learn from the data.
+- **Noise:** /
+Noise is unnecessary and irrelevant data that reduces the performance of the model.
+- **Bias:** /
+Bias is a prediction error that is introduced in the model due to oversimplifying the machine learning algorithms. Or it is the difference between the predicted values and the actual values.
+- **Variance:** /
+If the machine learning model performs well with the training dataset, but does not perform well with the test dataset, then variance occurs.
 
