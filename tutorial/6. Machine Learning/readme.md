@@ -21,9 +21,7 @@ This is typically used a data mining technique to discern various patterns or st
 UnSupervised Algorithm: 
    - [Clustering](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering)
       - [K-Means](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means)
-      - [DBSCAN]()
-      - [Agglomerative ]()
-      - [Affinity]()
+      - [Agglomerative ](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/2.%20Hierarchical%20Clustering)
       
    - [Association]()
 
