@@ -51,22 +51,22 @@ Classification Algorithms can be further divided into the Mainly two category:
 Once our model is completed, it is necessary to evaluate its performance; either it is a Classification or Regression model. So for evaluating a Classification model, we have the following ways:
 
 1. **Log Loss or Cross-Entropy Loss:**
- - It is used for evaluating the performance of a classifier, whose output is a probability value between the 0 and 1.
- - For a good binary Classification model, the value of log loss should be near to 0.
- - The value of log loss increases if the predicted value deviates from the actual value.
- - The lower log loss represents the higher accuracy of the model.
- - For Binary classification, cross-entropy can be calculated as:
+     - It is used for evaluating the performance of a classifier, whose output is a probability value between the 0 and 1.
+     - For a good binary Classification model, the value of log loss should be near to 0.
+     - The value of log loss increases if the predicted value deviates from the actual value.
+     - The lower log loss represents the higher accuracy of the model.
+     - For Binary classification, cross-entropy can be calculated as:
 
-        -(ylog(p)+(1-y)log(1-p))  
-    Where y= Actual output, p= predicted output.
+            -(ylog(p)+(1-y)log(1-p))  
+        Where y= Actual output, p= predicted output.
 
 2. **[Confusion Matrix:](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/Confusion%20Matrix.md)** 
 
 3. **AUC-ROC curve:**
- - ROC curve stands for Receiver Operating Characteristics Curve and AUC stands for Area Under the Curve.
- - It is a graph that shows the performance of the classification model at different thresholds.
- - To visualize the performance of the multi-class classification model, we use the AUC-ROC Curve.
- - The ROC curve is plotted with TPR and FPR, where TPR (True Positive Rate) on Y-axis and FPR(False Positive Rate) on X-axis.
+     - ROC curve stands for Receiver Operating Characteristics Curve and AUC stands for Area Under the Curve.
+     - It is a graph that shows the performance of the classification model at different thresholds.
+     - To visualize the performance of the multi-class classification model, we use the AUC-ROC Curve.
+     - The ROC curve is plotted with TPR and FPR, where TPR (True Positive Rate) on Y-axis and FPR(False Positive Rate) on X-axis.
 
 ## Use cases of Classification Algorithms
 Classification algorithms can be used in different places. Below are some popular use cases of Classification Algorithms:
