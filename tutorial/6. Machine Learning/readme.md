@@ -23,7 +23,8 @@ UnSupervised Algorithm:
       - [K-Means](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means)
       - [Agglomerative ](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/2.%20Hierarchical%20Clustering)
       
-   - [Association]()
+   - [Association Rule Mining](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining)
+      - [ Apriori Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/1.%20Apriori%20Algorithm)
 
 ## 3. Reinforcement Learning:
 This is a branch of Artificial Intelligence allowing systems to automatically determine (using trial and error) the ideal behavior within a specific context, to maximize its performance and make as accurate decisions as possible. Simple reward feedback also known as the reinforcement signal helps in the learning behavior and hence controlling a system. Example: Markov Decision Process
