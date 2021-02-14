@@ -43,7 +43,7 @@ Association rule learning can be divided into three algorithms:
 - Eclat Algorithm \
 Eclat algorithm stands for Equivalence Class Transformation. This algorithm uses a depth-first search technique to find frequent itemsets in a transaction database. It performs faster execution than Apriori Algorithm.
 
-- F-P Growth Algorithm \
+- [F-P Growth Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/2.%20FP%20Growth%20Algorithm) \
 The F-P growth algorithm stands for Frequent Pattern, and it is the improved version of the Apriori Algorithm. It represents the database in the form of a tree structure that is known as a frequent pattern or tree. The purpose of this frequent tree is to extract the most frequent patterns.
 
 ## Applications of Association Rule Learning
