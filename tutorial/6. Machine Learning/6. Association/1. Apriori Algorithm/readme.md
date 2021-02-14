@@ -60,16 +60,20 @@ As the given threshold or minimum confidence is 50%, so the first three rules A 
 - The overall performance can be reduced as it scans the database for multiple times.
 - The time complexity and space complexity of the apriori algorithm is O(2D), which is very high. Here D represents the horizontal width present in the database.
 
-  ```python
-  2. Training the Apriori Model on the dataset
-  from apyori import apriori
-  rules= apriori(transactions= transactions, min_support=0.003, min_confidence = 0.2, min_lift=3, min_length=2, max_length=2)
+## Training the Apriori Model on the dataset
+```python
+#Training the Apriori Model on the dataset
+from apyori import apriori
+rules= apriori(transactions= transactions, min_support=0.003, min_confidence = 0.2, 
+        min_lift=3, min_length=2, max_length=2)
 
-  #following parameters:
-  # transactions: A list of transactions.
-  #min_support= To set the minimum support float value. Here we have used 0.003 that is calculated by taking 3 transactions per customer each week to the total number of transactions.
-  #min_confidence: To set the minimum confidence value. Here we have taken 0.2. It can be changed as per the business problem.
-  #min_lift= To set the minimum lift value.
-  #min_length= It takes the minimum number of products for the association.
-  #max_length = It takes the maximum number of products for the association.
-  ```
+#following parameters:
+# transactions: A list of transactions.
+#min_support= To set the minimum support float value. Here we have used 0.003 that is calculated
+#              by taking 3 transactions per customer each week to the total number of transactions.
+#min_confidence: To set the minimum confidence value. Here we have taken 0.2. It can be changed 
+                #as per the business problem.
+#min_lift= To set the minimum lift value.
+#min_length= It takes the minimum number of products for the association.
+#max_length = It takes the maximum number of products for the association.
+```
