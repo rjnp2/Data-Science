@@ -55,5 +55,14 @@ We can perform various calculations for the model, such as the model's accuracy,
   If two models have low precision and high recall or vice versa, it is difficult to compare these models. So, for this purpose, we can use F-score. This score helps us to evaluate the recall and precision at the same time. The F-score is maximum if the recall is equal to the precision. \
   It can be calculated using the below formula: \
   ![image](https://user-images.githubusercontent.com/58425689/107874628-e21abf00-6ee2-11eb-8f98-8c52960eeb47.png)
-  
 ___
+
+## Code
+  ```python
+     from sklearn.metrics import confusion_matrix
+     confusion_matrix(y_true, y_pred,labels=None, normalize=None)
+     
+     #parameters: y_true: Ground truth (correct) target values of shape (n_samples,)
+                  #y_pred: Estimated targets as returned by a classifier of shape (n_samples,)
+                  #labels: List of labels to index the matrix of shape (n_classes), default=None
+  ```
