@@ -35,15 +35,15 @@ Confidence indicates how often the rule has been found to be true. Or how often 
 ## Types of Association Rule Lerning
 Association rule learning can be divided into three algorithms:
 
-- Apriori Algorithm
+- [Apriori Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/1.%20Apriori%20Algorithm) \
   This algorithm uses frequent datasets to generate association rules. It is designed to work on the databases that contain transactions. This algorithm uses a breadth-first search and Hash Tree to calculate the itemset efficiently.
 
   It is mainly used for market basket analysis and helps to understand the products that can be bought together. It can also be used in the healthcare field to find drug reactions for patients.
 
-- Eclat Algorithm
+- Eclat Algorithm \
 Eclat algorithm stands for Equivalence Class Transformation. This algorithm uses a depth-first search technique to find frequent itemsets in a transaction database. It performs faster execution than Apriori Algorithm.
 
-- F-P Growth Algorithm
+- F-P Growth Algorithm \
 The F-P growth algorithm stands for Frequent Pattern, and it is the improved version of the Apriori Algorithm. It represents the database in the form of a tree structure that is known as a frequent pattern or tree. The purpose of this frequent tree is to extract the most frequent patterns.
 
 ## Applications of Association Rule Learning
