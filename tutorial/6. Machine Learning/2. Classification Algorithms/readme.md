@@ -11,9 +11,11 @@ The best example of an ML classification algorithm is Email Spam Detector.
 The main goal of the Classification algorithm is to identify the category of a given dataset, and these algorithms are mainly used to predict the output for the categorical data.
 
 Classification algorithms can be better understood using the below diagram. In the below diagram, there are two classes, class A and Class B. These classes have features that are similar to each other and dissimilar to other classes.
-
+___
+#### Example: \
 ![image](https://user-images.githubusercontent.com/58425689/107843457-50805400-6df3-11eb-98ca-d5df8cb4032a.png)
 
+___
 The algorithm which implements the classification on a dataset is known as a classifier. There are two types of Classifications:
 
   - Binary Classifier: If the classification problem has only two possible outcomes, then it is called as Binary Classifier.
