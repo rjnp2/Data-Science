@@ -10,6 +10,7 @@ Machine Learning has wide business applications across various domains. Most pop
    - [Regularization](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Regularization.md)
    - [Overfitting and Underfitting](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Overfitting_and_Underfitting.md#overfitting-and-underfitting-in-machine-learning)
    - [Fine-Tune Model](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Fine-Tune%20Model.md)
+   - [Gradient Descent](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Gradient%20Descent.md)
 
 ## 1. Supervised Learning:
 In traditional analytics, what we call as a target variable is referred to as label in machine learning. In Supervised Learning inductive inference is used to infer a predictive relationship between data points and labels. \
