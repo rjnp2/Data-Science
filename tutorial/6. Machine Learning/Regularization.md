@@ -10,15 +10,15 @@ It mainly regularizes or reduces the coefficient of features toward zero. In sim
 ## How does Regularization Work?
 Regularization works by adding a penalty or complexity term to the complex model. Let's consider the simple linear regression equation:
 
-    y= β0+β1x1+β2x2+β3x3+⋯+βnxn +b
-    
-    In the above equation, Y represents the value to be predicted,
-    
-    X1, X2, …Xn are the features for Y,
-    
-    β0,β1,…..βn are the weights or magnitude attached to the features, respectively.
-    
-    Here represents the bias of the model, and b represents the intercept.
+        y= β0+β1x1+β2x2+β3x3+⋯+βnxn +b
+
+        In the above equation, Y represents the value to be predicted,
+
+        X1, X2, …Xn are the features for Y,
+
+        β0,β1,…..βn are the weights or magnitude attached to the features, respectively.
+
+        Here represents the bias of the model, and b represents the intercept.
 
 Linear regression models try to optimize the β0 and b to minimize the cost function. The equation for the cost function for the linear model is given below: \
 ![image](https://user-images.githubusercontent.com/58425689/107876528-94a44f00-6eee-11eb-97d2-c018681f1e26.png)
