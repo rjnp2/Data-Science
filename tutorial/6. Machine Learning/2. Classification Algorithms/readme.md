@@ -56,12 +56,7 @@ For Binary classification, cross-entropy can be calculated as:
     -(ylog(p)+(1-y)log(1-p))  
 Where y= Actual output, p= predicted output.
 
-2. Confusion Matrix:
-
-The confusion matrix provides us a matrix/table as output and describes the performance of the model.
-It is also known as the error matrix.
-The matrix consists of predictions result in a summarized form, which has a total number of correct predictions and incorrect predictions. The matrix looks like as below table:
-![image](https://user-images.githubusercontent.com/58425689/107843527-f338d280-6df3-11eb-9627-13afe2995bee.png)
+[2. Confusion Matrix:](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/Confusion%20Matrix.md)
 
 3. AUC-ROC curve:
 
