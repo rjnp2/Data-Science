@@ -6,6 +6,8 @@ Machine Learning has wide business applications across various domains. Most pop
 
 ### [Pre-Processing](https://github.com/rjnp2/machine_learning/tree/master/pre-processing)
 ### [Cross-Validation](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Cross-Validation.md)
+### [Regularization](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Regularization.md)
+### [Overfitting and Underfitting](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Overfitting_and_Underfitting.md#overfitting-and-underfitting-in-machine-learning)
 
 ## 1. Supervised Learning:
 In traditional analytics, what we call as a target variable is referred to as label in machine learning. In Supervised Learning inductive inference is used to infer a predictive relationship between data points and labels. \
