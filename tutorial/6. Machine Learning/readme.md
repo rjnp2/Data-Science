@@ -4,7 +4,7 @@ Machine Learning has wide business applications across various domains. Most pop
 
 ![image](https://user-images.githubusercontent.com/58425689/107876256-05e30280-6eed-11eb-93e2-15eafc24165e.png)
 
-# Pre-Learning:
+## Pre-Learning:
    - [Pre-Processing](https://github.com/rjnp2/machine_learning/tree/master/pre-processing)
    - [Cross-Validation](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Cross-Validation.md)
    - [Regularization](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Regularization.md)
