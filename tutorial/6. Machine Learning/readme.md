@@ -39,3 +39,7 @@ UnSupervised Algorithm:
 This is a branch of Artificial Intelligence allowing systems to automatically determine (using trial and error) the ideal behavior within a specific context, to maximize its performance and make as accurate decisions as possible. Simple reward feedback also known as the reinforcement signal helps in the learning behavior and hence controlling a system. Example: Markov Decision Process
 
 ## 4. Dimensionality reduction
+Dimensionality reduction is the process of reducing the number of random variables under consideration, by obtaining a set of principal variables. It can be divided into feature selection and feature extraction.
+Dimensionality reduction Algorithm: 
+      - [Principal Component Analysis]()
+
