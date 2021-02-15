@@ -34,12 +34,9 @@ UnSupervised Algorithm:
    - [Association Rule Mining](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining)
       - [ Apriori Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/1.%20Apriori%20Algorithm)
       - [F-P Growth Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/2.%20FP%20Growth%20Algorithm)
+      
+   - [Dimensionality reduction](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction)
+      - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
 
 ## 3. Reinforcement Learning:
 This is a branch of Artificial Intelligence allowing systems to automatically determine (using trial and error) the ideal behavior within a specific context, to maximize its performance and make as accurate decisions as possible. Simple reward feedback also known as the reinforcement signal helps in the learning behavior and hence controlling a system. Example: Markov Decision Process
-
-## 4. [Dimensionality reduction](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction)
-   Dimensionality reduction is the process of reducing the number of random variables under consideration, by obtaining a set of principal variables. It can be divided into feature selection and feature extraction. \
-   Dimensionality reduction Algorithm: 
-   - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
-
