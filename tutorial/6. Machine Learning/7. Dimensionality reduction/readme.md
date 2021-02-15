@@ -16,9 +16,15 @@ Before we dive into specific dimensionality reduction algorithms, let’s take a
 - **Projection** \
   In most real-world problems, training instances are not spread out uniformly across all dimensions. Many features are almost constant, while others are highly correlated. As a result, all training instances actually lie within (or close to) a much lower-dimensional subspace of the high-dimensional space. \
   ![r](https://user-images.githubusercontent.com/58425689/107967830-b9272680-6fd5-11eb-970a-5b8f284c1838.png) \
+  Figure. A 3D dataset lying close to a 2D subspace \
   Notice that all training instances lie close to a plane: this is a lower-dimensional (2D) subspace of the high-dimensional (3D) space. Now if we project every training instance perpendicularly onto this subspace, we get the new 2D dataset. We have just reduced the dataset’s dimensionality from 3D to 2D. Note that the axes correspond to new features z 1 and z 2 (the coordinates of the projections on the plane). \
-  ![r](https://user-images.githubusercontent.com/58425689/107968142-18853680-6fd6-11eb-8960-7a7135215574.png)
-
+  ![r](https://user-images.githubusercontent.com/58425689/107968142-18853680-6fd6-11eb-8960-7a7135215574.png) \
+  Figure. The new 2D dataset after projection
+  
+However, projection is not always the best approach to dimensionality reduction. In many cases the subspace may twist and turn, such as in the famous Swiss roll toy dataset. \
+![r](https://user-images.githubusercontent.com/58425689/107968937-1ff90f80-6fd7-11eb-9022-fa0dcb0c92cd.png)
+![rr](https://user-images.githubusercontent.com/58425689/107968941-212a3c80-6fd7-11eb-8e57-5e04d01532fb.png) \
+Figure. Swiss roll dataset(left), Squashing by projecting onto a plane(middle) versus unrolling the Swiss roll(right)
 ___
 ## Benefits of applying Dimensionality Reduction
 Some benefits of applying dimensionality reduction technique to the given dataset are given below:
