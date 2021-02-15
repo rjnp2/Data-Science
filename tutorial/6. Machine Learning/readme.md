@@ -1,7 +1,8 @@
 # Machine Learning
 
-Machine Learning has wide business applications across various domains. Most popularly Machine Leaning is used in recommendation engines, fraud detection, even supply chain, inventory planning, image recognition, Amazon’s Alexa and much more. While the algorithms are stemmed from traditional data analytics, it’s the approach that makes machine learning palatable in the data age. Machine Learning focuses on prediction and can make data analysis efficient by looking at humungous amounts of data simultaneously. It monitors accuracy over statistical significance. \
-![image](https://user-images.githubusercontent.com/58425689/107959549-ab6ca380-6fcb-11eb-89e2-d591774463be.png)
+Machine Learning has wide business applications across various domains. Most popularly Machine Leaning is used in recommendation engines, fraud detection, even supply chain, inventory planning, image recognition, Amazon’s Alexa and much more. While the algorithms are stemmed from traditional data analytics, it’s the approach that makes machine learning palatable in the data age. Machine Learning focuses on prediction and can make data analysis efficient by looking at humungous amounts of data simultaneously. It monitors accuracy over statistical significance.
+
+![1](https://user-images.githubusercontent.com/58425689/107960459-c55ab600-6fcc-11eb-9f6b-3c0f3ad85f5a.png)
 ___
 ## How does Machine Learning Work?
 ![image](https://user-images.githubusercontent.com/58425689/107959687-d3f49d80-6fcb-11eb-9948-128b2f7d05de.png)
