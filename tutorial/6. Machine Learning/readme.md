@@ -5,7 +5,8 @@ Machine Learning has wide business applications across various domains. Most pop
 ![1](https://user-images.githubusercontent.com/58425689/107960459-c55ab600-6fcc-11eb-9f6b-3c0f3ad85f5a.png)
 ___
 ## How does Machine Learning Work?
-![image](https://user-images.githubusercontent.com/58425689/107959687-d3f49d80-6fcb-11eb-9948-128b2f7d05de.png)
+![1](https://user-images.githubusercontent.com/58425689/107960741-15397d00-6fcd-11eb-9972-f75e3ea9754e.png)
+___
 
 ## Pre-Learning:
    - [Pre-Processing](https://github.com/rjnp2/machine_learning/tree/master/pre-processing)
