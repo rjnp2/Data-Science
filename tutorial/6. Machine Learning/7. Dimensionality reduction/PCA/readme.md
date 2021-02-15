@@ -78,8 +78,15 @@ The new feature set has occurred, so we will decide here what to keep and what t
   inverse_transform(X)|Transform data back to its original space.
   transform(X)|Apply dimensionality reduction to X.
   
-  ![image](https://user-images.githubusercontent.com/58425689/107971502-a95e1100-6fda-11eb-881f-54d3986a2f58.png)
-
-  
-  
-  
+  - **Explained Variance Ratio** \
+    Another very useful piece of information is the explained variance ratio of each principal component, available via the explained_variance_ratio_ variable. It indicates the proportion of the dataset’s variance that lies along the axis of each principal component.
+    
+  - **Choosing the Right Number of Dimensions** \
+    Instead of arbitrarily choosing the number of dimensions to reduce down to, it is generally preferable to choose the number of dimensions that add up to a sufficiently large portion of the variance (e.g., 95%). \
+    By specifying the number of principal components you want to preserve, you can set n_components to be a float between 0.0 and 1.0 , indicating the
+ratio of variance you wish to preserve:
+    ```python
+    pca = PCA(n_components=0.95)
+    X_reduced = pca.fit_transform(X)
+    ```  
+  ![image](https://user-images.githubusercontent.com/58425689/107972564-22aa3380-6fdc-11eb-9f01-ffe3249288e4.png)
