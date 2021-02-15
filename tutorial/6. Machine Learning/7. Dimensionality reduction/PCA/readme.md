@@ -59,3 +59,27 @@ The new feature set has occurred, so we will decide here what to keep and what t
 ## Applications of Principal Component Analysis
 - PCA is mainly used as the dimensionality reduction technique in various AI applications such as computer vision, image compression, etc.
 - It can also be used for finding hidden patterns if data has high dimensions. Some fields where PCA is used are Finance, data mining, Psychology, etc.
+
+## Code
+  ```python
+  
+     from sklearn.decomposition import PCA
+     pca = PCA(n_components)
+          
+     #Parameters: n_components: Number of components to keep.
+                  # if n_components is not set all components are kept:
+                  # n_components == min(n_samples, n_features)
+  ```
+  |Method|Description|
+  |---|---|
+  fit(X[, y])|Fit the model with X.
+  fit_transform(X[, y])|Fit the model with X and apply the dimensionality reduction on X.
+  get_covariance()|Compute data covariance with the generative model.
+  inverse_transform(X)|Transform data back to its original space.
+  transform(X)|Apply dimensionality reduction to X.
+  
+  ![image](https://user-images.githubusercontent.com/58425689/107971502-a95e1100-6fda-11eb-881f-54d3986a2f58.png)
+
+  
+  
+  
