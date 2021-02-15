@@ -9,7 +9,17 @@ Handling the high-dimensional data is very difficult in practice, commonly known
 
 Hence, it is often required to reduce the number of features, which can be done with dimensionality reduction. \
 ![image](https://user-images.githubusercontent.com/58425689/107955528-fd122f80-6fc5-11eb-9acc-1ece92271122.png)
+___
+## Main Approaches for Dimensionality Reduction
+Before we dive into specific dimensionality reduction algorithms, let’s take a look at the two main approaches to reducing dimensionality: projection and Manifold Learning.
 
+- **Projection** \
+  In most real-world problems, training instances are not spread out uniformly across all dimensions. Many features are almost constant, while others are highly correlated. As a result, all training instances actually lie within (or close to) a much lower-dimensional subspace of the high-dimensional space. \
+  ![r](https://user-images.githubusercontent.com/58425689/107967830-b9272680-6fd5-11eb-970a-5b8f284c1838.png) \
+  Notice that all training instances lie close to a plane: this is a lower-dimensional (2D) subspace of the high-dimensional (3D) space. Now if we project every training instance perpendicularly onto this subspace, we get the new 2D dataset. We have just reduced the dataset’s dimensionality from 3D to 2D. Note that the axes correspond to new features z 1 and z 2 (the coordinates of the projections on the plane). \
+  ![r](https://user-images.githubusercontent.com/58425689/107968142-18853680-6fd6-11eb-8960-7a7135215574.png)
+
+___
 ## Benefits of applying Dimensionality Reduction
 Some benefits of applying dimensionality reduction technique to the given dataset are given below:
 - By reducing the dimensions of the features, the space required to store the dataset also gets reduced.
@@ -21,7 +31,7 @@ Some benefits of applying dimensionality reduction technique to the given datase
 There are also some disadvantages of applying the dimensionality reduction, which are given below:
 - Some data may be lost due to dimensionality reduction.
 - In the PCA dimensionality reduction technique, sometimes the principal components required to consider are unknown.
-
+___
 ## Approaches of Dimension Reduction
 There are two ways to apply the dimension reduction technique, which are given below:
 ___
