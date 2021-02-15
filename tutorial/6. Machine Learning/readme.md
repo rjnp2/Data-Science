@@ -1,8 +1,10 @@
 # Machine Learning
 
-Machine Learning has wide business applications across various domains. Most popularly Machine Leaning is used in recommendation engines, fraud detection, even supply chain, inventory planning, image recognition, Amazon’s Alexa and much more. While the algorithms are stemmed from traditional data analytics, it’s the approach that makes machine learning palatable in the data age. Machine Learning focuses on prediction and can make data analysis efficient by looking at humungous amounts of data simultaneously. It monitors accuracy over statistical significance. 
-
-![image](https://user-images.githubusercontent.com/58425689/107876256-05e30280-6eed-11eb-93e2-15eafc24165e.png)
+Machine Learning has wide business applications across various domains. Most popularly Machine Leaning is used in recommendation engines, fraud detection, even supply chain, inventory planning, image recognition, Amazon’s Alexa and much more. While the algorithms are stemmed from traditional data analytics, it’s the approach that makes machine learning palatable in the data age. Machine Learning focuses on prediction and can make data analysis efficient by looking at humungous amounts of data simultaneously. It monitors accuracy over statistical significance. \
+![image](https://user-images.githubusercontent.com/58425689/107959549-ab6ca380-6fcb-11eb-89e2-d591774463be.png)
+___
+## How does Machine Learning Work?
+![image](https://user-images.githubusercontent.com/58425689/107959687-d3f49d80-6fcb-11eb-9948-128b2f7d05de.png)
 
 ## Pre-Learning:
    - [Pre-Processing](https://github.com/rjnp2/machine_learning/tree/master/pre-processing)
@@ -11,6 +13,8 @@ Machine Learning has wide business applications across various domains. Most pop
    - [Overfitting and Underfitting](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Overfitting_and_Underfitting.md#overfitting-and-underfitting-in-machine-learning)
    - [Fine-Tune Model](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Fine-Tune%20Model.md)
    - [Gradient Descent](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Gradient%20Descent.md)
+   
+![image](https://user-images.githubusercontent.com/58425689/107876256-05e30280-6eed-11eb-93e2-15eafc24165e.png)
 
 ## 1. Supervised Learning:
 In traditional analytics, what we call as a target variable is referred to as label in machine learning. In Supervised Learning inductive inference is used to infer a predictive relationship between data points and labels. \
