@@ -24,8 +24,19 @@ Before we dive into specific dimensionality reduction algorithms, let’s take a
 However, projection is not always the best approach to dimensionality reduction. In many cases the subspace may twist and turn, such as in the famous Swiss roll toy dataset. \
 ![r](https://user-images.githubusercontent.com/58425689/107968937-1ff90f80-6fd7-11eb-9022-fa0dcb0c92cd.png)
 ![rr](https://user-images.githubusercontent.com/58425689/107968941-212a3c80-6fd7-11eb-8e57-5e04d01532fb.png) \
-Figure. Swiss roll dataset(left), Squashing by projecting onto a plane(middle) versus unrolling the Swiss roll(right)
+Figure. Swiss roll dataset(left), Squashing by projecting onto a plane(middle) versus unrolling the Swiss roll(right).
+
+- **Manifold Learning** \
+  Put simply, a 2D manifold is a 2D shape that can be bent and twisted in a higher-dimensional space. More generally, a d-dimensional manifold is a part of an n-dimensional space (where d < n) that locally resembles a d-dimensional hyperplane. In the case of the Swiss roll, d = 2 and n = 3: it locally resembles a 2D plane, but it is rolled in the third dimension. 
+  
+  Many dimensionality reduction algorithms work by modeling the manifold on which the training instances lie; this is called Manifold Learning. It relies on the manifold assumption, also called the manifold hypothesis, which holds that most real-world high-dimensional datasets lie close to a much lower-dimensional manifold. This assumption is very often empirically observed. 
+  
+  Once again, think about the MNIST dataset: all handwritten digit images have some similarities. They are made of connected lines, the borders are white, they are more or less centered, and so on. If you randomly generated images, only a ridiculously tiny fraction of them would look like handwritten digits. In other words, the degrees of freedom available to you if you try to create a digit image are dramatically lower than the degrees of freedom you would have if you were allowed to generate any image you wanted. These constraints tend to squeeze the dataset into a lower-dimensional manifold. 
+  
+  ![r](https://user-images.githubusercontent.com/58425689/107969746-466b7a80-6fd8-11eb-946c-07be682de16c.png) \
+  Figure. The decision boundary may not always be simpler with lower dimensions
 ___
+
 ## Benefits of applying Dimensionality Reduction
 Some benefits of applying dimensionality reduction technique to the given dataset are given below:
 - By reducing the dimensions of the features, the space required to store the dataset also gets reduced.
