@@ -15,8 +15,7 @@ ___
    - [Overfitting and Underfitting](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Overfitting_and_Underfitting.md#overfitting-and-underfitting-in-machine-learning)
    - [Fine-Tune Model](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Fine-Tune%20Model.md)
    - [Gradient Descent](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/Gradient%20Descent.md)
-   
-![image](https://user-images.githubusercontent.com/58425689/107876256-05e30280-6eed-11eb-93e2-15eafc24165e.png)
+___
 
 ## Types of Machine Learning
 Machine Learning Algorithms can be classified into 3 types as follows \
