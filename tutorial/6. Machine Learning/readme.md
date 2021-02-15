@@ -16,6 +16,12 @@ ___
    
 ![image](https://user-images.githubusercontent.com/58425689/107876256-05e30280-6eed-11eb-93e2-15eafc24165e.png)
 
+## Types of Machine Learning
+Machine Learning Algorithms can be classified into 3 types as follows \
+![image](https://user-images.githubusercontent.com/58425689/107960269-86c4fb80-6fcc-11eb-97c7-ca875d85e34d.png)
+![image](https://user-images.githubusercontent.com/58425689/107960284-8b89af80-6fcc-11eb-9e1e-8e855f1b7906.png)
+
+
 ## 1. Supervised Learning:
 In traditional analytics, what we call as a target variable is referred to as label in machine learning. In Supervised Learning inductive inference is used to infer a predictive relationship between data points and labels. \
 Supervised Algorithm:   
