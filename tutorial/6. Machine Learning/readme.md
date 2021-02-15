@@ -24,7 +24,6 @@ Machine Learning Algorithms can be classified into 3 types as follows \
 ## 1. Supervised Learning:
 In Supervised Learning, the dataset on which we train our model is labeled. There is a clear and distinct mapping of input and output. Based on the example inputs, the model is able to get trained in the instances. This is an easier form of training. An example of supervised learning is spam filtering. Based on the labeled data, the model is able to determine if the data is spam or ham. \
 Supervised Algorithm:   
-
    - [Regression Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms) 
       - [Linear Regression](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms/1.%20Linear%20Regression)
       
