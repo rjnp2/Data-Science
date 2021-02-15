@@ -22,7 +22,7 @@ Machine Learning Algorithms can be classified into 3 types as follows \
 ![1](https://user-images.githubusercontent.com/58425689/107960991-6d707f00-6fcd-11eb-9f29-3a1a3888281e.png) 
 
 ## 1. Supervised Learning:
-In traditional analytics, what we call as a target variable is referred to as label in machine learning. In Supervised Learning inductive inference is used to infer a predictive relationship between data points and labels. \
+In Supervised Learning, the dataset on which we train our model is labeled. There is a clear and distinct mapping of input and output. Based on the example inputs, the model is able to get trained in the instances. This is an easier form of training. An example of supervised learning is spam filtering. Based on the labeled data, the model is able to determine if the data is spam or ham. \
 Supervised Algorithm:   
    - [Regression Algorithms](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms) 
       - [Linear Regression](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/1.%20Regression%20Algorithms/1.%20Linear%20Regression)
@@ -34,7 +34,7 @@ Supervised Algorithm:
       - [SVM](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/3.%20SVM)
 
 ## 2.Unsupervised Learning:
-This is typically used a data mining technique to discern various patterns or structure in the data. It is not directed by any label. \
+In Unsupervised Learning, there is no labeled data. The algorithm identifies the patterns within the dataset and learns them. The algorithm groups the data into various clusters based on their density. Using it, one can perform visualization on high dimensional data. The learning process in Unsupervised Learning is solely on the basis of finding patterns in the data. After learning the patterns, the model then makes conclusions. \
 UnSupervised Algorithm: 
    - [Clustering](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering)
       - [K-Means](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means)
@@ -48,4 +48,4 @@ UnSupervised Algorithm:
       - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
 
 ## 3. Reinforcement Learning:
-This is a branch of Artificial Intelligence allowing systems to automatically determine (using trial and error) the ideal behavior within a specific context, to maximize its performance and make as accurate decisions as possible. Simple reward feedback also known as the reinforcement signal helps in the learning behavior and hence controlling a system. Example: Markov Decision Process
+Reinforcement Learning is an emerging and most popular type of Machine Learning Algorithm. It is used in various autonomous systems like cars and industrial robotics. The aim of this algorithm is to reach a goal in a dynamic environment. It can reach this goal based on several rewards that are provided to it by the system.
