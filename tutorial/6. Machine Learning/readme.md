@@ -49,3 +49,6 @@ UnSupervised Algorithm:
 
 ## 3. Reinforcement Learning:
 Reinforcement Learning is an emerging and most popular type of Machine Learning Algorithm. It is used in various autonomous systems like cars and industrial robotics. The aim of this algorithm is to reach a goal in a dynamic environment. It can reach this goal based on several rewards that are provided to it by the system.
+
+## Machine Learning Applications in Real World
+![1](https://user-images.githubusercontent.com/58425689/107965424-9f381480-6fd2-11eb-94ed-6d06eec41385.png)
