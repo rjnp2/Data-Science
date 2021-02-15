@@ -19,6 +19,8 @@ ___
 
 ## Types of Machine Learning
 Machine Learning Algorithms can be classified into 3 types as follows \
+![1](https://user-images.githubusercontent.com/58425689/107960991-6d707f00-6fcd-11eb-9f29-3a1a3888281e.png)
+
 ![image](https://user-images.githubusercontent.com/58425689/107960269-86c4fb80-6fcc-11eb-97c7-ca875d85e34d.png)
 ![image](https://user-images.githubusercontent.com/58425689/107960284-8b89af80-6fcc-11eb-9e1e-8e855f1b7906.png)
 
