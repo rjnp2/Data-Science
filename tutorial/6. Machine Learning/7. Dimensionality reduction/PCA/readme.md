@@ -106,4 +106,15 @@ It is also possible to decompress the reduced dataset back to 784 dimensions by 
  ```
 ![image](https://user-images.githubusercontent.com/58425689/108389569-e6730f00-7237-11eb-83cd-c60dea85aab8.png)
 
-[PCA_Image_Reconstruction](https://github.com/rjnp2/PCA_Image_Reconstruction/blob/main/README.md)
+ [PCA_Image_Reconstruction](https://github.com/rjnp2/PCA_Image_Reconstruction/blob/main/README.md)
+
+## Incremental PCA
+One problem with the preceding implementation of PCA is that it requires the whole training set to fit in memory in order for the SVD algorithm to run. Fortunately, Incremental PCA (IPCA) algorithms have been developed: you can split the training set into mini-batches and feed an IPCA algorithm one mini-batch at a time. This is useful for large training sets, and also to apply PCA online (i.e., on the fly, as new instances arrive).
+```python
+  from sklearn.decomposition import IncrementalPCA
+  n_batches = 100
+  inc_pca = IncrementalPCA(n_components=154)
+  for X_batch in np.array_split(X_mnist, n_batches):
+  inc_pca.partial_fit(X_batch)
+  X_mnist_reduced = inc_pca.transform(X_mnist)
+```
