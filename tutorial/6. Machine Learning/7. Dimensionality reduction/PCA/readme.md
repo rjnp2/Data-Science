@@ -105,3 +105,5 @@ It is also possible to decompress the reduced dataset back to 784 dimensions by 
     X_mnist_recovered = pca.inverse_transform(X_mnist_reduced)
  ```
 ![image](https://user-images.githubusercontent.com/58425689/108389569-e6730f00-7237-11eb-83cd-c60dea85aab8.png)
+
+[PCA_Image_Reconstruction](https://github.com/rjnp2/PCA_Image_Reconstruction/blob/main/README.md)
