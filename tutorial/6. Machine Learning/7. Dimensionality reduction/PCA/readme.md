@@ -104,4 +104,4 @@ It is also possible to decompress the reduced dataset back to 784 dimensions by 
     X_mnist_reduced = pca.fit_transform(X_mnist)
     X_mnist_recovered = pca.inverse_transform(X_mnist_reduced)
  ```
- ![image](https://user-images.githubusercontent.com/58425689/108387091-5df36f00-7235-11eb-8569-b38f1c465351.png)
+![image](https://user-images.githubusercontent.com/58425689/108389569-e6730f00-7237-11eb-83cd-c60dea85aab8.png)
