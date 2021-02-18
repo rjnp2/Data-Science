@@ -90,3 +90,7 @@ ratio of variance you wish to preserve:
     X_reduced = pca.fit_transform(X)
     ```  
   ![image](https://user-images.githubusercontent.com/58425689/107972564-22aa3380-6fdc-11eb-9f01-ffe3249288e4.png)
+
+## Project
+- [CIFAR-10_pca](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA/CIFAR-10_pca.ipynb)
+- [breast_cancer_pca](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA/breast_cancer_pca.ipynb)
