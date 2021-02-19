@@ -192,11 +192,11 @@ ___
     model.score(df_test,y_test)
     ```
     ___
-3. **Bagging** \
+3. [**Bagging**\(https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/1.%20Bagging) \
    The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. \
    Bagging algorithms
     - Bagging meta-estimator
-    - Random forest
+    - [Random forest](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/1.%20Bagging/Random%20forest)
    ___
 5. **Boosting** \
    Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model. \
