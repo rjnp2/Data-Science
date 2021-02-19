@@ -44,3 +44,38 @@ There are mainly four sectors where Random forest mostly used:
 - Land Use: We can identify the areas of similar land use by this algorithm.
 - Marketing: Marketing trends can be identified using this algorithm.
 
+### code
+```python
+   from sklearn.ensemble import RandomForestClassifier
+   model = RandomForestClassifier(n_estimators=100, criterion='gini', max_depth=None, min_samples_split=2, 
+   min_samples_leaf=1, max_leaf_nodes=None, n_jobs=None, random_state=None, max_samples=None)
+   
+```
+  Parameters used in the algorithms:
+  - n_estimators:
+    - It defines the number of decision trees to be created in a random forest.
+    - Generally, a higher number makes the predictions stronger and more stable, but a very large number can result in higher training time.
+  - criterion:
+    - It defines the function that is to be used for splitting.
+    - The function measures the quality of a split for each feature and chooses the best split.
+  - max_features :
+    - It defines the maximum number of features allowed for the split in each decision tree.
+    - Increasing max features usually improve performance but a very high number can decrease the diversity of each tree.
+  - max_depth:
+    - Random forest has multiple decision trees. This parameter defines the maximum depth of the trees.
+  - min_samples_split:
+    - Used to define the minimum number of samples required in a leaf node before a split is attempted.
+    - If the number of samples is less than the required number, the node is not split.
+  - min_samples_leaf:
+     - This defines the minimum number of samples required to be at a leaf node.
+     - Smaller leaf size makes the model more prone to capturing noise in train data.
+  - max_leaf_nodes:
+     - This parameter specifies the maximum number of leaf nodes for each tree.
+     - The tree stops splitting when the number of leaf nodes becomes equal to the max leaf node.
+  - n_jobs:
+     - This indicates the number of jobs to run in parallel.
+     - Set value to -1 if you want it to run on all cores in the system.
+  - random_state:
+     - This parameter is used to define the random selection.
+     - It is used for comparison between various models.
+   
