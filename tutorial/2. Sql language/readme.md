@@ -18,7 +18,8 @@ ___
 When you are executing an SQL command for any RDBMS, the system determines the best way to carry out your request and SQL engine figures out how to interpret the task. There are various components included in the process. These components are Query Dispatcher, Optimization Engines, Classic Query Engine and SQL Query Engine, etc. Classic query engine handles all non-SQL queries, but SQL query engine won't handle logical files.
 
 #### Following is a simple diagram showing SQL Architecture: 
-  ![pro 8](https://user-images.githubusercontent.com/58425689/105805616-78398480-5fca-11eb-8c27-ae998b935d28.png)
+  
+  ![pro 8](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/images/sql1.png)
 ___
 ## SQL RDBMS Concepts
 
@@ -28,7 +29,7 @@ A Relational database management system (RDBMS) is a database management system 
 #### Table
 The data in RDBMS is stored in database objects called tables. The table is a collection of related data entries and it consists of columns and rows.
 
-![5](https://user-images.githubusercontent.com/58425689/105806355-efbbe380-5fcb-11eb-8736-3bf1ca73ee29.png)
+![pro 8](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/images/sql2.png)
 
 #### Field
 Every table is broken up into smaller entities called fields. The fields in the CUSTOMERS table consist of ID, NAME, AGE, ADDRESS and SALARY.
@@ -65,16 +66,16 @@ ___
 The standard SQL commands to interact with relational databases are CREATE, SELECT, INSERT, UPDATE, DELETE and DROP. These commands can be classified into groups based on their nature:
 
  1. DDL - Data Definition Language: \
-    ![1](https://user-images.githubusercontent.com/58425689/105805921-175e7c00-5fcb-11eb-9e48-5368268619dc.png)
+    ![pro 8](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/images/sql3.png)
 
  2. DML - Data Manipulation Language: \
-  ![2](https://user-images.githubusercontent.com/58425689/105805925-17f71280-5fcb-11eb-8c0c-089800c538b3.png)
+  ![pro 8](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/images/sql4.png)
 
  3. DCL - Data Control Language: \
-  ![3](https://user-images.githubusercontent.com/58425689/105805928-188fa900-5fcb-11eb-9188-db6339b022a7.png)
+  ![pro 8](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/images/sql5.png)
 
  4. DQL - Data Query Language: \
-  ![4](https://user-images.githubusercontent.com/58425689/105805930-19283f80-5fcb-11eb-832e-3f43a23beb76.png)
+  ![pro 8](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/images/sql6.png)
 ___
 ## [SQL Constraints:](https://github.com/rjnp2/Data-Science/blob/main/tutorial/2.%20Sql%20language/2.%20SQL_Constraints%20./readme.md)
 Constraints are the rules enforced on data columns on table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database.
