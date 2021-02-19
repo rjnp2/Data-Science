@@ -204,7 +204,5 @@ ___
     - AdaBoost
     - GBM
     - XGBM
-    - Light GBM
-    - CatBoost
   ___
 ____
