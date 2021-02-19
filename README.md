@@ -45,7 +45,11 @@
     - [Dimensionality reduction](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction)
       - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
       - [Kernel PCA](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/Kernel%20PCA/readme.md)
-
+   
+  - Ensemble Methods
+    - Bootstrapping, Bagging, and Boosting
+    - AdaBoost
+    - Random Forests
   - [Reinforcement Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/8.%20Reinforcement%20Learning)
 
 ## Recommender Systems
@@ -53,11 +57,6 @@
  - Content-Based and Collaborative Filtering
  - Evaluation of Recommendation Systems. DCG, nDCG
     
-## Ensemble Methods
- - Bootstrapping, Bagging, and Boosting
- - AdaBoost
- - Random Forests
-
 ## Fundamentals of Big Data Engineering
  - Hadoop and MapReduce Programming
  - NoSQL Databases and Apache HBase
