@@ -21,5 +21,3 @@ Thus, the boosting algorithm combines a number of weak learners to form a strong
 - AdaBoost
 - GBM
 - XGBM
-- Light GBM
-- CatBoost
