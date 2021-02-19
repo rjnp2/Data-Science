@@ -26,15 +26,10 @@ Below are some points that explain why we should use the Random Forest algorithm
 Random Forest works in two-phase first is to create the random forest by combining N decision tree, and second is to make predictions for each tree created in the first phase.
 
 The Working process can be explained in the below steps and diagram:
-
 - Step-1: Select random K data points from the training set.
-
 - Step-2: Build the decision trees associated with the selected data points (Subsets).
-
 - Step-3: Choose the number N for decision trees that you want to build.
-
 - Step-4: Repeat Step 1 & 2.
-
 - Step-5: For new data points, find the predictions of each decision tree, and assign the new data points to the category that wins the majority votes.
 
 Example: Suppose there is a dataset that contains multiple fruit images. So, this dataset is given to the Random forest classifier. The dataset is divided into subsets and given to each decision tree. During the training phase, each decision tree produces a prediction result, and when a new data point occurs, then based on the majority of results, the Random Forest classifier predicts the final decision. Consider the below image:
