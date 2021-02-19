@@ -56,7 +56,7 @@ UnSupervised Algorithm:
    - Bagging meta-estimator(In same Bagging pages)
    - [Random forest](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/1.%20Bagging/Random%20forest)
  - [Boosting](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting)
-    - AdaBoost](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/1.%20AdaBoost)
+    - [AdaBoost](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/1.%20AdaBoost)
     - [GBM](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/2.%20Gradient%20Boosting/readme.md)
     - [XGBM](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/2.%20Gradient%20Boosting/XGBoost.md)
 
