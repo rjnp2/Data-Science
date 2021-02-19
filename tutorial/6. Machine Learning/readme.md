@@ -31,7 +31,7 @@ Supervised Algorithm:
       - [Logistic Regression](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/1.Logistic%20Regression/readme.md)
       - [K-Nearest Neighbours](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/2.%20K-Nearest%20Neighbor/readme.md)
      - [Naïve Bayes](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/2.%20Classification%20Algorithms/3.%20Na%C3%AFve%20Bayes/readme.md)   
-      - [Decision Tree or Random Forest Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/4.%20%20Decision%20Tree%20or%20Random%20Forest%20Learning) 
+      - [Decision Tree](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/4.%20%20Decision%20Tree) 
       - [SVM](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/3.%20SVM)
 
 ## 2.Unsupervised Learning:
