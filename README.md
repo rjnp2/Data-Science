@@ -46,7 +46,7 @@
       - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
       - [Kernel PCA](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/Kernel%20PCA/readme.md)
 
-  - Reinforcement Learning
+  - [Reinforcement Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/8.%20Reinforcement%20Learning)
 
 ## Recommender Systems
  - Text Analytics
