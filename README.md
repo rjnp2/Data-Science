@@ -1,5 +1,5 @@
 # DATA SCIENCE 
-[Description](https://github.com/rjnp2/Data-Science/blob/main/Data-Science.md)
+[Data-Science: What is, Basics & Process](https://github.com/rjnp2/Data-Science/blob/main/Data-Science.md)
 
 # Path for Data Science
 
