@@ -15,7 +15,7 @@ The Naïve Bayes algorithm is comprised of two words Naïve and Bayes, Which can
 - Bayes' theorem is also known as Bayes' Rule or Bayes' law, which is used to determine the probability of a hypothesis with prior knowledge. It depends on the conditional probability.
 - The formula for Bayes' theorem is given as:
 
-     ![image](https://user-images.githubusercontent.com/58425689/107843929-714aa880-6df7-11eb-8127-5a22c96a14df.png)
+     ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/NB1.png)
       
       Where,
       P(A|B) is Posterior probability: Probability of hypothesis A on the observed event B. 
