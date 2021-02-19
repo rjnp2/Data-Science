@@ -4,7 +4,7 @@ Linear regression is one of the easiest and most popular Machine Learning algori
 Linear regression algorithm shows a linear relationship between a dependent (y) and one or more independent (y) variables, hence called as linear regression. Since linear regression shows the linear relationship, which means it finds how the value of the dependent variable is changing according to the value of the independent variable.
 
 The linear regression model provides a sloped straight line representing the relationship between the variables. Consider the below image: \
-![image](https://user-images.githubusercontent.com/58425689/107783795-bed10200-6d72-11eb-9450-02042e16e12c.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/LR1.png)
 
 Mathematically, we can represent a linear regression as:
 
@@ -32,11 +32,11 @@ A linear line showing the relationship between the dependent and independent var
 
 - Positive Linear Relationship:
   If the dependent variable increases on the Y-axis and independent variable increases on X-axis, then such a relationship is termed as a Positive linear relationship. \
-  ![image](https://user-images.githubusercontent.com/58425689/107784139-369f2c80-6d73-11eb-9164-8f1bbb703cd6.png)
+  ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/LR2.png)
 
 - Negative Linear Relationship:
   If the dependent variable decreases on the Y-axis and independent variable increases on the X-axis, then such a relationship is called a negative linear relationship. \
-  ![image](https://user-images.githubusercontent.com/58425689/107784210-461e7580-6d73-11eb-97ec-f277d124272f.png)
+  ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/LR3.png)
 
 ## Finding the best fit line:
 When working with linear regression, our main goal is to find the best fit line that means the error between predicted values and actual values should be minimized. The best fit line will have the least error.
@@ -52,7 +52,7 @@ For Linear Regression, we use the **Mean Squared Error (MSE)** cost function, wh
 
 For the above linear equation, MSE can be calculated as:
 
-   ![image](https://user-images.githubusercontent.com/58425689/107784444-91388880-6d73-11eb-93c4-8deb19646c76.png) \
+   ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/LR4.png) \
     Where,
 
     N=Total number of observation
@@ -76,7 +76,7 @@ The Goodness of fit determines how the line of regression fits the set of observ
 - The high value of R-square determines the less difference between the predicted values and actual values and hence represents a good model.
 - It is also called a coefficient of determination, or coefficient of multiple determination for multiple regression.
 - It can be calculated from the below formula: \
-![image](https://user-images.githubusercontent.com/58425689/107784733-e5dc0380-6d73-11eb-8559-b0ae9b2ee28a.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/LR5.png)
 
 ## Assumptions of Linear Regression
 Below are some important assumptions of Linear Regression. These are some formal checks while building a Linear Regression model, which ensures to get the best possible result from the given dataset.
