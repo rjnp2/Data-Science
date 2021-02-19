@@ -193,13 +193,13 @@ ___
     ```
     ___
 3. **Bagging** \
-   The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. 
+   The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. \
    Bagging algorithms
     - Bagging meta-estimator
     - Random forest
    ___
 5. **Boosting** \
-   Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model.
+   Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model. \
    Boosting algorithms:
     - AdaBoost
     - GBM
