@@ -60,7 +60,7 @@ The main components of Data Science are given below:
 ## Data Science Process
 Now in this Data Science Tutorial, we will learn the Data Science Process:
 
-![1](https://github.com/rjnp2/Data-Science/blob/main/files/images/3.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/files/images/4.png)
 
 figures: block diagram of Data Science Process
 
