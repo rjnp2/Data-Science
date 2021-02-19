@@ -18,6 +18,6 @@ Thus, the boosting algorithm combines a number of weak learners to form a strong
   ![bo](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/images/bo4.png)
 
 ## Boosting algorithms:
-- AdaBoost
-- GBM
-- XGBM
+- [AdaBoost](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/1.%20AdaBoost)
+- [GBM](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/2.%20Gradient%20Boosting/readme.md)
+- [XGBM](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/2.%20Gradient%20Boosting/XGBoost.md)
