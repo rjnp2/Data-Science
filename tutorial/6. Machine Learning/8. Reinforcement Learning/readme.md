@@ -170,3 +170,19 @@ Reinforcement learning algorithms are mainly used in AI applications and gaming 
   - As the name suggests, DQN is a Q-learning using Neural networks.
   - For a big state space environment, it will be a challenging and complex task to define and update a Q-table.
   - To solve such an issue, we can use a DQN algorithm. Where, instead of defining a Q-table, neural network approximates the Q-values for each action and state.
+
+## Reinforcement Learning Applications
+1. Robotics:
+RL is used in Robot navigation, Robo-soccer, walking, juggling, etc.
+2. Control:
+RL can be used for adaptive control such as Factory processes, admission control in telecommunication, and Helicopter pilot is an example of reinforcement learning.
+3. Game Playing:
+RL can be used in Game playing such as tic-tac-toe, chess, etc.
+4. Chemistry:
+RL can be used for optimizing the chemical reactions.
+5. Business:
+RL is now used for business strategy planning.
+6. Manufacturing:
+In various automobile manufacturing companies, the robots use deep reinforcement learning to pick goods and put them in some containers.
+7. Finance Sector:
+The RL is currently used in the finance sector for evaluating trading strategies.
