@@ -38,7 +38,7 @@
   - Unsupervised Learning
     - [Clustering](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering)
       - [K-Means](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/1.%20K-Means)
-      - [Agglomerative](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/2.%20Hierarchical%20Clustering      
+      - [Agglomerative](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/5.%20Clustering/2.%20Hierarchical%20Clustering)      
     - [Association Rule Mining](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining)
       - [ Apriori Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/1.%20Apriori%20Algorithm)
       - [F-P Growth Algorithm](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/6.%20Association%20Rule%20Mining/2.%20FP%20Growth%20Algorithm)    
