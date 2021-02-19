@@ -95,7 +95,7 @@ ___
   finalpred=(pred1*0.3+pred2*0.3+pred3*0.4)
   ```
   ___
-  
+  ___
 ## Advanced Ensemble techniques
 1. **Stacking** \
     Stacking is an ensemble learning technique that uses predictions from multiple models (for example decision tree, knn or svm) to build a new model. This model is used for making predictions on the test set. Below is a step-wise explanation for a simple stacked ensemble:
@@ -154,7 +154,7 @@ ___
         model.score(df_test, y_test)
       ```
        In order to simplify the above explanation, the stacking model we have created has only two levels. The decision tree and knn models are built at level zero, while a logistic regression model is built at level one. Feel free to create multiple levels in a stacking model.
-
+      ___
 2. **Blending** \
     Blending follows the same approach as stacking but uses only a holdout (validation) set from the train set to make predictions. In other words, unlike stacking, the predictions are made on the holdout set only. The holdout set and the predictions are used to build a model which is run on the test set. Here is a detailed explanation of the blending process:
     - The train set is split into training and validation sets. \
@@ -191,13 +191,13 @@ ___
     model.fit(df_val,y_val)
     model.score(df_test,y_test)
     ```
-
+    ___
 3. **Bagging** \
    The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. 
    Bagging algorithms
     - Bagging meta-estimator
     - Random forest
-
+   ___
 5. **Boosting** \
    Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model.
    Boosting algorithms:
@@ -206,4 +206,5 @@ ___
     - XGBM
     - Light GBM
     - CatBoost
-    
+  ___
+____
