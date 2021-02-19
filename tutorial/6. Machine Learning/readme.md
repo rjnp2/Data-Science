@@ -47,6 +47,7 @@ UnSupervised Algorithm:
       
    - [Dimensionality reduction](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction)
       - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
+      - [Kernel PCA](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/Kernel%20PCA/readme.md)
 
 ## 3. Reinforcement Learning:
 Reinforcement Learning is an emerging and most popular type of Machine Learning Algorithm. It is used in various autonomous systems like cars and industrial robotics. The aim of this algorithm is to reach a goal in a dynamic environment. It can reach this goal based on several rewards that are provided to it by the system.
