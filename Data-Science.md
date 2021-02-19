@@ -15,8 +15,7 @@ In short, we can say that data science is all about:
     • Modeling the data using various complex and efficient algorithms.
     • Visualizing the data to get a better perspective.
     • Understanding the data to make better decisions and finding the final result.
-    
-![pro](https://user-images.githubusercontent.com/58425689/105459314-26cf8380-5cb2-11eb-999b-be6ae77e062d.jpg)
+![1](https://github.com/rjnp2/Data-Science/blob/main/files/images/1.jpg)
     
 figures: block diagrams of data science work
 
