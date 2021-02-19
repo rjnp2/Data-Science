@@ -71,7 +71,6 @@ ___
 2. **Feature Extraction:** \
   Feature extraction is the process of transforming the space containing many dimensions into space with fewer dimensions. This approach is useful when we want to keep the whole information but use fewer resources while processing the information. \
   Some common feature extraction techniques are:
-    - Principal Component Analysis
+    - [Principal Component Analysis](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/PCA)
     - Linear Discriminant Analysis
-    - Kernel PCA
-    - Quadratic Discriminant Analysis 
+    - [Kernel PCA](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/7.%20Dimensionality%20reduction/Kernel%20PCA/readme.md)
