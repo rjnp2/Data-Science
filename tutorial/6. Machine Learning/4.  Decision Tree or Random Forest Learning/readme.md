@@ -8,7 +8,7 @@
 - A decision tree simply asks a question, and based on the answer (Yes/No), it further split the tree into subtrees.
 
 - Below diagram explains the general structure of a decision tree: \
-![image](https://user-images.githubusercontent.com/58425689/107847417-7b7aa000-6e13-11eb-9470-4ab2f0d793c7.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/DT1.png)
 
 ## Why use Decision Trees?
 There are various algorithms in Machine learning, so choosing the best algorithm for the given dataset and problem is the main point to remember while creating a machine learning model. Below are the two reasons for using the Decision tree:
@@ -38,7 +38,7 @@ For the next node, the algorithm again compares the attribute value with the oth
 
 Example: Suppose there is a candidate who has a job offer and wants to decide whether he should accept the offer or Not. So, to solve this problem, the decision tree starts with the root node (Salary attribute by ASM). The root node splits further into the next decision node (distance from the office) and one leaf node based on the corresponding labels. The next decision node further gets split into one decision node (Cab facility) and one leaf node. Finally, the decision node splits into two leaf nodes (Accepted offers and Declined offer). Consider the below diagram:
 
-![image](https://user-images.githubusercontent.com/58425689/107847441-afee5c00-6e13-11eb-81fb-3bb85a52a9ec.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/DT2.png)
 
 ## Attribute Selection Measures
 While implementing a Decision tree, the main issue arises that how to select the best attribute for the root node and for sub-nodes. So, to solve such problems there is a technique which is called as Attribute selection measure or ASM. By this measurement, we can easily select the best attribute for the nodes of the tree. There are two popular techniques for ASM, which are:
