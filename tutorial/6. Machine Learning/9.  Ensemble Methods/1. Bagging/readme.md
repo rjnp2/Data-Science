@@ -12,3 +12,6 @@ Bagging (or Bootstrap Aggregating) technique uses these subsets (bags) to get a 
   4. The final predictions are determined by combining the predictions from all the models.
   ![BA](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/images/BA2.png)
 
+## Bagging algorithms
+    - Bagging meta-estimator
+    - Random forest
