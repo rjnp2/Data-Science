@@ -32,13 +32,12 @@ Here, are significant advantages of using Data Analytics Technology:
 6. It enables you to take better and faster decisions
 7. Helps you to recommend the right product to the right customer to enhance your business
 
-![1](https://user-images.githubusercontent.com/58425689/105459950-27b4e500-5cb3-11eb-8651-95a7e4012328.png)
+![2](https://github.com/rjnp2/Data-Science/blob/main/files/images/2.png)
 
 figures : Evolution of data sciences
 
 ## Data Science Components
-
-![2](https://user-images.githubusercontent.com/58425689/105460068-592db080-5cb3-11eb-8da1-d60481163f0a.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/files/images/3.png)
 
 figures: block diagram of Data Science Components
 
@@ -61,7 +60,7 @@ The main components of Data Science are given below:
 ## Data Science Process
 Now in this Data Science Tutorial, we will learn the Data Science Process:
 
-![3](https://user-images.githubusercontent.com/58425689/105460195-8712f500-5cb3-11eb-9494-279cc26c7e8a.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/files/images/3.png)
 
 figures: block diagram of Data Science Process
 
