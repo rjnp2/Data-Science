@@ -2,10 +2,10 @@
 
 Machine Learning has wide business applications across various domains. Most popularly Machine Leaning is used in recommendation engines, fraud detection, even supply chain, inventory planning, image recognition, Amazon’s Alexa and much more. While the algorithms are stemmed from traditional data analytics, it’s the approach that makes machine learning palatable in the data age. Machine Learning focuses on prediction and can make data analysis efficient by looking at humungous amounts of data simultaneously. It monitors accuracy over statistical significance.
 
-![1](https://user-images.githubusercontent.com/58425689/107960459-c55ab600-6fcc-11eb-9f6b-3c0f3ad85f5a.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/ML1.png)
 ___
 ## How does Machine Learning Work?
-![1](https://user-images.githubusercontent.com/58425689/107960741-15397d00-6fcd-11eb-9972-f75e3ea9754e.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/ML2.png)
 ___
 
 ## Pre-Learning:
@@ -19,7 +19,7 @@ ___
 
 ## Types of Machine Learning
 Machine Learning Algorithms can be classified into 3 types as follows \
-![1](https://user-images.githubusercontent.com/58425689/107960991-6d707f00-6fcd-11eb-9f29-3a1a3888281e.png) 
+![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/ML3.png)
 
 ## 1. Supervised Learning:
 In Supervised Learning, the dataset on which we train our model is labeled. There is a clear and distinct mapping of input and output. Based on the example inputs, the model is able to get trained in the instances. This is an easier form of training. An example of supervised learning is spam filtering. Based on the labeled data, the model is able to determine if the data is spam or ham. \
@@ -58,7 +58,7 @@ UnSupervised Algorithm:
 Reinforcement Learning is an emerging and most popular type of Machine Learning Algorithm. It is used in various autonomous systems like cars and industrial robotics. The aim of this algorithm is to reach a goal in a dynamic environment. It can reach this goal based on several rewards that are provided to it by the system.
 
 ## Popular Machine Learning Tools
-![1](https://user-images.githubusercontent.com/58425689/107965891-300ef000-6fd3-11eb-956d-5cbb85e44a6f.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/ML4.png)
 
 ## Machine Learning Applications in Real World
-![1](https://user-images.githubusercontent.com/58425689/107965424-9f381480-6fd2-11eb-94ed-6d06eec41385.png)
+![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/ML5.png)
