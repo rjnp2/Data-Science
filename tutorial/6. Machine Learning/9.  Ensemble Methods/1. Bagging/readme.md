@@ -50,4 +50,4 @@ Bagging (or Bootstrap Aggregating) technique uses these subsets (bags) to get a 
       - It specifies the method of random split. When random state value is same for two models, the random selection is same for both models.
       - This parameter is useful when you want to compare different models.
 
-2. **Random forest**
+2. [**Random forest**](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/1.%20Bagging/Random%20forest)
