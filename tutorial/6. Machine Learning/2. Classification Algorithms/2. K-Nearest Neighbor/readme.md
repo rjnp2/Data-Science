@@ -11,7 +11,7 @@ Example: Suppose, we have an image of a creature that looks similar to cat and d
 
 ## Why do we need a K-NN Algorithm?
 Suppose there are two categories, i.e., Category A and Category B, and we have a new data point x1, so this data point will lie in which of these categories. To solve this type of problem, we need a K-NN algorithm. With the help of K-NN, we can easily identify the category or class of a particular dataset. Consider the below diagram: \
-![image](https://user-images.githubusercontent.com/58425689/107843791-11073700-6df6-11eb-9a84-72651af523b8.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/KNN1.png)
 
 How does K-NN work?
 The K-NN working can be explained on the basis of the below algorithm:
@@ -25,15 +25,15 @@ Step-6: Our model is ready. \
 
 Suppose we have a new data point and we need to put it in the required category. Consider the below image:
 
-![image](https://user-images.githubusercontent.com/58425689/107843813-3a27c780-6df6-11eb-8557-ef0944f2d0ea.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/KNN2.png)
 
 Next, we will calculate the Euclidean distance between the data points. The Euclidean distance is the distance between two points, which we have already studied in geometry. It can be calculated as:
 
-![image](https://user-images.githubusercontent.com/58425689/107843817-3c8a2180-6df6-11eb-915b-3d0b08b67059.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/KNN3.png)
 
 By calculating the Euclidean distance we got the nearest neighbors, as three nearest neighbors in category A and two nearest neighbors in category B. Consider the below image:
 
-![image](https://user-images.githubusercontent.com/58425689/107843820-3eec7b80-6df6-11eb-8b4b-55af83a0f4d1.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/images/KNN4.png)
 
 As we can see the 3 nearest neighbors are from category A, hence this new data point must belong to category A.
 
