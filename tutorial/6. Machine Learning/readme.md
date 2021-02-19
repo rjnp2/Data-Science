@@ -56,9 +56,9 @@ UnSupervised Algorithm:
    - Bagging meta-estimator(In same Bagging pages)
    - [Random forest](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/1.%20Bagging/Random%20forest)
  - [Boosting](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting)
-   - AdaBoost
-   - GBM
-    - XGBM
+    - AdaBoost](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/1.%20AdaBoost)
+    - [GBM](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/2.%20Gradient%20Boosting/readme.md)
+    - [XGBM](https://github.com/rjnp2/Data-Science/blob/main/tutorial/6.%20Machine%20Learning/9.%20%20Ensemble%20Methods/2.%20Boosting/2.%20Gradient%20Boosting/XGBoost.md)
 
 ## 4. Reinforcement Learning:
 Reinforcement Learning is an emerging and most popular type of Machine Learning Algorithm. It is used in various autonomous systems like cars and industrial robotics. The aim of this algorithm is to reach a goal in a dynamic environment. It can reach this goal based on several rewards that are provided to it by the system.
