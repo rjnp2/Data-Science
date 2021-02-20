@@ -3,6 +3,14 @@ Deep learning is based on the branch of machine learning, which is a subset of a
 
 Deep learning models are capable enough to focus on the accurate features themselves by requiring a little guidance from the programmer and are very helpful in solving out the problem of dimensionality. Deep learning algorithms are used, especially when we have a huge no of inputs and outputs.
 
+## Working of Deep Learning
+![image](https://user-images.githubusercontent.com/58425689/108601321-1b13d180-73c4-11eb-9726-1bdc04f40280.png)
+
+In deep learning is getting lots of attention lately and for a good reason. A computer model learns to perform the classification tasks directly from any images, text, and sound in deep learning.
+
+The term "deep" commonly refers to the number of hidden layer in the neural network. Conventional neural networks only contain 2-3 hidden layers, while deep networks can have 150.
+![image](https://user-images.githubusercontent.com/58425689/108601325-1d762b80-73c4-11eb-99d8-1971bf3da109.png)
+
 ## Types of Deep Learning Networks
 1. Feed Forward Neural Network \
   A feed-forward neural network is none other than an Artificial Neural Network, which ensures that the nodes do not form a cycle. In this kind of neural network, all the perceptrons are organized within layers, such that the input layer takes the input, and the output layer generates the output. Since the hidden layers do not link with the outside world, it is named as hidden layers. Each of the perceptrons contained in one single layer is associated with each node in the subsequent layer. It can be concluded that all of the nodes are fully connected. It does not contain any visible or invisible connection between the nodes in the same layer. There are no back-loops in the feed-forward network. To minimize the prediction error, the backpropagation algorithm can be used to update the weight values. \
