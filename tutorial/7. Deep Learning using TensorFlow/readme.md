@@ -128,5 +128,5 @@ TensorFlow has an interactive multiplatform programming interface which is scala
 10. Visualizer (With TensorBoard)
   We can inspect a different representation of a model and make the changed necessary while debugging it with the help of TensorBoard.
 
-11.Event Logger (With TensorBoard)
+11. Event Logger (With TensorBoard)
   It is just like UNIX, where we use tail - f to monitor the output of tasks at the cmd. It checks, logging events and summaries from the graph and production with the TensorBoard.
