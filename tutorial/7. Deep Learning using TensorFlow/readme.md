@@ -113,7 +113,6 @@ TensorFlow has an interactive multiplatform programming interface which is scala
 
 7. Feature Columns
   TensorFlow has feature columns which could be thought of as intermediates between raw data and estimators; accordingly, bridging input data with our model.
-
   The feature below describes how the feature column is implemented. \  
   ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf7.jpg)
   
