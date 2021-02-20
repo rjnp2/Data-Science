@@ -102,8 +102,7 @@ TensorFlow has an interactive multiplatform programming interface which is scala
   It is easily trainable on CPU and for GPU in distributed computing.
 
 4. Parallel Neural Network Training \
-  TensorFlow offers to the pipeline in the sense that we can train multiple neural networks and various GPUs, which makes the models very efficient on large-scale systems.
-  
+  TensorFlow offers to the pipeline in the sense that we can train multiple neural networks and various GPUs, which makes the models very efficient on large-scale systems. \  
   ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf6.jpg)
 
 5. Large Community
@@ -115,8 +114,7 @@ TensorFlow has an interactive multiplatform programming interface which is scala
 7. Feature Columns
   TensorFlow has feature columns which could be thought of as intermediates between raw data and estimators; accordingly, bridging input data with our model.
 
-  The feature below describes how the feature column is implemented.
-  
+  The feature below describes how the feature column is implemented. \  
   ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf7.jpg)
   
 8. Availability of Statistical Distributions
