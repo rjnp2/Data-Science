@@ -8,7 +8,7 @@ Deep learning models are capable enough to focus on the accurate features themse
 
 In deep learning is getting lots of attention lately and for a good reason. A computer model learns to perform the classification tasks directly from any images, text, and sound in deep learning.
 
-The term "deep" commonly refers to the number of hidden layer in the neural network. Conventional neural networks only contain 2-3 hidden layers, while deep networks can have 150.
+The term "deep" commonly refers to the number of hidden layer in the neural network. Conventional neural networks only contain 2-3 hidden layers, while deep networks can have 150. \
 ![image](https://user-images.githubusercontent.com/58425689/108601325-1d762b80-73c4-11eb-99d8-1971bf3da109.png)
 
 ## Types of Deep Learning Networks
