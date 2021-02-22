@@ -70,7 +70,7 @@
  - Hive Tutorial
  - Analytics using PySpark
 
-## [Deep Learning using TensorFlow](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow)
+## [Deep Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning)
    - Introduction to Neural Networks
    - Neural Networks Assignment
    - Convolutional Neural Networks - Introduction and Industry Applications
