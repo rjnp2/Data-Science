@@ -1,21 +1,24 @@
 # What is TensorFlow?
-TensorFlow is a popular framework of machine learning and deep learning. It is a free and open-source library developed by Google Brain Team. It is entirely based on Python programming language and use for numerical computation and data flow, which makes machine learning faster and easier.
-
-TensorFlow can train and run the deep neural networks for image recognition, handwritten digit classification, recurrent neural network, word embedding, natural language processing, video detection, and many more. TensorFlow is run on multiple CPUs or GPUs and also mobile operating systems.
+   TensorFlow is a powerful open source software library for numerical computation, particularly well suited and fine-tuned for large-scale Machine Learning. Its basic principle is simple: you first define in Python a graph of computations to perform, and then TensorFlow takes that graph and runs it efficiently using optimized C++ code. \
+Most importantly, it is possible to break up the graph into several chunks and run them in parallel across multiple CPUs or GPUs. TensorFlow also supports distributed computing, so you can train colossal neural networks on humongous training sets in a reasonable amount of time by splitting the computations across hundreds of servers.
 
 **The word TensorFlow is made by two words, i.e., Tensor and Flow**
 1. Tensor is a multidimensional array
 2. Flow is used to define the flow of data in operation.
 
-TensorFlow is used to define the flow of data in operation on a multidimensional array or Tensor. \
-![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf1.png)
+![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/tfp1.png) \
+fig : A simple computation graph
+
+![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/tfp2.png) \
+fig : Parallel computation on multiple CPUs/GPUs/servers
+
 
 ## Components of TensorFlow
 - Tensor \
   The name TensorFlow is derived from its core framework, "Tensor." A tensor is a vector or a matrix of n-dimensional that represents all type of data. All values in a tensor hold similar data type with a known shape. The shape of the data is the dimension of the matrix or an array.
 
   A tensor can be generated from the input data or the result of a computation. In TensorFlow, all operations are conducted inside a graph. The group is a set of calculation that takes place successively. Each transaction is called an op node are connected. \
-  ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf2.png)
+  ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/tf2.png)
 
 - Graphs \
   TensorFlow makes use of a graph framework. The chart gathers and describes all the computations done during the training.
@@ -33,7 +36,7 @@ TensorFlow is used to define the flow of data in operation on a multidimensional
         a=d*e
 
   Now, we can represent these operations graphically below: \
-  ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf3.png)
+  ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/tf3.png)
 
 - Session \
   A session can execute the operation from the graph. To feed the graph with the value of a tensor, we need to open a session. Inside a session, we must run an operator to create an output.
