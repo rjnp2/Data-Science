@@ -72,8 +72,7 @@
 
 ## [Deep Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning)
    - Introduction to Neural Networks
-   - Neural Networks Assignment
-   - Convolutional Neural Networks - Introduction and Industry Applications
+   - Convolutional Neural Networks
    - Recurrent Neural Networks
 
 ## Natural Language Processing
