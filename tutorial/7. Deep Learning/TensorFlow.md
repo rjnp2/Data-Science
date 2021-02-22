@@ -53,39 +53,15 @@ fig : Parallel computation on multiple CPUs/GPUs/servers
 1. Voice/Sound Recognition \
     Voice and sound recognition applications are the most-known use cases of deep-learning. If the neural networks have proper input data feed, neural networks are capable of understanding audio signals.
 
-    For example: 
-      - Voice recognition is used in the Internet of Things, automotive, security, and UX/UI. 
-      - Sentiment Analysis is mostly used in customer relationship management (CRM). 
-      - Flaw Detection (engine noise) is mostly used in automotive and Aviation. 
-      - Voice search is mostly used in customer relationship management (CRM)
-
 2. Image Recognition \
-    Image recognition is the first application that made deep learning and machine learning popular. Telecom, Social Media, and handset manufacturers mostly use image recognition. It is also used for face recognition, image search, motion detection, machine vision, and photo clustering.
-
+    Image recognition is the first application that made deep learning and machine learning popular. Telecom, Social Media, and handset manufacturers mostly use image recognition. It is also used for face recognition, image search, motion detection, machine vision, and photo clustering. \
     For example, image recognition is used to recognize and identify people and objects in from of images. Image recognition is used to understand the context and content of any image. 
     
-    For object recognition, TensorFlow helps to classify and identify arbitrary objects within larger images. 
-    
-    This is also used in engineering application to identify shape for modeling purpose (3d reconstruction from 2d image) and by Facebook for photo tagging. 
-    
-    For example, deep learning uses TensorFlow for analyzing thousands of photos of cats. So a deep learning algorithm can learn to identify a cat because this algorithm is used to find general features of objects, animals, or people.
-
 3. Time Series \
     Deep learning is using Time Series algorithms for examining the time series data to extract meaningful statistics. For example, it has used the time series to predict the stock market.
 
-    A recommendation is the most common use case for Time Series. Amazon, Google, Facebook, and Netflix are using deep learning for the suggestion. So, the deep learning algorithm is used to analyze customer activity and compare it to millions of other users to determine what the customer may like to purchase or watch.
-
-    For example, it can be used to recommend us TV shows or movies that people like based on TV shows or movies we already watched.
-
 4. Video Detection \
-    The deep learning algorithm is used for video detection. It is used for motion detection, real-time threat detection in gaming, security, airports, and UI/UX field.
-
-    For example, NASA is developing a deep learning network for object clustering of asteroids and orbit classification. So, it can classify and predict NEOs (Near Earth Objects).
+    The deep learning algorithm is used for video detection. It is used for motion detection, real-time threat detection in gaming, security, airports, and UI/UX field. For example, NASA is developing a deep learning network for object clustering of asteroids and orbit classification. So, it can classify and predict NEOs (Near Earth Objects).
 
 5. Text-Based Applications \
-    Text-based application is also a popular deep learning algorithm. Sentimental analysis, social media, threat detection, and fraud detection, are the example of Text-based applications.
-
-    For example, Google Translate supports over 100 languages.
-
-    Some companies who are currently using TensorFlow are Google, AirBnb, eBay, Intel, DropBox, Deep Mind, Airbus, CEVA, Snapchat, SAP, Uber, Twitter, Coca-Cola, and IBM.
-
+    Text-based application is also a popular deep learning algorithm. Sentimental analysis, social media, threat detection, and fraud detection, are the example of Text-based applications. For example, Google Translate supports over 100 languages.
