@@ -81,6 +81,7 @@ fig : Parallel computation on multiple CPUs/GPUs/servers
    Close a session	|sess.close()
    Session	| with tf.Session() as sess:
 
+## [Creating First tensorflow Graph and Running It in a Session]()
 
 ## Use Cases/Applications of TensorFlow
   TensorFlow provides amazing functionalities and services when compared to other popular deep learning frameworks. TensorFlow is used to create a large-scale neural network with many layers. \
