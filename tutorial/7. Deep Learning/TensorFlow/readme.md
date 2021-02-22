@@ -83,6 +83,7 @@ fig : Parallel computation on multiple CPUs/GPUs/servers
 
 ## [Creating First tensorflow Graph and Running It in a Session](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/TensorFlow/first_tensorflow.ipynb)
 ## [Linear Regression with TensorFlow](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/TensorFlow/Linear%20Regression%20with%20TensorFlow.ipynb)
+## [Logistics_Regression_with_TensorFlow](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/TensorFlow/Logistics_Regression_with_TensorFlow.ipynb)
 
 ## Use Cases/Applications of TensorFlow
   TensorFlow provides amazing functionalities and services when compared to other popular deep learning frameworks. TensorFlow is used to create a large-scale neural network with many layers. \
