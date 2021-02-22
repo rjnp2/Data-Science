@@ -46,6 +46,42 @@ fig : Parallel computation on multiple CPUs/GPUs/servers
 
   TensorFlow is based on graph computation; it can allow the developer to create the construction of the neural network with Tensorboard. This tool helps debug our program. It runs on CPU (Central Processing Unit) and GPU (Graphical Processing Unit).
 
+## Tutorial
+
+1. Create a constant tensor
+
+   Constant|Object
+   |--|--|
+   D0	|tf.constant(1, tf.int18)
+   D1	|tf.constant([1,3,5]),tf.int18)
+   D2	|tf.constant([[1,2],[5,6]],tf.int18)
+   D3	|tf.constant ([[[1,2],[3,4],[6,5]]],tf.int18)
+
+2. Create an operator
+
+   Create an operator|Object
+   |--|--|
+   a+b|tf.add(a,b)
+   A*b|tf.multiply(a,b)
+
+3. Create a variable tensor
+
+   Create a variable	|Object
+   |--|--|
+   Randomized value	|tf.get_variable("var",[1,2])
+   Initialized first value|	tf.get_variable("var_init_2", dtype=tf.int32,initializer=[ [1, 2], [3, 4] ])
+
+4. Open a session
+
+   session|	Object
+   |--|--|
+   Create a session	|tf.Session()
+   Run a session|	tf.Session.run()
+   Evaluate a tensor	|variable_name.eval()
+   Close a session	|sess.close()
+   Session	| with tf.Session() as sess:
+
+
 ## Use Cases/Applications of TensorFlow
   TensorFlow provides amazing functionalities and services when compared to other popular deep learning frameworks. TensorFlow is used to create a large-scale neural network with many layers. \
   It is mainly used for deep learning or machine learning problems such as Classification, Perception, Understanding, Discovering Prediction, and Creation.
