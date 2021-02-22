@@ -102,7 +102,14 @@ Convolution layer is the first layer to derive features from the input image. Th
   - Pick a activation function (usually relu)
   - Dot multiplies of input and neuron
 
+    ![image](https://user-images.githubusercontent.com/58425689/108689962-de5dec80-7521-11eb-92bb-7db95e96979b.png)
 
+## Working of CNN
+![image](https://user-images.githubusercontent.com/58425689/108690131-16fdc600-7522-11eb-85b5-863b26f7665c.png)
 
+We will start with an input image to which we will be applying multiple feature detectors, which are also called as filters to create the feature maps that comprises of a Convolution layer. Then on the top of that layer, we will be applying the ReLU or Rectified Linear Unit to remove any linearity or increase non-linearity in our images.
 
+Next, we will apply a Pooling layer to our Convolutional layer, so that from every feature map we create a Pooled feature map as the main purpose of the pooling layer is to make sure that we have spatial invariance in our images. It also helps to reduce the size of our images as well as avoid any kind of overfitting of our data. After that, we will flatten all of our pooled images into one long vector or column of all of these values, followed by inputting these values into our artificial neural network. Lastly, we will feed it into the locally connected layer to achieve the final output.
+
+![image](https://user-images.githubusercontent.com/58425689/108690141-19f8b680-7522-11eb-8154-84129c49810e.png)
 
