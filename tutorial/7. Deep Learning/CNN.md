@@ -117,3 +117,9 @@ Next, we will apply a Pooling layer to our Convolutional layer, so that from eve
 Steps: \
 ![image](https://user-images.githubusercontent.com/58425689/108690753-d0f53200-7522-11eb-82e6-5b621e5a9d33.png)
 
+## Project
+- [Facial Landmark Detection using CNN](https://github.com/rjnp2/facial_landmark_detection_using-cnn)
+- [Text-Recognition-using-Deep-Learning](https://github.com/rjnp2/Text-Recognition-using-Deep-Learning)
+- [neural-style-transfer](https://github.com/rjnp2/neural-style-transfer)
+
+
