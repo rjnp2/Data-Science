@@ -113,3 +113,7 @@ Next, we will apply a Pooling layer to our Convolutional layer, so that from eve
 
 ![image](https://user-images.githubusercontent.com/58425689/108690141-19f8b680-7522-11eb-8154-84129c49810e.png)
 
+## CNN Use Case
+Steps:
+![image](https://user-images.githubusercontent.com/58425689/108690753-d0f53200-7522-11eb-82e6-5b621e5a9d33.png)
+
