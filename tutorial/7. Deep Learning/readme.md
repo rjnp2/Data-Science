@@ -12,7 +12,7 @@ The term "deep" commonly refers to the number of hidden layer in the neural netw
 ![image](https://user-images.githubusercontent.com/58425689/108601325-1d762b80-73c4-11eb-99d8-1971bf3da109.png)
 
 ## Types of Deep Learning Networks
-1. Feed Forward Neural Network \
+1. [Feed Forward Neural Network](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/ANN.md) \
   A feed-forward neural network is none other than an Artificial Neural Network, which ensures that the nodes do not form a cycle. In this kind of neural network, all the perceptrons are organized within layers, such that the input layer takes the input, and the output layer generates the output. Since the hidden layers do not link with the outside world, it is named as hidden layers. Each of the perceptrons contained in one single layer is associated with each node in the subsequent layer. It can be concluded that all of the nodes are fully connected. It does not contain any visible or invisible connection between the nodes in the same layer. There are no back-loops in the feed-forward network. To minimize the prediction error, the backpropagation algorithm can be used to update the weight values. \
   Applications:
     - Data Compression
