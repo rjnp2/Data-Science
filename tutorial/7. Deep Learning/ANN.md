@@ -57,3 +57,18 @@ After the weights are assigned to the input, it then computes the product of eac
 ### Activation Function
 The main objective of the activation function is to perform a mapping of a weighted sum upon the output. The transformation function comprises of activation functions such as tanh, ReLU, sigmoid, etc.
 [For more details and code in python with gradients](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/Activation%20Function)
+
+## Advantages of ANN
+- It stored the information on the entire network rather than the database.
+- After the training of ANN, the data may give the result even with incomplete information.
+- If one or more cell is corrupt of ANN, it does not prevent ANN to generate output.
+- ANN has distributed memory that helps to generate the desired output.
+- ANN can make a machine learnable.
+- ANN has a parallel processing capability, which means it can perform more than one task at the same time.
+
+## Disadvantages of ANN
+- It requires a processor with parallel processing power according to their structure.
+- Unexplained behaviour of the network is the main problem of ANN. ANN doesn't give a clue when it produces a probing solution.
+- For the determination of the structure of ANN, no specific rules are providing.
+- There is no information about the duration of the network.
+- It's too typical to show the problem to the network.
