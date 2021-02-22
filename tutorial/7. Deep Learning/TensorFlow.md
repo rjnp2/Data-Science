@@ -47,10 +47,7 @@ fig : Parallel computation on multiple CPUs/GPUs/servers
   TensorFlow is based on graph computation; it can allow the developer to create the construction of the neural network with Tensorboard. This tool helps debug our program. It runs on CPU (Central Processing Unit) and GPU (Graphical Processing Unit).
 
 ## Use Cases/Applications of TensorFlow
-  ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf4.png) \
-  TensorFlow provides amazing functionalities and services when compared to other popular deep learning frameworks. TensorFlow is used to create a large-scale neural network with many layers.
-
-  ![img](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning%20using%20TensorFlow/images/tf5.png) \
+  TensorFlow provides amazing functionalities and services when compared to other popular deep learning frameworks. TensorFlow is used to create a large-scale neural network with many layers. \
   It is mainly used for deep learning or machine learning problems such as Classification, Perception, Understanding, Discovering Prediction, and Creation.
 
 1. Voice/Sound Recognition \
