@@ -32,3 +32,28 @@ Artificial Neural Networks are the computing system that is designed to simulate
 With the help of the neural network, we can actually see that a lot of technology has been evolved from translating webpages to other languages to having a virtual assistant to order groceries online. All of these things are possible because of neural networks. So, an artificial neural network is nothing but a network of various artificial neurons.
 
 ## Working of Artificial Neural Networks
+Instead of directly getting into the working of Artificial Neural Networks, lets breakdown and try to understand Neural Network's basic unit, which is called a Perceptron.
+
+So, a perceptron can be defined as a neural network with a single layer that classifies the linear data. It further constitutes four major components, which are as follows;
+
+  - Inputs
+  - Weights and Bias
+  - Summation Functions
+  - Activation or transformation function \
+![image](https://user-images.githubusercontent.com/58425689/108681270-11e74980-7517-11eb-928b-eddb29801a8b.png)
+
+The main logic behind the concept of Perceptron is as follows:
+
+The inputs (x) are fed into the input layer, which undergoes multiplication with the allotted weights (w) followed by experiencing addition in order to form weighted sums. Then these inputs weighted sums with their corresponding weights are executed on the pertinent activation function.
+
+### Weights and Bias
+As and when the input variable is fed into the network, a random value is given as a weight of that particular input, such that each individual weight represents the importance of that input in order to make correct predictions of the result.
+
+However, bias helps in the adjustment of the curve of activation function so as to accomplish a precise output.
+
+### Summation Function
+After the weights are assigned to the input, it then computes the product of each input and weights. Then the weighted sum is calculated by the summation function in which all of the products are added.
+
+### Activation Function
+The main objective of the activation function is to perform a mapping of a weighted sum upon the output. The transformation function comprises of activation functions such as tanh, ReLU, sigmoid, etc.
+[For more details and code in python with gradients](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/Activation%20Function)
