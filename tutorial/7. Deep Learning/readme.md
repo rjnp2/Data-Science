@@ -34,7 +34,7 @@ The term "deep" commonly refers to the number of hidden layer in the neural netw
     - Rhythm Learning
     - Music Composition
     
-3. Convolutional Neural Network \
+3. [Convolutional Neural Network](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/CNN.md) \
   Convolutional Neural Networks are a special kind of neural network mainly used for image classification, clustering of images and object recognition. DNNs enable unsupervised construction of hierarchical image representations. To achieve the best accuracy, deep convolutional neural networks are preferred more than any other neural network. \
   Applications: 
     - Identify Faces, Street Signs, Tumors.
