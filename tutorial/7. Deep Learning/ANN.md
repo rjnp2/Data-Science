@@ -58,6 +58,104 @@ After the weights are assigned to the input, it then computes the product of eac
 The main objective of the activation function is to perform a mapping of a weighted sum upon the output. The transformation function comprises of activation functions such as tanh, ReLU, sigmoid, etc.
 [For more details and code in python with gradients](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/Activation%20Function)
 
+## Implementation of Neural Network 
+ ### Dense
+ ```python
+ import cupy as cp # to run on gpu
+ class Dense(Layer):
+    """A fully-connected NN layer.
+    Parameters:
+    -----------
+    n_units: int
+        The number of neurons in the layer.
+    input_shape: tuple
+        The expected input shape of the layer. For dense layers a single digit specifying
+        the number of features of the input. Must be specified if it is the first layer in
+        the network.
+    """
+    
+    def __init__(self, n_units : int,
+                 input_shape: tuple =None):
+        self.input_shape = input_shape
+        self.n_units = n_units
+        self.trainable = True
+                
+    def initialize(self, optimizer):
+        # Initialize the weights
+        self.W  = cp.random.normal(loc=0.0, scale = np.sqrt(2/(self.input_shape[1] + self.n_units)), 
+                                        size = ( self.input_shape[1],self.n_units))
+        self.w0 = cp.random.normal(loc=0.0, scale = np.sqrt(2/self.n_units), size = (self.n_units) )
+        # Weight optimizers
+        self.opt  = copy.copy(optimizer)
+
+    def parameters(self):        
+        '''        
+        Returns parameters
+        '''
+        return np.prod(self.W.shape) + np.prod(self.w0.shape)
+
+    def forward_pass(self, X : cp.array, training : str ):
+        '''
+        Parameters
+        ----------
+        X : cp.array
+            array of prevoius data.
+        training : str
+            trainable.
+
+        Returns
+        -------
+        cp.array
+            output array of dense.            
+        '''
+        if training :
+            self.layer_input = X.copy()        
+        return cp.dot(X, self.W) + self.w0
+
+    def backward_pass(self, accum_grad : cp.array ):
+        '''        
+        Parameters
+        ----------
+        accum_grad : cp.array
+            gradient with respect to weight.
+
+        Returns
+        -------
+        cp.array
+            gradient of activation.            
+        '''        
+        # Save weights used during forwards pass
+        W = self.W
+
+        if self.trainable:
+            n = self.layer_input.shape[0]
+            
+            # Calculate gradient w.r.t layer weights                       
+            grad_w = cp.dot(cp.asarray(self.layer_input).T, accum_grad) / n           
+            grad_w0 = cp.sum(accum_grad, axis=0, keepdims=True) / n
+                                            
+            # Update the layer weights , )
+            self.W , self.w0 =self.W_opt.update(w=self.W, b= self.w0 , 
+                                grad_wrt_w= grad_w, grad_wrt_b =grad_w0)            
+
+        # Return accumulated gradient for next layer
+        # Calculated based on the weights used during the forward pass
+        return accum_grad.dot(W.T)
+ ```
+ By using keras,
+ ```python
+    keras.layers.Dense(units, activation=None, use_bias=True, kernel_initializer='glorot_uniform')  
+ ```
+  The dense layer can be defined as a densely-connected common Neural Network layer. \
+  The output = activation(dot(input, kernel) +bias) operation is executed by the Dense layer. \
+  Here an element-wise activation function is being performed by the activation, so as to pass an activation argument, a matrix of weights called kernel is built by the layer, and bias is a vector created by the layer, which is applicable only if the use_bias is True.
+
+  It is to be noted that if the input given to the layer has a rank greater than two, it will be flattened previously to its primary dot product with the kernel.
+  
+  Arguments \
+  units: It refers to a positive integer that acknowledges the output space dimensionality. \
+  activation: It makes sure that the dense layer utilizes the element-wise activation function.It is a linear activation, which is set to none by default. Since its linearity is limited, we don't have much of its in-built activation function.
+
 ## Advantages of ANN
 - It stored the information on the entire network rather than the database.
 - After the training of ANN, the data may give the result even with incomplete information.
