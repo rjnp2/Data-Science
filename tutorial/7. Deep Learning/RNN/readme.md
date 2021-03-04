@@ -74,6 +74,33 @@ Recurrent Neural Networks use a backpropagation algorithm for training, but it i
      |Clip gradients at the threshold Clip the gradient when it goes more than a threshold|RMSprop Clip the gradient when it goes higher than a threshold|
      |RMSprop to adjusting the learning rate|LSTM, GRUs The different network architecture that has been specially designed can be used to combat this problem|
 
+## Types of RNN
+The main reason that the recurrent nets are more exciting is that they allow us to operate over sequences of vectors: Sequence in the input, the output, or in the most general case, both. A few examples may this more concrete:
+
+![image](https://user-images.githubusercontent.com/58425689/109969355-e71da200-7d1b-11eb-8dce-0499c15c0b81.png)
+
+Each rectangle in the above image represents vectors, and arrows represent functions. Input vectors are Red, output vectors are blue, and green holds RNN's state.
+
+- **One-to-one:** \
+   This is also called Plain Neural networks. It deals with a fixed size of the input to the fixed size of output, where they are independent of previous information/output. \
+   Example: Image classification.
+
+- **One-to-Many:** \
+   It deals with a fixed size of information as input that gives a sequence of data as output. \
+   Example: Image Captioning takes the image as input and outputs a sentence of words.
+
+- **Many-to-One:** \
+   It takes a sequence of information as input and outputs a fixed size of the output. \
+   Example: sentiment analysis where any sentence is classified as expressing the positive or negative sentiment.
+
+- **Many-to-Many:** \
+   It takes a Sequence of information as input and processes the recurrently outputs as a Sequence of data. \
+   Example: Machine Translation, where the RNN reads any sentence in English and then outputs the sentence in French.
+
+- **Bidirectional Many-to-Many:** \
+   Synced sequence input and output. Notice that in every case are no pre-specified constraints on the lengths sequences because the recurrent transformation (green) is fixed and can be applied as many times as we like. \
+   Example: Video classification where we wish to label every frame of the video.
+
 ## Application of RNN
 1. Machine Translation
 2. Speech Recognition
