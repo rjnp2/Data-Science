@@ -67,6 +67,12 @@ Recurrent Neural Networks use a backpropagation algorithm for training, but it i
    
      ![image](https://user-images.githubusercontent.com/58425689/109967486-986f0880-7d19-11eb-8c52-94a568033f14.png) \   
      In the first case, the term goes to zero exponentially fast, which makes it difficult to learn some long period dependencies. This problem is called the vanishing gradient. In the second case, the term goes to infinity exponentially fast, and their value becomes a NaN due to the unstable process. This problem is called the exploding gradient. In the following two sections, we review two approaches to deal with these problems.
+     
+     |Exploding gradients	|Vanishing gradients|
+     |--|--|
+     |Truncated BTT Instead of starting backpropagation at the last timestamp, we can choose a smaller timestamp like 10 | ReLU activation function. We can use activation like ReLU, which gives output one while calculating the gradient|
+     |Clip gradients at the threshold Clip the gradient when it goes more than a threshold|RMSprop Clip the gradient when it goes higher than a threshold|
+     |RMSprop to adjusting the learning rate|LSTM, GRUs The different network architecture that has been specially designed can be used to combat this problem|
 
 ## Application of RNN
 1. Machine Translation
