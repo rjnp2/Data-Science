@@ -1,3 +1,5 @@
+[sql.docx](https://github.com/rjnp2/Data-Science/files/6083591/sql.docx)
+
 # Recurrent Neural Networks
 
 ## Why not Feedforward Networks?
@@ -23,3 +25,28 @@ Consider the following diagram:
 
 We have input at 't-1', which we will feed to the network, and then we will get the output at 't-1'. Then at the next timestamp that is at a time 't', we have an input at a time 't', which will be again given to the network along with the information from the previous timestamp, i.e., 't-1' and that will further help us to get the output at 't'. Similarly, at the output for 't+1', we have two inputs; one is the new input that we give, and the other is the information coming from the previous timestamps, i.e., 't' in order to get the output at a time 't+1'. In the same way, it will go on further like this. Here we have embodied in a more generalized way to represent it. There is a loop where the information from the previous timestamp is flowing, and this is how we can solve a particular challenge.
 
+## What are Recurrent Neural Networks?
+A recurrent neural network (RNN) is a kind of artificial neural network mainly used in speech recognition and natural language processing (NLP). RNN is used in deep learning and in the development of models that imitate the activity of neurons in the human brain.
+
+Recurrent Networks are designed to recognize patterns in sequences of data, such as text, genomes, handwriting, the spoken word, and numerical time series data emanating from sensors, stock markets, and government agencies.
+
+A recurrent neural network looks similar to a traditional neural network except that a memory-state is added to the neurons. The computation is to include a simple memory.
+
+The recurrent neural network is a type of deep learning-oriented algorithm, which follows a sequential approach. In neural networks, we always assume that each input and output is dependent on all other layers. These types of neural networks are called recurrent because they sequentially perform mathematical computations.
+
+![image](https://user-images.githubusercontent.com/58425689/109964340-a6228f00-7d15-11eb-82be-640a5a60a83b.png)
+
+## Application of RNN
+1. Machine Translation
+2. Speech Recognition
+3. Sentiment Analysis
+4. Automatic Image Tagger
+
+## Training through RNN
+- The network takes a single time-step of the input. 
+- We can calculate the current state through the current input and the previous state. 
+- Now, the current state through ht-1 for the next state.
+- There is n number of steps, and in the end, all the information can be joined.
+- After completion of all the steps, the final step is for calculating the output.
+- At last, we compute the error by calculating the difference between actual output and the predicted output.
+- The error is backpropagated to the network to adjust the weights and produce a better outcome.
