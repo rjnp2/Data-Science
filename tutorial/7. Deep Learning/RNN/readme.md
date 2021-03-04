@@ -48,7 +48,8 @@ The same process is repeated again and again through all the timestamps within t
 Recurrent Neural Networks use a backpropagation algorithm for training, but it is applied for each timestamp. It is commonly known as Back-propagation by Time (BTT).
 
    - **Backpropagation Through Time (BPTT)** \
-     Training an RNN is done by defining a loss function (L) that measures the error between the true label and the output, and minimizes it by using forward pass and backward pass. The following simple RNN architecture summarizes the entire backpropagation through time idea. \
+     Training an RNN is done by defining a loss function (L) that measures the error between the true label and the output, and minimizes it by using forward pass and backward pass. The following simple RNN architecture summarizes the entire backpropagation through time idea.
+     
      For a single time step, the following procedure is done: first, the input arrives, then it processes trough a hidden layer/state, and the estimated label is calculated. In this phase, the loss function is computed to evaluate the difference between the true label and the estimated label. The total loss function, L, is computed, and by that, the forward pass is finished. The second part is the backward pass, where the various derivatives are calculated.
      ![image](https://user-images.githubusercontent.com/58425689/109966769-bb4ced00-7d18-11eb-9b47-e9b88633bf6a.png)
      
@@ -63,6 +64,9 @@ Recurrent Neural Networks use a backpropagation algorithm for training, but it i
      Two common problems that occur during the backpropagation of time-series data are the vanishing and exploding gradients. The equation above has two problematic cases:
      - Vanishing Gradient
      - Exploding Gradient
+   
+     ![image](https://user-images.githubusercontent.com/58425689/109967486-986f0880-7d19-11eb-8c52-94a568033f14.png) \   
+     In the first case, the term goes to zero exponentially fast, which makes it difficult to learn some long period dependencies. This problem is called the vanishing gradient. In the second case, the term goes to infinity exponentially fast, and their value becomes a NaN due to the unstable process. This problem is called the exploding gradient. In the following two sections, we review two approaches to deal with these problems.
 
 ## Application of RNN
 1. Machine Translation
