@@ -71,9 +71,9 @@
  - Analytics using PySpark
 
 ## [Deep Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning)
-   - Introduction to Neural Networks
-   - Convolutional Neural Networks
-   - Recurrent Neural Networks
+   - [Introduction to Neural Networks](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/ANN.md)
+   - [Convolutional Neural Networks](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/CNN.md) 
+   - [Recurrent Neural Networks](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/RNN)
 
 ## Natural Language Processing
    - Time Series Analysis
