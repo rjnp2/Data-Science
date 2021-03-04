@@ -52,6 +52,14 @@ Recurrent Neural Networks use a backpropagation algorithm for training, but it i
      For a single time step, the following procedure is done: first, the input arrives, then it processes trough a hidden layer/state, and the estimated label is calculated. In this phase, the loss function is computed to evaluate the difference between the true label and the estimated label. The total loss function, L, is computed, and by that, the forward pass is finished. The second part is the backward pass, where the various derivatives are calculated.
      ![image](https://user-images.githubusercontent.com/58425689/109966769-bb4ced00-7d18-11eb-9b47-e9b88633bf6a.png)
      
+     The training of RNN is not trivial, as we backpropagate gradients through layers and also through time. Hence, in each time step we have to sum up all the previous contributions until the current one, as given in the equation:
+     
+     ![image](https://user-images.githubusercontent.com/58425689/109967125-23033800-7d19-11eb-9118-2630efc33e07.png)
+
+      In this equation, the contribution of a state at time step k to the gradient of the entire loss function L, at time step t=T is calculated. The challenge during the training is in the ratio of the hidden state:
+      
+      ![image](https://user-images.githubusercontent.com/58425689/109967149-2991af80-7d19-11eb-9fab-fe96afbbc88b.png)
+     
      Two common problems that occur during the backpropagation of time-series data are the vanishing and exploding gradients. The equation above has two problematic cases:
      - Vanishing Gradient
      - Exploding Gradient
