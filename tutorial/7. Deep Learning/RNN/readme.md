@@ -34,6 +34,23 @@ The recurrent neural network is a type of deep learning-oriented algorithm, whic
 
 ![image](https://user-images.githubusercontent.com/58425689/109964340-a6228f00-7d15-11eb-82be-640a5a60a83b.png)
 
+Let's understand the math behind the Recurrent Neural Network by simply having a look at the image given below.
+
+![image](https://user-images.githubusercontent.com/58425689/109965279-d7e82580-7d16-11eb-9831-f5a257d81f71.png)
+
+Assume that 'w' is the weight matrix, and 'b' is the bias. Consider at time t=0, our input is 'xo', and we need to figure out what exactly is the 'ho'. We will substitute t=0 in the equation, as shown in the image, so as to procure the function ht value.
+
+After that, we will find out the value of 'yo' by using values that were previously calculated when we applied it to the new formula.
+
+The same process is repeated again and again through all the timestamps within the model so as to train it. So, this how a Recurrent Neural Networks works.
+
+## Training Recurrent Neural Networks
+Recurrent Neural Networks use a backpropagation algorithm for training, but it is applied for each timestamp. It is commonly known as Back-propagation by Time (BTT).
+
+Some issues with Back-propagation, such as:
+- Vanishing Gradient
+- Exploding Gradient
+
 ## Application of RNN
 1. Machine Translation
 2. Speech Recognition
