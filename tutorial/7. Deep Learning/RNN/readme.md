@@ -47,9 +47,14 @@ The same process is repeated again and again through all the timestamps within t
 ## Training Recurrent Neural Networks
 Recurrent Neural Networks use a backpropagation algorithm for training, but it is applied for each timestamp. It is commonly known as Back-propagation by Time (BTT).
 
-Some issues with Back-propagation, such as:
-- Vanishing Gradient
-- Exploding Gradient
+   - **Backpropagation Through Time (BPTT)** \
+     Training an RNN is done by defining a loss function (L) that measures the error between the true label and the output, and minimizes it by using forward pass and backward pass. The following simple RNN architecture summarizes the entire backpropagation through time idea. \
+     For a single time step, the following procedure is done: first, the input arrives, then it processes trough a hidden layer/state, and the estimated label is calculated. In this phase, the loss function is computed to evaluate the difference between the true label and the estimated label. The total loss function, L, is computed, and by that, the forward pass is finished. The second part is the backward pass, where the various derivatives are calculated.
+     ![image](https://user-images.githubusercontent.com/58425689/109966769-bb4ced00-7d18-11eb-9b47-e9b88633bf6a.png)
+     
+     Two common problems that occur during the backpropagation of time-series data are the vanishing and exploding gradients. The equation above has two problematic cases:
+     - Vanishing Gradient
+     - Exploding Gradient
 
 ## Application of RNN
 1. Machine Translation
