@@ -106,3 +106,6 @@ Each rectangle in the above image represents vectors, and arrows represent funct
 2. Speech Recognition
 3. Sentiment Analysis
 4. Automatic Image Tagger
+
+## Project
+- [Stock-price-of-Google](https://github.com/rjnp2/Stock-price-of-Google/tree/54312a180e54456abc10b966fe41cba95bd34472)
