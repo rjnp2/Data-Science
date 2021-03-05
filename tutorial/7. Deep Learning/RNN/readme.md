@@ -106,13 +106,3 @@ Each rectangle in the above image represents vectors, and arrows represent funct
 2. Speech Recognition
 3. Sentiment Analysis
 4. Automatic Image Tagger
-
-## Training through RNN
-- The network takes a single time-step of the input. 
-- We can calculate the current state through the current input and the previous state. 
-- Now, the current state through ht-1 for the next state.
-- There is n number of steps, and in the end, all the information can be joined.
-- After completion of all the steps, the final step is for calculating the output.
-- At last, we compute the error by calculating the difference between actual output and the predicted output.
-- The error is backpropagated to the network to adjust the weights and produce a better outcome.
-
