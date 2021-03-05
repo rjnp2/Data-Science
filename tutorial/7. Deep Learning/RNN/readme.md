@@ -5,13 +5,13 @@ Feedforward networks are used to classify images. Let us understand the concept 
 
 Consider the following diagram:
 
-![image](https://user-images.githubusercontent.com/58425689/109961949-b8e79480-7d12-11eb-8e3e-8f89b255f8a7.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN1.png)
 
 And if you notice the new output that we have got is classifying, a dog has no relation to the previous output that is of a cat, or you can say that the output at the time 't' is independent of output at a time 't-1'. It can be clearly seen that there is no relation between the new output and the previous output. So, we can say that in feedforward networks, the outputs are independent of each other.
 
 There are a few scenarios where we will actually need the previous output to get the new output. Let us discuss one such scenario where we will necessitate using the output that has been previously obtained.
 
-![image](https://user-images.githubusercontent.com/58425689/109961935-b422e080-7d12-11eb-821b-f03bbf5eae17.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN2.png)
 
 Now, what happens when you read a book. You will understand that book only on the understanding of the previous words. So, if we use a feedforward network and try to predict the next word in the sentence, then in such a case, we will not be able to do that because our output will actually depend on previous outputs. But in the feedforward network, the new output is independent of the previous outputs, i.e., output at 't+1' has no relation with the output at 't-2', 't-1', and 't.' Therefore, it can be concluded that we cannot use feedforward networks for predicting the next word in the sentence. Similarly, many other examples can also be taken where we need the previous output or some information from the previous output, so as to infer the new output.
 
@@ -19,7 +19,7 @@ Now, what happens when you read a book. You will understand that book only on th
 
 Consider the following diagram:
 
-![image](https://user-images.githubusercontent.com/58425689/109962201-0106b700-7d13-11eb-93ab-a5949864975b.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN3.png)
 
 We have input at 't-1', which we will feed to the network, and then we will get the output at 't-1'. Then at the next timestamp that is at a time 't', we have an input at a time 't', which will be again given to the network along with the information from the previous timestamp, i.e., 't-1' and that will further help us to get the output at 't'. Similarly, at the output for 't+1', we have two inputs; one is the new input that we give, and the other is the information coming from the previous timestamps, i.e., 't' in order to get the output at a time 't+1'. In the same way, it will go on further like this. Here we have embodied in a more generalized way to represent it. There is a loop where the information from the previous timestamp is flowing, and this is how we can solve a particular challenge.
 
@@ -32,11 +32,11 @@ A recurrent neural network looks similar to a traditional neural network except 
 
 The recurrent neural network is a type of deep learning-oriented algorithm, which follows a sequential approach. In neural networks, we always assume that each input and output is dependent on all other layers. These types of neural networks are called recurrent because they sequentially perform mathematical computations.
 
-![image](https://user-images.githubusercontent.com/58425689/109964340-a6228f00-7d15-11eb-82be-640a5a60a83b.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN4.png)
 
 Let's understand the math behind the Recurrent Neural Network by simply having a look at the image given below.
 
-![image](https://user-images.githubusercontent.com/58425689/109965279-d7e82580-7d16-11eb-9831-f5a257d81f71.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN5.png)
 
 Assume that 'w' is the weight matrix, and 'b' is the bias. Consider at time t=0, our input is 'xo', and we need to figure out what exactly is the 'ho'. We will substitute t=0 in the equation, as shown in the image, so as to procure the function ht value.
 
@@ -51,21 +51,21 @@ Recurrent Neural Networks use a backpropagation algorithm for training, but it i
      Training an RNN is done by defining a loss function (L) that measures the error between the true label and the output, and minimizes it by using forward pass and backward pass. The following simple RNN architecture summarizes the entire backpropagation through time idea.
      
      For a single time step, the following procedure is done: first, the input arrives, then it processes trough a hidden layer/state, and the estimated label is calculated. In this phase, the loss function is computed to evaluate the difference between the true label and the estimated label. The total loss function, L, is computed, and by that, the forward pass is finished. The second part is the backward pass, where the various derivatives are calculated.
-     ![image](https://user-images.githubusercontent.com/58425689/109966769-bb4ced00-7d18-11eb-9b47-e9b88633bf6a.png)
+     ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN6.png)
      
      The training of RNN is not trivial, as we backpropagate gradients through layers and also through time. Hence, in each time step we have to sum up all the previous contributions until the current one, as given in the equation:
      
-     ![image](https://user-images.githubusercontent.com/58425689/109967125-23033800-7d19-11eb-9118-2630efc33e07.png)
+     ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN7.png)
 
       In this equation, the contribution of a state at time step k to the gradient of the entire loss function L, at time step t=T is calculated. The challenge during the training is in the ratio of the hidden state:
       
-      ![image](https://user-images.githubusercontent.com/58425689/109967149-2991af80-7d19-11eb-9fab-fe96afbbc88b.png)
+      ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN8.png)
      
      Two common problems that occur during the backpropagation of time-series data are the vanishing and exploding gradients. The equation above has two problematic cases:
      - Vanishing Gradient
      - Exploding Gradient
    
-     ![image](https://user-images.githubusercontent.com/58425689/109967486-986f0880-7d19-11eb-8c52-94a568033f14.png) \   
+     ![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN9.png) \   
      In the first case, the term goes to zero exponentially fast, which makes it difficult to learn some long period dependencies. This problem is called the vanishing gradient. In the second case, the term goes to infinity exponentially fast, and their value becomes a NaN due to the unstable process. This problem is called the exploding gradient. In the following two sections, we review two approaches to deal with these problems.
      
      |Exploding gradients	|Vanishing gradients|
@@ -77,7 +77,7 @@ Recurrent Neural Networks use a backpropagation algorithm for training, but it i
 ## Types of RNN
 The main reason that the recurrent nets are more exciting is that they allow us to operate over sequences of vectors: Sequence in the input, the output, or in the most general case, both. A few examples may this more concrete:
 
-![image](https://user-images.githubusercontent.com/58425689/109969355-e71da200-7d1b-11eb-8dce-0499c15c0b81.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/RNN10.png)
 
 Each rectangle in the above image represents vectors, and arrows represent functions. Input vectors are Red, output vectors are blue, and green holds RNN's state.
 
