@@ -64,13 +64,13 @@
    - [Convolutional Neural Networks](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/CNN.md) 
    - [Recurrent Neural Networks](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/RNN)
    
-## Recommender Systems
- - Text Analytics
+## [Recommender Systems](https://github.com/rjnp2/Data-Science/tree/main/tutorial/8.%20Recommender%20Systems)
  - Content-Based and Collaborative Filtering
  - Evaluation of Recommendation Systems. DCG, nDCG
 
 ## Natural Language Processing
    - Time Series Analysis
+   - Text Analytics
    - Lexical processing
    - Syntactic Processing
    - Semantic Processing
