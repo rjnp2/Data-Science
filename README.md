@@ -59,24 +59,24 @@
        
   - [Reinforcement Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/6.%20Machine%20Learning/8.%20Reinforcement%20Learning)
 
-## Recommender Systems
- - Text Analytics
- - Content-Based and Collaborative Filtering
- - Evaluation of Recommendation Systems. DCG, nDCG
-    
-## Fundamentals of Big Data Engineering
- - Hadoop and MapReduce Programming
- - NoSQL Databases and Apache HBase
- - Hive Tutorial
- - Analytics using PySpark
-
 ## [Deep Learning](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning)
    - [Introduction to Neural Networks](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/ANN.md)
    - [Convolutional Neural Networks](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/CNN.md) 
    - [Recurrent Neural Networks](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/RNN)
+   
+## Recommender Systems
+ - Text Analytics
+ - Content-Based and Collaborative Filtering
+ - Evaluation of Recommendation Systems. DCG, nDCG
 
 ## Natural Language Processing
    - Time Series Analysis
    - Lexical processing
    - Syntactic Processing
    - Semantic Processing
+
+## Fundamentals of Big Data Engineering
+ - Hadoop and MapReduce Programming
+ - NoSQL Databases and Apache HBase
+ - Hive Tutorial
+ - Analytics using PySpark
