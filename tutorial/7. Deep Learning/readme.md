@@ -4,12 +4,12 @@ Deep learning is based on the branch of machine learning, which is a subset of a
 Deep learning models are capable enough to focus on the accurate features themselves by requiring a little guidance from the programmer and are very helpful in solving out the problem of dimensionality. Deep learning algorithms are used, especially when we have a huge no of inputs and outputs.
 
 ## Working of Deep Learning
-![image](https://user-images.githubusercontent.com/58425689/108601321-1b13d180-73c4-11eb-9726-1bdc04f40280.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/dl1.png)
 
 In deep learning is getting lots of attention lately and for a good reason. A computer model learns to perform the classification tasks directly from any images, text, and sound in deep learning.
 
 The term "deep" commonly refers to the number of hidden layer in the neural network. Conventional neural networks only contain 2-3 hidden layers, while deep networks can have 150. \
-![image](https://user-images.githubusercontent.com/58425689/108601325-1d762b80-73c4-11eb-99d8-1971bf3da109.png)
+![image](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/images/dl2.png)
 
 ## Types of Deep Learning Networks
 1. [Feed Forward Neural Network](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/ANN.md)
