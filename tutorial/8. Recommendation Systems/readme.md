@@ -35,23 +35,19 @@ Implicit data is information that is not provided intentionally but gathered fro
                     • rᵥ (mean) =mean of al rating given by user (v)
 
     2. Collaborative filtering
-      The collaborative filtering algorithm uses “User Behavior” for recommending items. This is one of the most commonly used algorithms in the industry as it is not dependent on any additional information. 
-
-    There are different types of collaborating filtering techniques.
-
-    2.1 User-User collaborative filtering
-    This algorithm first finds the similarity score between users. Based on this similarity score, it then picks out the most similar users and recommends products which these similar users have liked or bought previously.
-
-      ![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/8.%20Recommendation%20Systems/images/4.png)
-
-    In terms of movies example, this algorithm finds the similarity between each user based on the ratings they have previously given to different movies. The prediction of an item for a user u is calculated by computing the weighted sum of the user ratings given by other users to an item i.
+      The collaborative filtering algorithm uses “User Behavior” for recommending items. This is one of the most commonly used algorithms in the industry as it is not dependent on any additional information. \
+      There are different types of collaborating filtering techniques. \
+      2.1 User-User collaborative filtering
+      This algorithm first finds the similarity score between users. Based on this similarity score, it then picks out the most similar users and recommends products which these similar users have liked or bought previously. \
+       ![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/8.%20Recommendation%20Systems/images/4.png) \
+       In terms of movies example, this algorithm finds the similarity between each user based on the ratings they have previously given to different movies. The prediction of an item for a user u is calculated by computing the weighted sum of the user ratings given by other users to an item i.
     The prediction Pu,i is given by:
        ![1](https://github.com/rjnp2/Data-Science/blob/main/tutorial/8.%20Recommendation%20Systems/images/5.png)
 
-          Here,
-              • Pu,i is the prediction of an item
-              • Rv,i is the rating given by a user v to a movie i
-              • Su,v is the similarity between users
+            Here,
+                • Pu,i is the prediction of an item
+                • Rv,i is the rating given by a user v to a movie i
+                • Su,v is the similarity between users
 
     Now, we have the ratings for users in profile vector and based on that we have to predict the ratings for other users. 
     Following steps are followed to do so:
