@@ -64,7 +64,7 @@
    - [Convolutional Neural Networks](https://github.com/rjnp2/Data-Science/blob/main/tutorial/7.%20Deep%20Learning/CNN.md) 
    - [Recurrent Neural Networks](https://github.com/rjnp2/Data-Science/tree/main/tutorial/7.%20Deep%20Learning/RNN)
    
-## [Recommender Systems](https://github.com/rjnp2/Data-Science/tree/main/tutorial/8.%20Recommender%20Systems)
+## [Recommendation Systems](https://github.com/rjnp2/Data-Science/tree/main/tutorial/8.%20Recommendation%20Systems)
  - Content-Based and Collaborative Filtering
  - Evaluation of Recommendation Systems. DCG, nDCG
 
